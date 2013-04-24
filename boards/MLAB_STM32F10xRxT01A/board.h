@@ -56,6 +56,9 @@
 #define GPIOB_LED1              7 	/* PB7 */
 #define GPIOB_LED2              8	/* PB8 */
 
+#define GPIOB_SD_PROTECT	4	/* PB4 */
+#define GPIOB_SD_DETECT		5	/* PB5 */
+
 /*
  * I/O ports initial setup, this configuration is established soon after reset
  * in the initialization code.
@@ -96,19 +99,26 @@
 /*
  * Port B setup.
  * Everything input with pull-up except:
+ * PB4 - Digital input (SD card).
+ * PB5 - Digital input (SD card).
  * PB7 - Push Pull output (LED).
  * PB8 - Push Pull output (LED).
  */
-#define VAL_GPIOBCRL            0x38888888      /*  PB7...PB0 */
+#define VAL_GPIOBCRL            0x38448888      /*  PB7...PB0 */
 #define VAL_GPIOBCRH            0x88888883      /* PB15...PB8 */
 #define VAL_GPIOBODR            0xFFFFFFFF
 
 /*
  * Port C setup.
  * Everything input with pull-up except:
+ * PC8 	- (SD DAT0)
+ * PC9	- (SD DAT1)
+ * PC10	- (SD DAT2)
+ * PC11	- (SD DAT3)
+ * PC12	- (SD CLK)
  */
 #define VAL_GPIOCCRL            0x88888888      /*  PC7...PC0 */
-#define VAL_GPIOCCRH            0x88888888      /* PC15...PC8 */
+#define VAL_GPIOCCRH            0x888BBBBB      /* PC15...PC8 */
 #define VAL_GPIOCODR            0xFFFFFFFF
 
 /*
@@ -116,8 +126,9 @@
  * Everything input with pull-up except:
  * PD0  - Normal input (XTAL).
  * PD1  - Normal input (XTAL).
+ * PD2 	- (SD CMD)
  */
-#define VAL_GPIODCRL            0x88888844      /*  PD7...PD0 */
+#define VAL_GPIODCRL            0x88888B44      /*  PD7...PD0 */
 #define VAL_GPIODCRH            0x88888888      /* PD15...PD8 */
 #define VAL_GPIODODR            0xFFFFFFFF
 
