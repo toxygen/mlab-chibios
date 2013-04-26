@@ -103,9 +103,11 @@
  * PB5 - Digital input (SD card).
  * PB7 - Push Pull output (LED).
  * PB8 - Push Pull output (LED).
+ * PB10 - Push Pull output (I2C2 SCL)
+ * PB11 - Push Pull output (I2C2 SDA)
  */
 #define VAL_GPIOBCRL            0x38448888      /*  PB7...PB0 */
-#define VAL_GPIOBCRH            0x88888883      /* PB15...PB8 */
+#define VAL_GPIOBCRH            0x8888AA83      /* PB15...PB8 */
 #define VAL_GPIOBODR            0xFFFFFFFF
 
 /*
