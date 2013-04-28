@@ -321,6 +321,9 @@ int main(void)
 	 * - Kernel initialization, the main() function becomes a thread and the
 	 *   RTOS is active.
 	 */
+
+	printf("MLAB ChibiOS SDcard demo \r\n");
+
 	halInit();
 	chSysInit();
 
