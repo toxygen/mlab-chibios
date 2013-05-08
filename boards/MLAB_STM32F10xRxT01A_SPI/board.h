@@ -103,12 +103,9 @@
 /*
  * Port B setup.
  * Everything input with pull-up except:
- * PB4 - Digital input (SD card).
- * PB5 - Digital input (SD card).
- * PB7 - Push Pull output (LED).
- * PB8 - Push Pull output (LED).
- * PB10 - Push Pull output (I2C2 SCL)
- * PB11 - Push Pull output (I2C2 SDA)
+ * PB13 - Alternate output  (MMC SPI2 SCK).
+ * PB14 - Normal input      (MMC SPI2 MISO).
+ * PB15 - Alternate output  (MMC SPI2 MOSI).
  */
 
 #define VAL_GPIOBCRL            0x38448888      /*  PB7...PB0 */
