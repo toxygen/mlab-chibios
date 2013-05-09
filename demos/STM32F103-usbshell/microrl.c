@@ -325,13 +325,13 @@ void microrl_init (microrl_t * this, void (*print) (const char *))
 }
 
 //*****************************************************************************
-void microrl_set_complete_callback (microrl_t * this, char ** (*get_completion)(int, const char* const*))
+void microrl_set_complete_callback (microrl_t * this, char ** (*get_completion)(int, char**))
 {
 	this->get_completion = get_completion;
 }
 
 //*****************************************************************************
-void microrl_set_execute_callback (microrl_t * this, int (*execute)(int, const char* const*))
+void microrl_set_execute_callback (microrl_t * this, int (*execute)(int, char**))
 {
 	this->execute = execute;
 }

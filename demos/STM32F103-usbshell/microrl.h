@@ -68,9 +68,9 @@ struct microrl_t {
 	char cmdline [_COMMAND_LINE_LEN];  // cmdline buffer
 	int cmdlen;                        // last position in command line
 	int cursor;                        // input cursor
-	char const * tkn_arr [_COMMAND_TOKEN_NMB];                        // array of token for call 'execute' callback
-	int (*execute) (int argc, const char * const * argv );            // ptr to 'execute' callback
-	char ** (*get_completion) (int argc, const char * const * argv ); // ptr to 'completion' callback
+	char * tkn_arr [_COMMAND_TOKEN_NMB];                        // array of token for call 'execute' callback
+	int (*execute) (int argc, char ** argv );            // ptr to 'execute' callback
+	char ** (*get_completion) (int argc, char ** argv ); // ptr to 'completion' callback
 	void (*print) (const char *);                                     // ptr to 'print' callback
 #ifdef _USE_CTLR_C
 	void (*sigint) (struct microrl_t *);
@@ -98,11 +98,11 @@ extern "C" {
   //   must return NULL-terminated string, contain complite variant splitted by 'Whitespace'
   //   If complite token found, it's must contain only one token to be complitted
   //   Empty string if complite not found, and multiple string if there are some token
-  void microrl_set_complete_callback (microrl_t * _this, char ** (*get_completion)(int, const char* const*));
+  void microrl_set_complete_callback (microrl_t * _this, char ** (*get_completion)(int, char**));
 
   // pointer to callback func, that called when user press 'Enter'
   // execute func param: argc - argument count, argv - pointer array to token string
-  void microrl_set_execute_callback (microrl_t * _this, int (*execute)(int, const char* const*));
+  void microrl_set_execute_callback (microrl_t * _this, int (*execute)(int, char**));
 
   // set callback for Ctrl+C terminal signal
   #ifdef _USE_CTLR_C

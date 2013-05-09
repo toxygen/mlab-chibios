@@ -1,5 +1,5 @@
 # List of all the board related files.
-BOARDSRC = ${CHIBIOS}/boards/spi/board.c
+BOARDSRC = ${CHIBIOS}/boards/MLAB_STM32F10xRxT01A_SPI/board.c
 
 # Required include directories
-BOARDINC = ${CHIBIOS}/boards/spi
+BOARDINC = ${CHIBIOS}/boards/MLAB_STM32F10xRxT01A_SPI

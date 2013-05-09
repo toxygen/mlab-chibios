@@ -29,7 +29,7 @@ for example this prompt will green color (if you terminal supports color)*/
 //#define _PROMPT_DEFAULT "\033[32mIRin >\033[0m "	// green color
 //#define _PROMPT_DEFAULT "\033[32mMOSK >\033[0m "	// green color
 //#define _PROMPT_DEFAULT "IRin > "
-#define _PROMPT_DEFAULT "ChibiOS > "
+#define _PROMPT_DEFAULT "\033[32mChibiOS >\033[0m "
 
 /*
 Define prompt text (without ESC sequence, only text) prompt length, it needs because if you use
@@ -77,7 +77,7 @@ Print prompt at 'microrl_init', if enable, prompt will print at startup,
 otherwise first prompt will print after first press Enter in terminal
 NOTE!: Enable it, if you call 'microrl_init' after your communication subsystem 
 already initialize and ready to print message */
-#undef _ENABLE_INIT_PROMPT
+#define _ENABLE_INIT_PROMPT
 
 /*
 New line symbol */

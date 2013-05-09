@@ -165,7 +165,9 @@ void start_shell(void)
 	microrl_set_execute_callback(&rl, execute);
 	microrl_set_complete_callback(&rl, complete);
 	microrl_set_sigint_callback(&rl, sigint);
+	
 	while (TRUE) {
+		
 		c = chIOGet(&STDIN_SD);
 		//		chprintf(&STDOUT_SD, "prijate %d\n", c);
 		microrl_insert_char(&rl, (int) c);

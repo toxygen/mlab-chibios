@@ -38,7 +38,7 @@ Discarded input sections
                 0x0000000000000000       0x20 build/obj/chcore.o
  .debug_ranges  0x0000000000000000       0x10 build/obj/chcore.o
  .debug_line    0x0000000000000000       0x53 build/obj/chcore.o
- .debug_str     0x0000000000000000      0x114 build/obj/chcore.o
+ .debug_str     0x0000000000000000      0x123 build/obj/chcore.o
  .comment       0x0000000000000000       0x12 build/obj/chcore.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/chcore.o
@@ -62,7 +62,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/chdebug.o
  .debug_line    0x0000000000000000       0x1d build/obj/chdebug.o
- .debug_str     0x0000000000000000      0x105 build/obj/chdebug.o
+ .debug_str     0x0000000000000000      0x114 build/obj/chdebug.o
  .comment       0x0000000000000000       0x12 build/obj/chdebug.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/chdebug.o
@@ -74,7 +74,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/chlists.o
  .debug_line    0x0000000000000000       0x1d build/obj/chlists.o
- .debug_str     0x0000000000000000      0x105 build/obj/chlists.o
+ .debug_str     0x0000000000000000      0x114 build/obj/chlists.o
  .comment       0x0000000000000000       0x12 build/obj/chlists.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/chlists.o
@@ -184,7 +184,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/adc.o
  .debug_line    0x0000000000000000       0xd5 build/obj/adc.o
- .debug_str     0x0000000000000000      0x113 build/obj/adc.o
+ .debug_str     0x0000000000000000      0x122 build/obj/adc.o
  .comment       0x0000000000000000       0x12 build/obj/adc.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/adc.o
@@ -196,7 +196,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/can.o
  .debug_line    0x0000000000000000       0xd5 build/obj/can.o
- .debug_str     0x0000000000000000      0x113 build/obj/can.o
+ .debug_str     0x0000000000000000      0x122 build/obj/can.o
  .comment       0x0000000000000000       0x12 build/obj/can.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/can.o
@@ -208,7 +208,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/ext.o
  .debug_line    0x0000000000000000       0xd5 build/obj/ext.o
- .debug_str     0x0000000000000000      0x113 build/obj/ext.o
+ .debug_str     0x0000000000000000      0x122 build/obj/ext.o
  .comment       0x0000000000000000       0x12 build/obj/ext.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/ext.o
@@ -220,7 +220,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/gpt.o
  .debug_line    0x0000000000000000       0xd5 build/obj/gpt.o
- .debug_str     0x0000000000000000      0x113 build/obj/gpt.o
+ .debug_str     0x0000000000000000      0x122 build/obj/gpt.o
  .comment       0x0000000000000000       0x12 build/obj/gpt.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/gpt.o
@@ -232,7 +232,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/i2c.o
  .debug_line    0x0000000000000000       0xd5 build/obj/i2c.o
- .debug_str     0x0000000000000000      0x113 build/obj/i2c.o
+ .debug_str     0x0000000000000000      0x122 build/obj/i2c.o
  .comment       0x0000000000000000       0x12 build/obj/i2c.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/i2c.o
@@ -244,7 +244,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/icu.o
  .debug_line    0x0000000000000000       0xd5 build/obj/icu.o
- .debug_str     0x0000000000000000      0x113 build/obj/icu.o
+ .debug_str     0x0000000000000000      0x122 build/obj/icu.o
  .comment       0x0000000000000000       0x12 build/obj/icu.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/icu.o
@@ -256,7 +256,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/mac.o
  .debug_line    0x0000000000000000       0xd5 build/obj/mac.o
- .debug_str     0x0000000000000000      0x113 build/obj/mac.o
+ .debug_str     0x0000000000000000      0x122 build/obj/mac.o
  .comment       0x0000000000000000       0x12 build/obj/mac.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/mac.o
@@ -276,7 +276,7 @@ Discarded input sections
                 0x0000000000000000       0x30 build/obj/pal.o
  .debug_ranges  0x0000000000000000       0x20 build/obj/pal.o
  .debug_line    0x0000000000000000      0x1ab build/obj/pal.o
- .debug_str     0x0000000000000000      0x1bf build/obj/pal.o
+ .debug_str     0x0000000000000000      0x1ce build/obj/pal.o
  .comment       0x0000000000000000       0x12 build/obj/pal.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/pal.o
@@ -289,7 +289,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/pwm.o
  .debug_line    0x0000000000000000       0xd5 build/obj/pwm.o
- .debug_str     0x0000000000000000      0x113 build/obj/pwm.o
+ .debug_str     0x0000000000000000      0x122 build/obj/pwm.o
  .comment       0x0000000000000000       0x12 build/obj/pwm.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/pwm.o
@@ -311,7 +311,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/spi.o
  .debug_line    0x0000000000000000       0xd5 build/obj/spi.o
- .debug_str     0x0000000000000000      0x113 build/obj/spi.o
+ .debug_str     0x0000000000000000      0x122 build/obj/spi.o
  .comment       0x0000000000000000       0x12 build/obj/spi.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/spi.o
@@ -323,7 +323,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/uart.o
  .debug_line    0x0000000000000000       0xd5 build/obj/uart.o
- .debug_str     0x0000000000000000      0x114 build/obj/uart.o
+ .debug_str     0x0000000000000000      0x123 build/obj/uart.o
  .comment       0x0000000000000000       0x12 build/obj/uart.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/uart.o
@@ -335,7 +335,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/usb.o
  .debug_line    0x0000000000000000       0xd5 build/obj/usb.o
- .debug_str     0x0000000000000000      0x113 build/obj/usb.o
+ .debug_str     0x0000000000000000      0x122 build/obj/usb.o
  .comment       0x0000000000000000       0x12 build/obj/usb.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/usb.o
@@ -352,7 +352,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/mmc_spi.o
  .debug_line    0x0000000000000000       0xd5 build/obj/mmc_spi.o
- .debug_str     0x0000000000000000      0x117 build/obj/mmc_spi.o
+ .debug_str     0x0000000000000000      0x126 build/obj/mmc_spi.o
  .comment       0x0000000000000000       0x12 build/obj/mmc_spi.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/mmc_spi.o
@@ -364,7 +364,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/serial_usb.o
  .debug_line    0x0000000000000000       0xd5 build/obj/serial_usb.o
- .debug_str     0x0000000000000000      0x11a build/obj/serial_usb.o
+ .debug_str     0x0000000000000000      0x129 build/obj/serial_usb.o
  .comment       0x0000000000000000       0x12 build/obj/serial_usb.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/serial_usb.o
@@ -376,7 +376,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/rtc.o
  .debug_line    0x0000000000000000       0xd5 build/obj/rtc.o
- .debug_str     0x0000000000000000      0x113 build/obj/rtc.o
+ .debug_str     0x0000000000000000      0x122 build/obj/rtc.o
  .comment       0x0000000000000000       0x12 build/obj/rtc.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/rtc.o
@@ -396,7 +396,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/adc_lld.o
  .debug_line    0x0000000000000000       0xd5 build/obj/adc_lld.o
- .debug_str     0x0000000000000000      0x127 build/obj/adc_lld.o
+ .debug_str     0x0000000000000000      0x136 build/obj/adc_lld.o
  .comment       0x0000000000000000       0x12 build/obj/adc_lld.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/adc_lld.o
@@ -408,7 +408,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/can_lld.o
  .debug_line    0x0000000000000000       0xd5 build/obj/can_lld.o
- .debug_str     0x0000000000000000      0x123 build/obj/can_lld.o
+ .debug_str     0x0000000000000000      0x132 build/obj/can_lld.o
  .comment       0x0000000000000000       0x12 build/obj/can_lld.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/can_lld.o
@@ -420,7 +420,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/ext_lld.o
  .debug_line    0x0000000000000000       0xd5 build/obj/ext_lld.o
- .debug_str     0x0000000000000000      0x123 build/obj/ext_lld.o
+ .debug_str     0x0000000000000000      0x132 build/obj/ext_lld.o
  .comment       0x0000000000000000       0x12 build/obj/ext_lld.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/ext_lld.o
@@ -432,7 +432,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/gpt_lld.o
  .debug_line    0x0000000000000000       0xd5 build/obj/gpt_lld.o
- .debug_str     0x0000000000000000      0x123 build/obj/gpt_lld.o
+ .debug_str     0x0000000000000000      0x132 build/obj/gpt_lld.o
  .comment       0x0000000000000000       0x12 build/obj/gpt_lld.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/gpt_lld.o
@@ -444,7 +444,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/i2c_lld.o
  .debug_line    0x0000000000000000       0xd5 build/obj/i2c_lld.o
- .debug_str     0x0000000000000000      0x123 build/obj/i2c_lld.o
+ .debug_str     0x0000000000000000      0x132 build/obj/i2c_lld.o
  .comment       0x0000000000000000       0x12 build/obj/i2c_lld.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/i2c_lld.o
@@ -456,7 +456,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/icu_lld.o
  .debug_line    0x0000000000000000       0xd5 build/obj/icu_lld.o
- .debug_str     0x0000000000000000      0x123 build/obj/icu_lld.o
+ .debug_str     0x0000000000000000      0x132 build/obj/icu_lld.o
  .comment       0x0000000000000000       0x12 build/obj/icu_lld.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/icu_lld.o
@@ -468,7 +468,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/mac_lld.o
  .debug_line    0x0000000000000000       0xd5 build/obj/mac_lld.o
- .debug_str     0x0000000000000000      0x123 build/obj/mac_lld.o
+ .debug_str     0x0000000000000000      0x132 build/obj/mac_lld.o
  .comment       0x0000000000000000       0x12 build/obj/mac_lld.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/mac_lld.o
@@ -480,7 +480,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/pwm_lld.o
  .debug_line    0x0000000000000000       0xd5 build/obj/pwm_lld.o
- .debug_str     0x0000000000000000      0x123 build/obj/pwm_lld.o
+ .debug_str     0x0000000000000000      0x132 build/obj/pwm_lld.o
  .comment       0x0000000000000000       0x12 build/obj/pwm_lld.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/pwm_lld.o
@@ -502,7 +502,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/spi_lld.o
  .debug_line    0x0000000000000000       0xd5 build/obj/spi_lld.o
- .debug_str     0x0000000000000000      0x123 build/obj/spi_lld.o
+ .debug_str     0x0000000000000000      0x132 build/obj/spi_lld.o
  .comment       0x0000000000000000       0x12 build/obj/spi_lld.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/spi_lld.o
@@ -514,7 +514,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/uart_lld.o
  .debug_line    0x0000000000000000       0xd5 build/obj/uart_lld.o
- .debug_str     0x0000000000000000      0x124 build/obj/uart_lld.o
+ .debug_str     0x0000000000000000      0x133 build/obj/uart_lld.o
  .comment       0x0000000000000000       0x12 build/obj/uart_lld.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/uart_lld.o
@@ -529,7 +529,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/usb_lld.o
  .debug_line    0x0000000000000000       0xd5 build/obj/usb_lld.o
- .debug_str     0x0000000000000000      0x129 build/obj/usb_lld.o
+ .debug_str     0x0000000000000000      0x138 build/obj/usb_lld.o
  .comment       0x0000000000000000       0x12 build/obj/usb_lld.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/usb_lld.o
@@ -541,7 +541,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/rtc_lld.o
  .debug_line    0x0000000000000000       0xd5 build/obj/rtc_lld.o
- .debug_str     0x0000000000000000      0x129 build/obj/rtc_lld.o
+ .debug_str     0x0000000000000000      0x138 build/obj/rtc_lld.o
  .comment       0x0000000000000000       0x12 build/obj/rtc_lld.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/rtc_lld.o
@@ -591,7 +591,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 build/obj/syscall.o
  .debug_line    0x0000000000000000       0x1d build/obj/syscall.o
- .debug_str     0x0000000000000000      0x10c build/obj/syscall.o
+ .debug_str     0x0000000000000000      0x11b build/obj/syscall.o
  .comment       0x0000000000000000       0x12 build/obj/syscall.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/syscall.o
@@ -609,7 +609,7 @@ Discarded input sections
                 0x0000000000000000       0x30 build/obj/evtimer.o
  .debug_ranges  0x0000000000000000       0x38 build/obj/evtimer.o
  .debug_line    0x0000000000000000      0x193 build/obj/evtimer.o
- .debug_str     0x0000000000000000      0x339 build/obj/evtimer.o
+ .debug_str     0x0000000000000000      0x348 build/obj/evtimer.o
  .comment       0x0000000000000000       0x12 build/obj/evtimer.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/evtimer.o
@@ -636,7 +636,7 @@ Discarded input sections
                 0x0000000000000000       0x50 build/obj/syscalls.o
  .debug_ranges  0x0000000000000000       0x40 build/obj/syscalls.o
  .debug_line    0x0000000000000000      0x1fb build/obj/syscalls.o
- .debug_str     0x0000000000000000      0x609 build/obj/syscalls.o
+ .debug_str     0x0000000000000000      0x618 build/obj/syscalls.o
  .comment       0x0000000000000000       0x12 build/obj/syscalls.o
  .ARM.attributes
                 0x0000000000000000       0x33 build/obj/syscalls.o
@@ -801,7 +801,7 @@ destructors     0x0000000008000130        0x0
  *(SORT(.fini_array.*))
                 0x0000000008000130                PROVIDE (__fini_array_end, .)
 
-.text           0x0000000008000130     0x9e5c
+.text           0x0000000008000130     0x9eac
  *(.text.startup.*)
  .text.startup.main
                 0x0000000008000130      0x100 build/obj/main.o
@@ -1706,328 +1706,328 @@ destructors     0x0000000008000130        0x0
                 0x0000000008008520      0x2e0 build/obj/chprintf.o
                 0x0000000008008520                chprintf
  .text.cmd_card
-                0x0000000008008800       0x70 build/obj/main.o
+                0x0000000008008800       0x80 build/obj/main.o
  .text.cmd_count
-                0x0000000008008870       0x40 build/obj/main.o
+                0x0000000008008880       0x40 build/obj/main.o
  .text.staticThread
-                0x00000000080088b0       0x20 build/obj/main.o
+                0x00000000080088c0       0x20 build/obj/main.o
  .text.RemoveHandler
-                0x00000000080088d0       0x20 build/obj/main.o
- .text.tmrfunc  0x00000000080088f0       0x60 build/obj/main.o
+                0x00000000080088e0       0x30 build/obj/main.o
+ .text.tmrfunc  0x0000000008008910       0x60 build/obj/main.o
  .text.cmd_test
-                0x0000000008008950       0x70 build/obj/main.o
+                0x0000000008008970       0x70 build/obj/main.o
  .text.cmd_threads
-                0x00000000080089c0       0x70 build/obj/main.o
- .text.cmd_mem  0x0000000008008a30       0x60 build/obj/main.o
+                0x00000000080089e0       0x70 build/obj/main.o
+ .text.cmd_mem  0x0000000008008a50       0x60 build/obj/main.o
  .text.InsertHandler
-                0x0000000008008a90       0x40 build/obj/main.o
+                0x0000000008008ab0       0x70 build/obj/main.o
  .text.scan_files.constprop.4
-                0x0000000008008ad0       0x80 build/obj/main.o
+                0x0000000008008b20       0x80 build/obj/main.o
  .text.cmd_tree
-                0x0000000008008b50       0x80 build/obj/main.o
+                0x0000000008008ba0       0x80 build/obj/main.o
  .text.sdc_lld_is_write_protected
-                0x0000000008008bd0       0x20 build/obj/main.o
-                0x0000000008008bd0                sdc_lld_is_write_protected
+                0x0000000008008c20       0x10 build/obj/main.o
+                0x0000000008008c20                sdc_lld_is_write_protected
  *(.rodata)
- .rodata        0x0000000008008bf0        0x4 build/obj/shell.o
- *fill*         0x0000000008008bf4        0xc 
- .rodata        0x0000000008008c00      0x104 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-ctype_.o)
-                0x0000000008008c00                _ctype_
+ .rodata        0x0000000008008c30        0x4 build/obj/shell.o
+ *fill*         0x0000000008008c34        0xc 
+ .rodata        0x0000000008008c40      0x104 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-ctype_.o)
+                0x0000000008008c40                _ctype_
  *(.rodata.*)
- *fill*         0x0000000008008d04        0xc 
+ *fill*         0x0000000008008d44        0xc 
  .rodata.str1.4
-                0x0000000008008d10        0x5 build/obj/chsys.o
+                0x0000000008008d50        0x5 build/obj/chsys.o
                                           0x8 (size before relaxing)
- *fill*         0x0000000008008d15        0xb 
+ *fill*         0x0000000008008d55        0xb 
  .rodata.ch_debug
-                0x0000000008008d20       0x18 build/obj/chregistry.o
-                0x0000000008008d20                ch_debug
- *fill*         0x0000000008008d38        0x8 
- .rodata.wa     0x0000000008008d40       0x14 build/obj/test.o
-                0x0000000008008d40                wa
- *fill*         0x0000000008008d54        0xc 
+                0x0000000008008d60       0x18 build/obj/chregistry.o
+                0x0000000008008d60                ch_debug
+ *fill*         0x0000000008008d78        0x8 
+ .rodata.wa     0x0000000008008d80       0x14 build/obj/test.o
+                0x0000000008008d80                wa
+ *fill*         0x0000000008008d94        0xc 
  .rodata.str1.4
-                0x0000000008008d60      0x1bb build/obj/test.o
+                0x0000000008008da0      0x1bb build/obj/test.o
                                         0x1c8 (size before relaxing)
- *fill*         0x0000000008008f1b        0x5 
+ *fill*         0x0000000008008f5b        0x5 
  .rodata.patterns
-                0x0000000008008f20       0x30 build/obj/test.o
+                0x0000000008008f60       0x30 build/obj/test.o
  .rodata.testthd1
-                0x0000000008008f50       0x10 build/obj/testthd.o
-                0x0000000008008f50                testthd1
+                0x0000000008008f90       0x10 build/obj/testthd.o
+                0x0000000008008f90                testthd1
  .rodata.testthd2
-                0x0000000008008f60       0x10 build/obj/testthd.o
-                0x0000000008008f60                testthd2
+                0x0000000008008fa0       0x10 build/obj/testthd.o
+                0x0000000008008fa0                testthd2
  .rodata.testthd3
-                0x0000000008008f70       0x10 build/obj/testthd.o
-                0x0000000008008f70                testthd3
+                0x0000000008008fb0       0x10 build/obj/testthd.o
+                0x0000000008008fb0                testthd3
  .rodata.testthd4
-                0x0000000008008f80       0x10 build/obj/testthd.o
-                0x0000000008008f80                testthd4
+                0x0000000008008fc0       0x10 build/obj/testthd.o
+                0x0000000008008fc0                testthd4
  .rodata.patternthd
-                0x0000000008008f90       0x14 build/obj/testthd.o
-                0x0000000008008f90                patternthd
- *fill*         0x0000000008008fa4        0xc 
+                0x0000000008008fd0       0x14 build/obj/testthd.o
+                0x0000000008008fd0                patternthd
+ *fill*         0x0000000008008fe4        0xc 
  .rodata.str1.4
-                0x0000000008008fb0       0x77 build/obj/testthd.o
+                0x0000000008008ff0       0x77 build/obj/testthd.o
                                          0x80 (size before relaxing)
- *fill*         0x0000000008009027        0x9 
+ *fill*         0x0000000008009067        0x9 
  .rodata.testsem1
-                0x0000000008009030       0x10 build/obj/testsem.o
-                0x0000000008009030                testsem1
+                0x0000000008009070       0x10 build/obj/testsem.o
+                0x0000000008009070                testsem1
  .rodata.testsem2
-                0x0000000008009040       0x10 build/obj/testsem.o
-                0x0000000008009040                testsem2
+                0x0000000008009080       0x10 build/obj/testsem.o
+                0x0000000008009080                testsem2
  .rodata.testsem3
-                0x0000000008009050       0x10 build/obj/testsem.o
-                0x0000000008009050                testsem3
+                0x0000000008009090       0x10 build/obj/testsem.o
+                0x0000000008009090                testsem3
  .rodata.testsem4
-                0x0000000008009060       0x10 build/obj/testsem.o
-                0x0000000008009060                testsem4
+                0x00000000080090a0       0x10 build/obj/testsem.o
+                0x00000000080090a0                testsem4
  .rodata.patternsem
-                0x0000000008009070       0x14 build/obj/testsem.o
-                0x0000000008009070                patternsem
- *fill*         0x0000000008009084        0xc 
+                0x00000000080090b0       0x14 build/obj/testsem.o
+                0x00000000080090b0                patternsem
+ *fill*         0x00000000080090c4        0xc 
  .rodata.str1.4
-                0x0000000008009090       0x6e build/obj/testsem.o
+                0x00000000080090d0       0x6e build/obj/testsem.o
                                          0x8c (size before relaxing)
- *fill*         0x00000000080090fe        0x2 
+ *fill*         0x000000000800913e        0x2 
  .rodata.testmtx5
-                0x0000000008009100       0x10 build/obj/testmtx.o
-                0x0000000008009100                testmtx5
+                0x0000000008009140       0x10 build/obj/testmtx.o
+                0x0000000008009140                testmtx5
  .rodata.testmtx6
-                0x0000000008009110       0x10 build/obj/testmtx.o
-                0x0000000008009110                testmtx6
+                0x0000000008009150       0x10 build/obj/testmtx.o
+                0x0000000008009150                testmtx6
  .rodata.testmtx7
-                0x0000000008009120       0x10 build/obj/testmtx.o
-                0x0000000008009120                testmtx7
+                0x0000000008009160       0x10 build/obj/testmtx.o
+                0x0000000008009160                testmtx7
  .rodata.testmtx8
-                0x0000000008009130       0x10 build/obj/testmtx.o
-                0x0000000008009130                testmtx8
+                0x0000000008009170       0x10 build/obj/testmtx.o
+                0x0000000008009170                testmtx8
  .rodata.str1.4
-                0x0000000008009140       0xed build/obj/testmtx.o
+                0x0000000008009180       0xed build/obj/testmtx.o
                                         0x10c (size before relaxing)
- *fill*         0x000000000800922d        0x3 
+ *fill*         0x000000000800926d        0x3 
  .rodata.patternmtx
-                0x0000000008009230       0x24 build/obj/testmtx.o
-                0x0000000008009230                patternmtx
- *fill*         0x0000000008009254        0xc 
+                0x0000000008009270       0x24 build/obj/testmtx.o
+                0x0000000008009270                patternmtx
+ *fill*         0x0000000008009294        0xc 
  .rodata.testmtx1
-                0x0000000008009260       0x10 build/obj/testmtx.o
-                0x0000000008009260                testmtx1
+                0x00000000080092a0       0x10 build/obj/testmtx.o
+                0x00000000080092a0                testmtx1
  .rodata.testmtx2
-                0x0000000008009270       0x10 build/obj/testmtx.o
-                0x0000000008009270                testmtx2
+                0x00000000080092b0       0x10 build/obj/testmtx.o
+                0x00000000080092b0                testmtx2
  .rodata.testmtx3
-                0x0000000008009280       0x10 build/obj/testmtx.o
-                0x0000000008009280                testmtx3
+                0x00000000080092c0       0x10 build/obj/testmtx.o
+                0x00000000080092c0                testmtx3
  .rodata.testmtx4
-                0x0000000008009290       0x10 build/obj/testmtx.o
-                0x0000000008009290                testmtx4
+                0x00000000080092d0       0x10 build/obj/testmtx.o
+                0x00000000080092d0                testmtx4
  .rodata.testmsg1
-                0x00000000080092a0       0x10 build/obj/testmsg.o
-                0x00000000080092a0                testmsg1
+                0x00000000080092e0       0x10 build/obj/testmsg.o
+                0x00000000080092e0                testmsg1
  .rodata.str1.4
-                0x00000000080092b0        0xf build/obj/testmsg.o
+                0x00000000080092f0        0xf build/obj/testmsg.o
                                          0x14 (size before relaxing)
- *fill*         0x00000000080092bf        0x1 
+ *fill*         0x00000000080092ff        0x1 
  .rodata.patternmsg
-                0x00000000080092c0        0x8 build/obj/testmsg.o
-                0x00000000080092c0                patternmsg
- *fill*         0x00000000080092c8        0x8 
+                0x0000000008009300        0x8 build/obj/testmsg.o
+                0x0000000008009300                patternmsg
+ *fill*         0x0000000008009308        0x8 
  .rodata.patternmbox
-                0x00000000080092d0        0x8 build/obj/testmbox.o
-                0x00000000080092d0                patternmbox
- *fill*         0x00000000080092d8        0x8 
+                0x0000000008009310        0x8 build/obj/testmbox.o
+                0x0000000008009310                patternmbox
+ *fill*         0x0000000008009318        0x8 
  .rodata.str1.4
-                0x00000000080092e0       0x20 build/obj/testmbox.o
+                0x0000000008009320       0x20 build/obj/testmbox.o
                                          0x28 (size before relaxing)
  .rodata.testmbox1
-                0x0000000008009300       0x10 build/obj/testmbox.o
-                0x0000000008009300                testmbox1
+                0x0000000008009340       0x10 build/obj/testmbox.o
+                0x0000000008009340                testmbox1
  .rodata.patternevt
-                0x0000000008009310       0x10 build/obj/testevt.o
-                0x0000000008009310                patternevt
+                0x0000000008009350       0x10 build/obj/testevt.o
+                0x0000000008009350                patternevt
  .rodata.testevt2
-                0x0000000008009320       0x10 build/obj/testevt.o
-                0x0000000008009320                testevt2
+                0x0000000008009360       0x10 build/obj/testevt.o
+                0x0000000008009360                testevt2
  .rodata.str1.4
-                0x0000000008009330       0x52 build/obj/testevt.o
+                0x0000000008009370       0x52 build/obj/testevt.o
                                          0x5c (size before relaxing)
- *fill*         0x0000000008009382        0xe 
+ *fill*         0x00000000080093c2        0xe 
  .rodata.testevt1
-                0x0000000008009390       0x10 build/obj/testevt.o
-                0x0000000008009390                testevt1
+                0x00000000080093d0       0x10 build/obj/testevt.o
+                0x00000000080093d0                testevt1
  .rodata.evhndl
-                0x00000000080093a0        0xc build/obj/testevt.o
- *fill*         0x00000000080093ac        0x4 
+                0x00000000080093e0        0xc build/obj/testevt.o
+ *fill*         0x00000000080093ec        0x4 
  .rodata.testevt3
-                0x00000000080093b0       0x10 build/obj/testevt.o
-                0x00000000080093b0                testevt3
+                0x00000000080093f0       0x10 build/obj/testevt.o
+                0x00000000080093f0                testevt3
  .rodata.patternheap
-                0x00000000080093c0        0x8 build/obj/testheap.o
-                0x00000000080093c0                patternheap
- *fill*         0x00000000080093c8        0x8 
+                0x0000000008009400        0x8 build/obj/testheap.o
+                0x0000000008009400                patternheap
+ *fill*         0x0000000008009408        0x8 
  .rodata.str1.4
-                0x00000000080093d0       0x28 build/obj/testheap.o
- *fill*         0x00000000080093f8        0x8 
- .rodata.testheap1
-                0x0000000008009400       0x10 build/obj/testheap.o
-                0x0000000008009400                testheap1
- .rodata.str1.4
-                0x0000000008009410       0x1c build/obj/testpools.o
- *fill*         0x000000000800942c        0x4 
- .rodata.patternpools
-                0x0000000008009430        0x8 build/obj/testpools.o
-                0x0000000008009430                patternpools
+                0x0000000008009410       0x28 build/obj/testheap.o
  *fill*         0x0000000008009438        0x8 
+ .rodata.testheap1
+                0x0000000008009440       0x10 build/obj/testheap.o
+                0x0000000008009440                testheap1
+ .rodata.str1.4
+                0x0000000008009450       0x1c build/obj/testpools.o
+ *fill*         0x000000000800946c        0x4 
+ .rodata.patternpools
+                0x0000000008009470        0x8 build/obj/testpools.o
+                0x0000000008009470                patternpools
+ *fill*         0x0000000008009478        0x8 
  .rodata.testpools1
-                0x0000000008009440       0x10 build/obj/testpools.o
-                0x0000000008009440                testpools1
+                0x0000000008009480       0x10 build/obj/testpools.o
+                0x0000000008009480                testpools1
  .rodata.testdyn1
-                0x0000000008009450       0x10 build/obj/testdyn.o
-                0x0000000008009450                testdyn1
+                0x0000000008009490       0x10 build/obj/testdyn.o
+                0x0000000008009490                testdyn1
  .rodata.testdyn2
-                0x0000000008009460       0x10 build/obj/testdyn.o
-                0x0000000008009460                testdyn2
+                0x00000000080094a0       0x10 build/obj/testdyn.o
+                0x00000000080094a0                testdyn2
  .rodata.testdyn3
-                0x0000000008009470       0x10 build/obj/testdyn.o
-                0x0000000008009470                testdyn3
+                0x00000000080094b0       0x10 build/obj/testdyn.o
+                0x00000000080094b0                testdyn3
  .rodata.str1.4
-                0x0000000008009480       0x8d build/obj/testdyn.o
+                0x00000000080094c0       0x8d build/obj/testdyn.o
                                          0xa4 (size before relaxing)
- *fill*         0x000000000800950d        0x3 
+ *fill*         0x000000000800954d        0x3 
  .rodata.patterndyn
-                0x0000000008009510       0x10 build/obj/testdyn.o
-                0x0000000008009510                patterndyn
+                0x0000000008009550       0x10 build/obj/testdyn.o
+                0x0000000008009550                patterndyn
  .rodata.testqueues1
-                0x0000000008009520       0x10 build/obj/testqueues.o
-                0x0000000008009520                testqueues1
+                0x0000000008009560       0x10 build/obj/testqueues.o
+                0x0000000008009560                testqueues1
  .rodata.testqueues2
-                0x0000000008009530       0x10 build/obj/testqueues.o
-                0x0000000008009530                testqueues2
+                0x0000000008009570       0x10 build/obj/testqueues.o
+                0x0000000008009570                testqueues2
  .rodata.str1.4
-                0x0000000008009540       0x2d build/obj/testqueues.o
+                0x0000000008009580       0x2d build/obj/testqueues.o
                                          0x38 (size before relaxing)
- *fill*         0x000000000800956d        0x3 
+ *fill*         0x00000000080095ad        0x3 
  .rodata.patternqueues
-                0x0000000008009570        0xc build/obj/testqueues.o
-                0x0000000008009570                patternqueues
- *fill*         0x000000000800957c        0x4 
+                0x00000000080095b0        0xc build/obj/testqueues.o
+                0x00000000080095b0                patternqueues
+ *fill*         0x00000000080095bc        0x4 
  .rodata.testbmk8
-                0x0000000008009580       0x10 build/obj/testbmk.o
-                0x0000000008009580                testbmk8
+                0x00000000080095c0       0x10 build/obj/testbmk.o
+                0x00000000080095c0                testbmk8
  .rodata.patternbmk
-                0x0000000008009590       0x38 build/obj/testbmk.o
-                0x0000000008009590                patternbmk
- *fill*         0x00000000080095c8        0x8 
+                0x00000000080095d0       0x38 build/obj/testbmk.o
+                0x00000000080095d0                patternbmk
+ *fill*         0x0000000008009608        0x8 
  .rodata.testbmk3
-                0x00000000080095d0       0x10 build/obj/testbmk.o
-                0x00000000080095d0                testbmk3
- .rodata.testbmk9
-                0x00000000080095e0       0x10 build/obj/testbmk.o
-                0x00000000080095e0                testbmk9
- .rodata.testbmk10
-                0x00000000080095f0       0x10 build/obj/testbmk.o
-                0x00000000080095f0                testbmk10
- .rodata.testbmk4
-                0x0000000008009600       0x10 build/obj/testbmk.o
-                0x0000000008009600                testbmk4
- .rodata.testbmk13
                 0x0000000008009610       0x10 build/obj/testbmk.o
-                0x0000000008009610                testbmk13
- .rodata.testbmk2
+                0x0000000008009610                testbmk3
+ .rodata.testbmk9
                 0x0000000008009620       0x10 build/obj/testbmk.o
-                0x0000000008009620                testbmk2
+                0x0000000008009620                testbmk9
+ .rodata.testbmk10
+                0x0000000008009630       0x10 build/obj/testbmk.o
+                0x0000000008009630                testbmk10
+ .rodata.testbmk4
+                0x0000000008009640       0x10 build/obj/testbmk.o
+                0x0000000008009640                testbmk4
+ .rodata.testbmk13
+                0x0000000008009650       0x10 build/obj/testbmk.o
+                0x0000000008009650                testbmk13
+ .rodata.testbmk2
+                0x0000000008009660       0x10 build/obj/testbmk.o
+                0x0000000008009660                testbmk2
  .rodata.str1.4
-                0x0000000008009630      0x2c7 build/obj/testbmk.o
+                0x0000000008009670      0x2c7 build/obj/testbmk.o
                                         0x2c8 (size before relaxing)
- *fill*         0x00000000080098f7        0x9 
+ *fill*         0x0000000008009937        0x9 
  .rodata.testbmk1
-                0x0000000008009900       0x10 build/obj/testbmk.o
-                0x0000000008009900                testbmk1
- .rodata.testbmk11
-                0x0000000008009910       0x10 build/obj/testbmk.o
-                0x0000000008009910                testbmk11
- .rodata.testbmk12
-                0x0000000008009920       0x10 build/obj/testbmk.o
-                0x0000000008009920                testbmk12
- .rodata.testbmk5
-                0x0000000008009930       0x10 build/obj/testbmk.o
-                0x0000000008009930                testbmk5
- .rodata.testbmk6
                 0x0000000008009940       0x10 build/obj/testbmk.o
-                0x0000000008009940                testbmk6
- .rodata.testbmk7
+                0x0000000008009940                testbmk1
+ .rodata.testbmk11
                 0x0000000008009950       0x10 build/obj/testbmk.o
-                0x0000000008009950                testbmk7
- .rodata.vmt    0x0000000008009960       0x24 build/obj/serial.o
- *fill*         0x0000000008009984        0xc 
+                0x0000000008009950                testbmk11
+ .rodata.testbmk12
+                0x0000000008009960       0x10 build/obj/testbmk.o
+                0x0000000008009960                testbmk12
+ .rodata.testbmk5
+                0x0000000008009970       0x10 build/obj/testbmk.o
+                0x0000000008009970                testbmk5
+ .rodata.testbmk6
+                0x0000000008009980       0x10 build/obj/testbmk.o
+                0x0000000008009980                testbmk6
+ .rodata.testbmk7
+                0x0000000008009990       0x10 build/obj/testbmk.o
+                0x0000000008009990                testbmk7
+ .rodata.vmt    0x00000000080099a0       0x24 build/obj/serial.o
+ *fill*         0x00000000080099c4        0xc 
  .rodata._stm32_dma_streams
-                0x0000000008009990       0x90 build/obj/stm32_dma.o
-                0x0000000008009990                _stm32_dma_streams
+                0x00000000080099d0       0x90 build/obj/stm32_dma.o
+                0x00000000080099d0                _stm32_dma_streams
  .rodata.default_config
-                0x0000000008009a20        0xc build/obj/serial_lld.o
- *fill*         0x0000000008009a2c        0x4 
+                0x0000000008009a60        0xc build/obj/serial_lld.o
+ *fill*         0x0000000008009a6c        0x4 
  .rodata.cfgtab.6051
-                0x0000000008009a30       0x14 build/obj/pal_lld.o
- *fill*         0x0000000008009a44        0xc 
+                0x0000000008009a70       0x14 build/obj/pal_lld.o
+ *fill*         0x0000000008009a84        0xc 
  .rodata.pal_default_config
-                0x0000000008009a50       0x54 build/obj/board.o
-                0x0000000008009a50                pal_default_config
- *fill*         0x0000000008009aa4        0xc 
+                0x0000000008009a90       0x54 build/obj/board.o
+                0x0000000008009a90                pal_default_config
+ *fill*         0x0000000008009ae4        0xc 
  .rodata.str1.4
-                0x0000000008009ab0        0xf build/obj/ff.o
+                0x0000000008009af0        0xf build/obj/ff.o
                                          0x10 (size before relaxing)
- *fill*         0x0000000008009abf        0x1 
+ *fill*         0x0000000008009aff        0x1 
  .rodata.str1.4
-                0x0000000008009ac0      0x169 build/obj/shell.o
+                0x0000000008009b00      0x169 build/obj/shell.o
                                         0x1f0 (size before relaxing)
- *fill*         0x0000000008009c29        0x7 
+ *fill*         0x0000000008009c69        0x7 
  .rodata.str1.4
-                0x0000000008009c30        0x7 build/obj/chprintf.o
+                0x0000000008009c70        0x7 build/obj/chprintf.o
                                           0x8 (size before relaxing)
- *fill*         0x0000000008009c37        0x9 
+ *fill*         0x0000000008009c77        0x9 
  .rodata.commands
-                0x0000000008009c40       0x38 build/obj/main.o
- *fill*         0x0000000008009c78        0x8 
+                0x0000000008009c80       0x38 build/obj/main.o
+ *fill*         0x0000000008009cb8        0x8 
  .rodata.str1.4
-                0x0000000008009c80      0x2a8 build/obj/main.o
-                                        0x2b0 (size before relaxing)
- *fill*         0x0000000008009f28        0x8 
+                0x0000000008009cc0      0x2b8 build/obj/main.o
+                                        0x2c0 (size before relaxing)
+ *fill*         0x0000000008009f78        0x8 
  .rodata.shell_cfg1
-                0x0000000008009f30        0x8 build/obj/main.o
- *fill*         0x0000000008009f38        0x8 
+                0x0000000008009f80        0x8 build/obj/main.o
+ *fill*         0x0000000008009f88        0x8 
  .rodata.evhndl.7464
-                0x0000000008009f40        0x8 build/obj/main.o
- *fill*         0x0000000008009f48        0x8 
+                0x0000000008009f90        0x8 build/obj/main.o
+ *fill*         0x0000000008009f98        0x8 
  .rodata.states.7418
-                0x0000000008009f50       0x3c build/obj/main.o
+                0x0000000008009fa0       0x3c build/obj/main.o
  *(.glue_7t)
  .glue_7t       0x0000000000000000        0x0 linker stubs
  *(.glue_7)
  .glue_7        0x0000000000000000        0x0 linker stubs
  *(.gcc*)
 
-.vfp11_veneer   0x0000000008009f8c        0x0
+.vfp11_veneer   0x0000000008009fdc        0x0
  .vfp11_veneer  0x0000000000000000        0x0 linker stubs
 
-.v4_bx          0x0000000008009f8c        0x0
+.v4_bx          0x0000000008009fdc        0x0
  .v4_bx         0x0000000000000000        0x0 linker stubs
 
-.iplt           0x0000000008009f8c        0x0
+.iplt           0x0000000008009fdc        0x0
  .iplt          0x0000000000000000        0x0 build/obj/crt0.o
 
-.rel.dyn        0x0000000008009f8c        0x0
+.rel.dyn        0x0000000008009fdc        0x0
  .rel.iplt      0x0000000000000000        0x0 build/obj/crt0.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM.exidx      0x0000000008009f8c        0x0
-                0x0000000008009f8c                PROVIDE (__exidx_start, .)
+.ARM.exidx      0x0000000008009fdc        0x0
+                0x0000000008009fdc                PROVIDE (__exidx_start, .)
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000000008009f8c                PROVIDE (__exidx_end, .)
+                0x0000000008009fdc                PROVIDE (__exidx_end, .)
 
 .eh_frame_hdr
  *(.eh_frame_hdr)
@@ -2035,11 +2035,11 @@ destructors     0x0000000008000130        0x0
 .eh_frame
  *(.eh_frame)
 
-.textalign      0x0000000008009f8c        0x4
-                0x0000000008009f90                . = ALIGN (0x8)
- *fill*         0x0000000008009f8c        0x4 
-                0x0000000008009f90                _etext = .
-                0x0000000008009f90                _textdata = _etext
+.textalign      0x0000000008009fdc        0x4
+                0x0000000008009fe0                . = ALIGN (0x8)
+ *fill*         0x0000000008009fdc        0x4 
+                0x0000000008009fe0                _etext = .
+                0x0000000008009fe0                _textdata = _etext
 
 .stacks         0x0000000020000000      0x800
                 0x0000000020000000                . = ALIGN (0x8)
@@ -2056,7 +2056,7 @@ destructors     0x0000000008000130        0x0
                 0x0000000020000800                __process_stack_end__ = .
                 0x0000000020000800                __main_thread_stack_end__ = .
 
-.data           0x0000000020000800       0xcc load address 0x0000000008009f90
+.data           0x0000000020000800       0xcc load address 0x0000000008009fe0
                 0x0000000020000800                . = ALIGN (0x4)
                 0x0000000020000800                PROVIDE (_data, .)
  *(.data)
@@ -2081,10 +2081,10 @@ destructors     0x0000000008000130        0x0
                 0x00000000200008cc                . = ALIGN (0x4)
                 0x00000000200008cc                PROVIDE (_edata, .)
 
-.igot.plt       0x00000000200008cc        0x0 load address 0x000000000800a05c
+.igot.plt       0x00000000200008cc        0x0 load address 0x000000000800a0ac
  .igot.plt      0x0000000000000000        0x0 build/obj/crt0.o
 
-.bss            0x00000000200008d0     0x178c load address 0x000000000800a060
+.bss            0x00000000200008d0     0x1790 load address 0x000000000800a0b0
                 0x00000000200008d0                . = ALIGN (0x4)
                 0x00000000200008d0                PROVIDE (_bss_start, .)
  *(.bss)
@@ -2151,8 +2151,9 @@ destructors     0x0000000008000130        0x0
                 0x000000002000144c                shell_terminated
  .bss.inserted_event
                 0x0000000020001450        0x4 build/obj/main.o
- .bss.removed_event
-                0x0000000020001454        0x4 build/obj/main.o
+ .bss.err       0x0000000020001454        0x1 build/obj/main.o
+                0x0000000020001454                err
+ *fill*         0x0000000020001455        0x3 
  .bss.SDC_FS    0x0000000020001458      0x230 build/obj/main.o
                 0x0000000020001458                SDC_FS
  .bss.tried     0x0000000020001688        0x4 build/obj/main.o
@@ -2166,17 +2167,19 @@ destructors     0x0000000008000130        0x0
  .bss.connected
                 0x0000000020002058        0x4 build/obj/main.o
                 0x0000000020002058                connected
-                0x000000002000205c                . = ALIGN (0x4)
+ .bss.removed_event
+                0x000000002000205c        0x4 build/obj/main.o
+                0x0000000020002060                . = ALIGN (0x4)
  *(COMMON)
-                0x000000002000205c                . = ALIGN (0x4)
-                0x000000002000205c                PROVIDE (_bss_end, .)
-                0x000000002000205c                PROVIDE (end, .)
-                0x000000002000205c                _end = .
-                0x000000002000205c                __heap_base__ = _end
+                0x0000000020002060                . = ALIGN (0x4)
+                0x0000000020002060                PROVIDE (_bss_end, .)
+                0x0000000020002060                PROVIDE (end, .)
+                0x0000000020002060                _end = .
+                0x0000000020002060                __heap_base__ = _end
                 0x0000000020010000                __heap_end__ = __ram_end__
 OUTPUT(build/ch.elf elf32-littlearm)
 
-.debug_info     0x0000000000000000    0x23dc3
+.debug_info     0x0000000000000000    0x23ddc
  .debug_info    0x0000000000000000      0x2b3 build/obj/crt0.o
  .debug_info    0x00000000000002b3      0x1e9 build/obj/vectors.o
  .debug_info    0x000000000000049c      0x896 build/obj/chcore_v7m.o
@@ -2223,16 +2226,16 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_info    0x000000000001d2bd     0x297b build/obj/ff.o
  .debug_info    0x000000000001fc38     0x14f0 build/obj/shell.o
  .debug_info    0x0000000000021128      0x4a2 build/obj/chprintf.o
- .debug_info    0x00000000000215ca     0x2185 build/obj/main.o
- .debug_info    0x000000000002374f      0x136 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memcpy-stub.o)
- .debug_info    0x0000000000023885      0x159 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcasecmp.o)
- .debug_info    0x00000000000239de      0x11b /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strchr.o)
- .debug_info    0x0000000000023af9       0xc1 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcpy.o)
- .debug_info    0x0000000000023bba       0xb9 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strlen.o)
- .debug_info    0x0000000000023c73       0xdf /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strspn.o)
- .debug_info    0x0000000000023d52       0x71 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-ctype_.o)
+ .debug_info    0x00000000000215ca     0x219e build/obj/main.o
+ .debug_info    0x0000000000023768      0x136 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memcpy-stub.o)
+ .debug_info    0x000000000002389e      0x159 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcasecmp.o)
+ .debug_info    0x00000000000239f7      0x11b /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strchr.o)
+ .debug_info    0x0000000000023b12       0xc1 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcpy.o)
+ .debug_info    0x0000000000023bd3       0xb9 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strlen.o)
+ .debug_info    0x0000000000023c8c       0xdf /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strspn.o)
+ .debug_info    0x0000000000023d6b       0x71 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-ctype_.o)
 
-.debug_abbrev   0x0000000000000000     0x7878
+.debug_abbrev   0x0000000000000000     0x788d
  .debug_abbrev  0x0000000000000000       0xdc build/obj/crt0.o
  .debug_abbrev  0x00000000000000dc       0xb1 build/obj/vectors.o
  .debug_abbrev  0x000000000000018d      0x1fe build/obj/chcore_v7m.o
@@ -2279,14 +2282,14 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_abbrev  0x0000000000006756      0x32d build/obj/ff.o
  .debug_abbrev  0x0000000000006a83      0x3ca build/obj/shell.o
  .debug_abbrev  0x0000000000006e4d      0x186 build/obj/chprintf.o
- .debug_abbrev  0x0000000000006fd3      0x4fd build/obj/main.o
- .debug_abbrev  0x00000000000074d0       0xab /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memcpy-stub.o)
- .debug_abbrev  0x000000000000757b       0xbc /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcasecmp.o)
- .debug_abbrev  0x0000000000007637       0x83 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strchr.o)
- .debug_abbrev  0x00000000000076ba       0x72 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcpy.o)
- .debug_abbrev  0x000000000000772c       0x70 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strlen.o)
- .debug_abbrev  0x000000000000779c       0x8e /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strspn.o)
- .debug_abbrev  0x000000000000782a       0x4e /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-ctype_.o)
+ .debug_abbrev  0x0000000000006fd3      0x512 build/obj/main.o
+ .debug_abbrev  0x00000000000074e5       0xab /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memcpy-stub.o)
+ .debug_abbrev  0x0000000000007590       0xbc /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcasecmp.o)
+ .debug_abbrev  0x000000000000764c       0x83 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strchr.o)
+ .debug_abbrev  0x00000000000076cf       0x72 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcpy.o)
+ .debug_abbrev  0x0000000000007741       0x70 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strlen.o)
+ .debug_abbrev  0x00000000000077b1       0x8e /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strspn.o)
+ .debug_abbrev  0x000000000000783f       0x4e /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-ctype_.o)
 
 .debug_aranges  0x0000000000000000     0x1150
  .debug_aranges
@@ -2398,7 +2401,7 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_aranges
                 0x0000000000001138       0x18 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-ctype_.o)
 
-.debug_ranges   0x0000000000000000     0x2168
+.debug_ranges   0x0000000000000000     0x2138
  .debug_ranges  0x0000000000000000       0xe0 build/obj/crt0.o
  .debug_ranges  0x00000000000000e0       0x10 build/obj/vectors.o
  .debug_ranges  0x00000000000000f0       0x58 build/obj/chcore_v7m.o
@@ -2445,10 +2448,10 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_ranges  0x0000000000001a78      0x438 build/obj/ff.o
  .debug_ranges  0x0000000000001eb0      0x110 build/obj/shell.o
  .debug_ranges  0x0000000000001fc0       0x18 build/obj/chprintf.o
- .debug_ranges  0x0000000000001fd8      0x160 build/obj/main.o
- .debug_ranges  0x0000000000002138       0x30 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcasecmp.o)
+ .debug_ranges  0x0000000000001fd8      0x130 build/obj/main.o
+ .debug_ranges  0x0000000000002108       0x30 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcasecmp.o)
 
-.debug_line     0x0000000000000000     0x9112
+.debug_line     0x0000000000000000     0x911e
  .debug_line    0x0000000000000000      0x153 build/obj/crt0.o
  .debug_line    0x0000000000000153       0xdd build/obj/vectors.o
  .debug_line    0x0000000000000230      0x20f build/obj/chcore_v7m.o
@@ -2495,123 +2498,123 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_line    0x00000000000071e2      0xbe2 build/obj/ff.o
  .debug_line    0x0000000000007dc4      0x3b9 build/obj/shell.o
  .debug_line    0x000000000000817d      0x2de build/obj/chprintf.o
- .debug_line    0x000000000000845b      0x56b build/obj/main.o
- .debug_line    0x00000000000089c6      0x1ab /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memcpy-stub.o)
- .debug_line    0x0000000000008b71       0xda /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcasecmp.o)
- .debug_line    0x0000000000008c4b      0x150 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strchr.o)
- .debug_line    0x0000000000008d9b       0xc6 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcpy.o)
- .debug_line    0x0000000000008e61      0x120 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strlen.o)
- .debug_line    0x0000000000008f81      0x126 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strspn.o)
- .debug_line    0x00000000000090a7       0x6b /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-ctype_.o)
+ .debug_line    0x000000000000845b      0x577 build/obj/main.o
+ .debug_line    0x00000000000089d2      0x1ab /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memcpy-stub.o)
+ .debug_line    0x0000000000008b7d       0xda /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcasecmp.o)
+ .debug_line    0x0000000000008c57      0x150 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strchr.o)
+ .debug_line    0x0000000000008da7       0xc6 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcpy.o)
+ .debug_line    0x0000000000008e6d      0x120 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strlen.o)
+ .debug_line    0x0000000000008f8d      0x126 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strspn.o)
+ .debug_line    0x00000000000090b3       0x6b /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-ctype_.o)
 
-.debug_str      0x0000000000000000     0x3494
- .debug_str     0x0000000000000000      0x1ec build/obj/crt0.o
-                                        0x22a (size before relaxing)
- .debug_str     0x00000000000001ec      0x136 build/obj/vectors.o
-                                        0x241 (size before relaxing)
- .debug_str     0x0000000000000322      0x2d1 build/obj/chcore_v7m.o
-                                        0x3e5 (size before relaxing)
- .debug_str     0x00000000000005f3       0x9e build/obj/nvic.o
+.debug_str      0x0000000000000000     0x34a3
+ .debug_str     0x0000000000000000      0x1fb build/obj/crt0.o
+                                        0x239 (size before relaxing)
+ .debug_str     0x00000000000001fb      0x136 build/obj/vectors.o
+                                        0x250 (size before relaxing)
+ .debug_str     0x0000000000000331      0x2d1 build/obj/chcore_v7m.o
+                                        0x3f4 (size before relaxing)
+ .debug_str     0x0000000000000602       0x9e build/obj/nvic.o
+                                        0x222 (size before relaxing)
+ .debug_str     0x00000000000006a0      0x205 build/obj/chsys.o
+                                        0x4cc (size before relaxing)
+ .debug_str     0x00000000000008a5       0x4c build/obj/chvt.o
+                                        0x1c7 (size before relaxing)
+ .debug_str     0x00000000000008f1       0x9c build/obj/chschd.o
+                                        0x3cc (size before relaxing)
+ .debug_str     0x000000000000098d       0xd3 build/obj/chthreads.o
+                                        0x466 (size before relaxing)
+ .debug_str     0x0000000000000a60      0x10d build/obj/chdynamic.o
+                                        0x3d3 (size before relaxing)
+ .debug_str     0x0000000000000b6d       0x42 build/obj/chregistry.o
+                                        0x3ef (size before relaxing)
+ .debug_str     0x0000000000000baf       0xc8 build/obj/chsem.o
+                                        0x3df (size before relaxing)
+ .debug_str     0x0000000000000c77       0x8a build/obj/chmtx.o
+                                        0x386 (size before relaxing)
+ .debug_str     0x0000000000000d01       0xb0 build/obj/chcond.o
+                                        0x3d3 (size before relaxing)
+ .debug_str     0x0000000000000db1      0x179 build/obj/chevents.o
+                                        0x464 (size before relaxing)
+ .debug_str     0x0000000000000f2a       0x3d build/obj/chmsg.o
+                                        0x31e (size before relaxing)
+ .debug_str     0x0000000000000f67       0xe2 build/obj/chmboxes.o
+                                        0x39d (size before relaxing)
+ .debug_str     0x0000000000001049      0x112 build/obj/chqueues.o
+                                        0x405 (size before relaxing)
+ .debug_str     0x000000000000115b       0x70 build/obj/chmemcore.o
+                                        0x18e (size before relaxing)
+ .debug_str     0x00000000000011cb       0x48 build/obj/chheap.o
+                                        0x35a (size before relaxing)
+ .debug_str     0x0000000000001213       0x45 build/obj/chmempools.o
+                                        0x1c4 (size before relaxing)
+ .debug_str     0x0000000000001258      0x27b build/obj/test.o
+                                        0x619 (size before relaxing)
+ .debug_str     0x00000000000014d3       0x6d build/obj/testthd.o
+                                        0x487 (size before relaxing)
+ .debug_str     0x0000000000001540       0xd6 build/obj/testsem.o
+                                        0x53d (size before relaxing)
+ .debug_str     0x0000000000001616      0x194 build/obj/testmtx.o
+                                        0x641 (size before relaxing)
+ .debug_str     0x00000000000017aa       0x2b build/obj/testmsg.o
+                                        0x37a (size before relaxing)
+ .debug_str     0x00000000000017d5       0x3f build/obj/testmbox.o
+                                        0x3e6 (size before relaxing)
+ .debug_str     0x0000000000001814       0x7f build/obj/testevt.o
+                                        0x594 (size before relaxing)
+ .debug_str     0x0000000000001893       0x44 build/obj/testheap.o
+                                        0x3a8 (size before relaxing)
+ .debug_str     0x00000000000018d7       0x4c build/obj/testpools.o
+                                        0x20d (size before relaxing)
+ .debug_str     0x0000000000001923       0x86 build/obj/testdyn.o
+                                        0x55c (size before relaxing)
+ .debug_str     0x00000000000019a9       0x6c build/obj/testqueues.o
+                                        0x4dc (size before relaxing)
+ .debug_str     0x0000000000001a15      0x179 build/obj/testbmk.o
+                                        0x6bb (size before relaxing)
+ .debug_str     0x0000000000001b8e      0x130 build/obj/hal.o
+                                        0x25e (size before relaxing)
+ .debug_str     0x0000000000001cbe      0x25a build/obj/sdc.o
+                                        0x4e7 (size before relaxing)
+ .debug_str     0x0000000000001f18      0x1c9 build/obj/serial.o
+                                        0x5f2 (size before relaxing)
+ .debug_str     0x00000000000020e1       0x67 build/obj/tm.o
+                                        0x1df (size before relaxing)
+ .debug_str     0x0000000000002148      0x57c build/obj/stm32_dma.o
+                                        0x703 (size before relaxing)
+ .debug_str     0x00000000000026c4       0xbf build/obj/hal_lld.o
+                                        0x27c (size before relaxing)
+ .debug_str     0x0000000000002783       0x6d build/obj/serial_lld.o
+                                        0x968 (size before relaxing)
+ .debug_str     0x00000000000027f0      0x102 build/obj/sdc_lld.o
+                                        0xad5 (size before relaxing)
+ .debug_str     0x00000000000028f2       0x88 build/obj/pal_lld.o
+                                        0x250 (size before relaxing)
+ .debug_str     0x000000000000297a       0x2a build/obj/board.o
+                                        0x1c7 (size before relaxing)
+ .debug_str     0x00000000000029a4       0xd1 build/obj/diskio.o
+                                        0x418 (size before relaxing)
+ .debug_str     0x0000000000002a75      0x405 build/obj/ff.o
+                                        0x5ae (size before relaxing)
+ .debug_str     0x0000000000002e7a      0x14c build/obj/shell.o
+                                        0x5cb (size before relaxing)
+ .debug_str     0x0000000000002fc6       0x86 build/obj/chprintf.o
                                         0x213 (size before relaxing)
- .debug_str     0x0000000000000691      0x205 build/obj/chsys.o
-                                        0x4bd (size before relaxing)
- .debug_str     0x0000000000000896       0x4c build/obj/chvt.o
-                                        0x1b8 (size before relaxing)
- .debug_str     0x00000000000008e2       0x9c build/obj/chschd.o
-                                        0x3bd (size before relaxing)
- .debug_str     0x000000000000097e       0xd3 build/obj/chthreads.o
-                                        0x457 (size before relaxing)
- .debug_str     0x0000000000000a51      0x10d build/obj/chdynamic.o
-                                        0x3c4 (size before relaxing)
- .debug_str     0x0000000000000b5e       0x42 build/obj/chregistry.o
-                                        0x3e0 (size before relaxing)
- .debug_str     0x0000000000000ba0       0xc8 build/obj/chsem.o
-                                        0x3d0 (size before relaxing)
- .debug_str     0x0000000000000c68       0x8a build/obj/chmtx.o
-                                        0x377 (size before relaxing)
- .debug_str     0x0000000000000cf2       0xb0 build/obj/chcond.o
-                                        0x3c4 (size before relaxing)
- .debug_str     0x0000000000000da2      0x179 build/obj/chevents.o
-                                        0x455 (size before relaxing)
- .debug_str     0x0000000000000f1b       0x3d build/obj/chmsg.o
-                                        0x30f (size before relaxing)
- .debug_str     0x0000000000000f58       0xe2 build/obj/chmboxes.o
-                                        0x38e (size before relaxing)
- .debug_str     0x000000000000103a      0x112 build/obj/chqueues.o
-                                        0x3f6 (size before relaxing)
- .debug_str     0x000000000000114c       0x70 build/obj/chmemcore.o
-                                        0x17f (size before relaxing)
- .debug_str     0x00000000000011bc       0x48 build/obj/chheap.o
-                                        0x34b (size before relaxing)
- .debug_str     0x0000000000001204       0x45 build/obj/chmempools.o
-                                        0x1b5 (size before relaxing)
- .debug_str     0x0000000000001249      0x27b build/obj/test.o
-                                        0x60a (size before relaxing)
- .debug_str     0x00000000000014c4       0x6d build/obj/testthd.o
-                                        0x478 (size before relaxing)
- .debug_str     0x0000000000001531       0xd6 build/obj/testsem.o
-                                        0x52e (size before relaxing)
- .debug_str     0x0000000000001607      0x194 build/obj/testmtx.o
-                                        0x632 (size before relaxing)
- .debug_str     0x000000000000179b       0x2b build/obj/testmsg.o
-                                        0x36b (size before relaxing)
- .debug_str     0x00000000000017c6       0x3f build/obj/testmbox.o
-                                        0x3d7 (size before relaxing)
- .debug_str     0x0000000000001805       0x7f build/obj/testevt.o
-                                        0x585 (size before relaxing)
- .debug_str     0x0000000000001884       0x44 build/obj/testheap.o
-                                        0x399 (size before relaxing)
- .debug_str     0x00000000000018c8       0x4c build/obj/testpools.o
-                                        0x1fe (size before relaxing)
- .debug_str     0x0000000000001914       0x86 build/obj/testdyn.o
-                                        0x54d (size before relaxing)
- .debug_str     0x000000000000199a       0x6c build/obj/testqueues.o
-                                        0x4cd (size before relaxing)
- .debug_str     0x0000000000001a06      0x179 build/obj/testbmk.o
-                                        0x6ac (size before relaxing)
- .debug_str     0x0000000000001b7f      0x130 build/obj/hal.o
-                                        0x24f (size before relaxing)
- .debug_str     0x0000000000001caf      0x25a build/obj/sdc.o
-                                        0x4d8 (size before relaxing)
- .debug_str     0x0000000000001f09      0x1c9 build/obj/serial.o
-                                        0x5e3 (size before relaxing)
- .debug_str     0x00000000000020d2       0x67 build/obj/tm.o
-                                        0x1d0 (size before relaxing)
- .debug_str     0x0000000000002139      0x57c build/obj/stm32_dma.o
-                                        0x6f4 (size before relaxing)
- .debug_str     0x00000000000026b5       0xbf build/obj/hal_lld.o
-                                        0x26d (size before relaxing)
- .debug_str     0x0000000000002774       0x6d build/obj/serial_lld.o
-                                        0x959 (size before relaxing)
- .debug_str     0x00000000000027e1      0x102 build/obj/sdc_lld.o
-                                        0xac6 (size before relaxing)
- .debug_str     0x00000000000028e3       0x88 build/obj/pal_lld.o
-                                        0x241 (size before relaxing)
- .debug_str     0x000000000000296b       0x2a build/obj/board.o
-                                        0x1b8 (size before relaxing)
- .debug_str     0x0000000000002995       0xd1 build/obj/diskio.o
-                                        0x409 (size before relaxing)
- .debug_str     0x0000000000002a66      0x405 build/obj/ff.o
-                                        0x59f (size before relaxing)
- .debug_str     0x0000000000002e6b      0x14c build/obj/shell.o
-                                        0x5bc (size before relaxing)
- .debug_str     0x0000000000002fb7       0x86 build/obj/chprintf.o
-                                        0x204 (size before relaxing)
- .debug_str     0x000000000000303d      0x11b build/obj/main.o
-                                        0xb64 (size before relaxing)
- .debug_str     0x0000000000003158       0xd1 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memcpy-stub.o)
+ .debug_str     0x000000000000304c      0x11b build/obj/main.o
+                                        0xb73 (size before relaxing)
+ .debug_str     0x0000000000003167       0xd1 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memcpy-stub.o)
                                         0x17d (size before relaxing)
- .debug_str     0x0000000000003229       0xb4 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcasecmp.o)
+ .debug_str     0x0000000000003238       0xb4 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcasecmp.o)
                                         0x15d (size before relaxing)
- .debug_str     0x00000000000032dd       0x4c /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strchr.o)
+ .debug_str     0x00000000000032ec       0x4c /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strchr.o)
                                         0x14f (size before relaxing)
- .debug_str     0x0000000000003329       0x47 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcpy.o)
+ .debug_str     0x0000000000003338       0x47 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcpy.o)
                                         0x14a (size before relaxing)
- .debug_str     0x0000000000003370       0x47 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strlen.o)
+ .debug_str     0x000000000000337f       0x47 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strlen.o)
                                         0x151 (size before relaxing)
- .debug_str     0x00000000000033b7       0x3f /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strspn.o)
+ .debug_str     0x00000000000033c6       0x3f /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strspn.o)
                                         0x144 (size before relaxing)
- .debug_str     0x00000000000033f6       0x9e /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-ctype_.o)
+ .debug_str     0x0000000000003405       0x9e /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-ctype_.o)
                                          0xc6 (size before relaxing)
 
 .comment        0x0000000000000000       0x11
@@ -2837,7 +2840,7 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_frame   0x0000000000002d48       0x20 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strlen.o)
  .debug_frame   0x0000000000002d68       0x2c /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strspn.o)
 
-.debug_loc      0x0000000000000000     0xeaa9
+.debug_loc      0x0000000000000000     0xea96
  .debug_loc     0x0000000000000000      0x10c build/obj/chcore_v7m.o
  .debug_loc     0x000000000000010c      0x1c9 build/obj/nvic.o
  .debug_loc     0x00000000000002d5       0x90 build/obj/chsys.o
@@ -2881,13 +2884,13 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_loc     0x0000000000008e62     0x3f74 build/obj/ff.o
  .debug_loc     0x000000000000cdd6      0x745 build/obj/shell.o
  .debug_loc     0x000000000000d51b      0x6c5 build/obj/chprintf.o
- .debug_loc     0x000000000000dbe0      0x90c build/obj/main.o
- .debug_loc     0x000000000000e4ec      0x20d /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memcpy-stub.o)
- .debug_loc     0x000000000000e6f9      0x12b /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcasecmp.o)
- .debug_loc     0x000000000000e824      0x139 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strchr.o)
- .debug_loc     0x000000000000e95d       0x21 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcpy.o)
- .debug_loc     0x000000000000e97e       0x21 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strlen.o)
- .debug_loc     0x000000000000e99f      0x10a /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strspn.o)
+ .debug_loc     0x000000000000dbe0      0x8f9 build/obj/main.o
+ .debug_loc     0x000000000000e4d9      0x20d /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memcpy-stub.o)
+ .debug_loc     0x000000000000e6e6      0x12b /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcasecmp.o)
+ .debug_loc     0x000000000000e811      0x139 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strchr.o)
+ .debug_loc     0x000000000000e94a       0x21 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcpy.o)
+ .debug_loc     0x000000000000e96b       0x21 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strlen.o)
+ .debug_loc     0x000000000000e98c      0x10a /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strspn.o)
 
 Cross Reference Table
 
@@ -3424,6 +3427,7 @@ dmaStreamAllocate                                 build/obj/stm32_dma.o
                                                   build/obj/sdc_lld.o
 dmaStreamRelease                                  build/obj/stm32_dma.o
                                                   build/obj/sdc_lld.o
+err                                               build/obj/main.o
 evtStart                                          build/obj/evtimer.o
 evtStop                                           build/obj/evtimer.o
 f_chmod                                           build/obj/ff.o

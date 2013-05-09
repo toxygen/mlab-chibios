@@ -1592,7 +1592,7 @@ destructors     0x0000000008000130        0x0
  *(SORT(.fini_array.*))
                 0x0000000008000130                PROVIDE (__fini_array_end, .)
 
-.text           0x0000000008000130     0x45d0
+.text           0x0000000008000130     0x45e0
  *(.text.startup.*)
  .text.startup.main
                 0x0000000008000130       0x70 build/obj/main.o
@@ -2038,137 +2038,137 @@ destructors     0x0000000008000130        0x0
  .text.microrl_insert_text
                 0x0000000008003810       0x80 build/obj/microrl.o
  .text.microrl_init
-                0x0000000008003890       0x60 build/obj/microrl.o
+                0x0000000008003890       0x70 build/obj/microrl.o
                 0x0000000008003890                microrl_init
  .text.microrl_set_complete_callback
-                0x00000000080038f0       0x10 build/obj/microrl.o
-                0x00000000080038f0                microrl_set_complete_callback
- .text.microrl_set_execute_callback
                 0x0000000008003900       0x10 build/obj/microrl.o
-                0x0000000008003900                microrl_set_execute_callback
- .text.microrl_set_sigint_callback
+                0x0000000008003900                microrl_set_complete_callback
+ .text.microrl_set_execute_callback
                 0x0000000008003910       0x10 build/obj/microrl.o
-                0x0000000008003910                microrl_set_sigint_callback
+                0x0000000008003910                microrl_set_execute_callback
+ .text.microrl_set_sigint_callback
+                0x0000000008003920       0x10 build/obj/microrl.o
+                0x0000000008003920                microrl_set_sigint_callback
  .text.new_line_handler
-                0x0000000008003920      0x140 build/obj/microrl.o
-                0x0000000008003920                new_line_handler
+                0x0000000008003930      0x140 build/obj/microrl.o
+                0x0000000008003930                new_line_handler
  .text.mlab_sigint
-                0x0000000008003a60       0x40 build/obj/microrl.o
-                0x0000000008003a60                mlab_sigint
+                0x0000000008003a70       0x40 build/obj/microrl.o
+                0x0000000008003a70                mlab_sigint
  .text.microrl_insert_char
-                0x0000000008003aa0      0x430 build/obj/microrl.o
-                0x0000000008003aa0                microrl_insert_char
- .text.Thread1  0x0000000008003ed0       0x40 build/obj/main.o
- .text.shell    0x0000000008003f10       0x20 build/obj/main.o
+                0x0000000008003ab0      0x430 build/obj/microrl.o
+                0x0000000008003ab0                microrl_insert_char
+ .text.Thread1  0x0000000008003ee0       0x40 build/obj/main.o
+ .text.shell    0x0000000008003f20       0x20 build/obj/main.o
  *(.rodata)
  *(.rodata.*)
  .rodata.str1.4
-                0x0000000008003f30        0x5 build/obj/chsys.o
+                0x0000000008003f40        0x5 build/obj/chsys.o
                                           0x8 (size before relaxing)
- *fill*         0x0000000008003f35        0xb 
+ *fill*         0x0000000008003f45        0xb 
  .rodata.str1.4
-                0x0000000008003f40       0x56 build/obj/chdebug.o
+                0x0000000008003f50       0x56 build/obj/chdebug.o
                                          0x58 (size before relaxing)
- *fill*         0x0000000008003f96        0xa 
+ *fill*         0x0000000008003fa6        0xa 
  .rodata.str1.4
-                0x0000000008003fa0       0x31 build/obj/chvt.o
+                0x0000000008003fb0       0x31 build/obj/chvt.o
                                          0x34 (size before relaxing)
- *fill*         0x0000000008003fd1        0xf 
+ *fill*         0x0000000008003fe1        0xf 
  .rodata.str1.4
-                0x0000000008003fe0       0x23 build/obj/chschd.o
+                0x0000000008003ff0       0x23 build/obj/chschd.o
                                          0x24 (size before relaxing)
- *fill*         0x0000000008004003        0xd 
+ *fill*         0x0000000008004013        0xd 
  .rodata.str1.4
-                0x0000000008004010       0x94 build/obj/chthreads.o
- *fill*         0x00000000080040a4        0xc 
+                0x0000000008004020       0x94 build/obj/chthreads.o
+ *fill*         0x00000000080040b4        0xc 
  .rodata.ch_debug
-                0x00000000080040b0       0x18 build/obj/chregistry.o
-                0x00000000080040b0                ch_debug
- *fill*         0x00000000080040c8        0x8 
+                0x00000000080040c0       0x18 build/obj/chregistry.o
+                0x00000000080040c0                ch_debug
+ *fill*         0x00000000080040d8        0x8 
  .rodata.str1.4
-                0x00000000080040d0       0xab build/obj/chmtx.o
+                0x00000000080040e0       0xab build/obj/chmtx.o
                                          0xac (size before relaxing)
- *fill*         0x000000000800417b        0x5 
+ *fill*         0x000000000800418b        0x5 
  .rodata.str1.4
-                0x0000000008004180       0x90 build/obj/chevents.o
+                0x0000000008004190       0x90 build/obj/chevents.o
  .rodata.str1.4
-                0x0000000008004210       0x29 build/obj/chqueues.o
+                0x0000000008004220       0x29 build/obj/chqueues.o
                                          0x2c (size before relaxing)
- *fill*         0x0000000008004239        0x7 
+ *fill*         0x0000000008004249        0x7 
  .rodata.str1.4
-                0x0000000008004240       0x5f build/obj/serial.o
+                0x0000000008004250       0x5f build/obj/serial.o
                                          0x60 (size before relaxing)
- *fill*         0x000000000800429f        0x1 
- .rodata.vmt    0x00000000080042a0       0x24 build/obj/serial.o
- *fill*         0x00000000080042c4        0xc 
- .rodata.zero_status
-                0x00000000080042d0        0x4 build/obj/usb.o
+ *fill*         0x00000000080042af        0x1 
+ .rodata.vmt    0x00000000080042b0       0x24 build/obj/serial.o
  *fill*         0x00000000080042d4        0xc 
- .rodata.active_status
+ .rodata.zero_status
                 0x00000000080042e0        0x4 build/obj/usb.o
  *fill*         0x00000000080042e4        0xc 
- .rodata.halted_status
+ .rodata.active_status
                 0x00000000080042f0        0x4 build/obj/usb.o
  *fill*         0x00000000080042f4        0xc 
+ .rodata.halted_status
+                0x0000000008004300        0x4 build/obj/usb.o
+ *fill*         0x0000000008004304        0xc 
  .rodata.default_config
-                0x0000000008004300        0xc build/obj/serial_lld.o
- *fill*         0x000000000800430c        0x4 
+                0x0000000008004310        0xc build/obj/serial_lld.o
+ *fill*         0x000000000800431c        0x4 
  .rodata.CSWTCH.16
-                0x0000000008004310       0x14 build/obj/usb_lld.o
- *fill*         0x0000000008004324        0xc 
+                0x0000000008004320       0x14 build/obj/usb_lld.o
+ *fill*         0x0000000008004334        0xc 
  .rodata.CSWTCH.10
-                0x0000000008004330        0x8 build/obj/usb_lld.o
- *fill*         0x0000000008004338        0x8 
+                0x0000000008004340        0x8 build/obj/usb_lld.o
+ *fill*         0x0000000008004348        0x8 
  .rodata.str1.4
-                0x0000000008004340        0xf build/obj/usb_lld.o
+                0x0000000008004350        0xf build/obj/usb_lld.o
                                          0x10 (size before relaxing)
- *fill*         0x000000000800434f        0x1 
+ *fill*         0x000000000800435f        0x1 
  .rodata.ep0config
-                0x0000000008004350       0x1c build/obj/usb_lld.o
- *fill*         0x000000000800436c        0x4 
+                0x0000000008004360       0x1c build/obj/usb_lld.o
+ *fill*         0x000000000800437c        0x4 
  .rodata.pal_default_config
-                0x0000000008004370       0x54 build/obj/board.o
-                0x0000000008004370                pal_default_config
- *fill*         0x00000000080043c4        0xc 
+                0x0000000008004380       0x54 build/obj/board.o
+                0x0000000008004380                pal_default_config
+ *fill*         0x00000000080043d4        0xc 
  .rodata.str1.4
-                0x00000000080043d0        0x7 build/obj/chprintf.o
+                0x00000000080043e0        0x7 build/obj/chprintf.o
                                           0x8 (size before relaxing)
- *fill*         0x00000000080043d7        0x9 
+ *fill*         0x00000000080043e7        0x9 
  .rodata.str1.4
-                0x00000000080043e0      0x2b5 build/obj/microshell2.o
+                0x00000000080043f0      0x2b5 build/obj/microshell2.o
                                         0x2bc (size before relaxing)
- *fill*         0x0000000008004695        0xb 
+ *fill*         0x00000000080046a5        0xb 
  .rodata.str1.4
-                0x00000000080046a0       0x43 build/obj/microrl.o
-                                         0x58 (size before relaxing)
- *fill*         0x00000000080046e3        0xd 
+                0x00000000080046b0       0x4c build/obj/microrl.o
+                                         0x60 (size before relaxing)
+ *fill*         0x00000000080046fc        0x4 
  .rodata.str1.4
-                0x00000000080046f0       0x10 build/obj/main.o
+                0x0000000008004700       0x10 build/obj/main.o
  *(.glue_7t)
  .glue_7t       0x0000000000000000        0x0 linker stubs
  *(.glue_7)
  .glue_7        0x0000000000000000        0x0 linker stubs
  *(.gcc*)
 
-.vfp11_veneer   0x0000000008004700        0x0
+.vfp11_veneer   0x0000000008004710        0x0
  .vfp11_veneer  0x0000000000000000        0x0 linker stubs
 
-.v4_bx          0x0000000008004700        0x0
+.v4_bx          0x0000000008004710        0x0
  .v4_bx         0x0000000000000000        0x0 linker stubs
 
-.iplt           0x0000000008004700        0x0
+.iplt           0x0000000008004710        0x0
  .iplt          0x0000000000000000        0x0 build/obj/crt0.o
 
-.rel.dyn        0x0000000008004700        0x0
+.rel.dyn        0x0000000008004710        0x0
  .rel.iplt      0x0000000000000000        0x0 build/obj/crt0.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM.exidx      0x0000000008004700        0x0
-                0x0000000008004700                PROVIDE (__exidx_start, .)
+.ARM.exidx      0x0000000008004710        0x0
+                0x0000000008004710                PROVIDE (__exidx_start, .)
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000000008004700                PROVIDE (__exidx_end, .)
+                0x0000000008004710                PROVIDE (__exidx_end, .)
 
 .eh_frame_hdr
  *(.eh_frame_hdr)
@@ -2176,10 +2176,10 @@ destructors     0x0000000008000130        0x0
 .eh_frame
  *(.eh_frame)
 
-.textalign      0x0000000008004700        0x0
-                0x0000000008004700                . = ALIGN (0x8)
-                0x0000000008004700                _etext = .
-                0x0000000008004700                _textdata = _etext
+.textalign      0x0000000008004710        0x0
+                0x0000000008004710                . = ALIGN (0x8)
+                0x0000000008004710                _etext = .
+                0x0000000008004710                _textdata = _etext
 
 .stacks         0x0000000020000000      0x800
                 0x0000000020000000                . = ALIGN (0x8)
@@ -2196,7 +2196,7 @@ destructors     0x0000000008000130        0x0
                 0x0000000020000800                __process_stack_end__ = .
                 0x0000000020000800                __main_thread_stack_end__ = .
 
-.data           0x0000000020000800       0x24 load address 0x0000000008004700
+.data           0x0000000020000800       0x24 load address 0x0000000008004710
                 0x0000000020000800                . = ALIGN (0x4)
                 0x0000000020000800                PROVIDE (_data, .)
  *(.data)
@@ -2216,10 +2216,10 @@ destructors     0x0000000008000130        0x0
                 0x0000000020000824                . = ALIGN (0x4)
                 0x0000000020000824                PROVIDE (_edata, .)
 
-.igot.plt       0x0000000020000824        0x0 load address 0x0000000008004724
+.igot.plt       0x0000000020000824        0x0 load address 0x0000000008004734
  .igot.plt      0x0000000000000000        0x0 build/obj/crt0.o
 
-.bss            0x0000000020000828     0x1068 load address 0x0000000008004728
+.bss            0x0000000020000828     0x1068 load address 0x0000000008004738
                 0x0000000020000828                . = ALIGN (0x4)
                 0x0000000020000828                PROVIDE (_bss_start, .)
  *(.bss)
@@ -2282,7 +2282,7 @@ destructors     0x0000000008000130        0x0
                 0x0000000020010000                __heap_end__ = __ram_end__
 OUTPUT(build/ch.elf elf32-littlearm)
 
-.debug_info     0x0000000000000000    0x13071
+.debug_info     0x0000000000000000    0x130a3
  .debug_info    0x0000000000000000      0x2b3 build/obj/crt0.o
  .debug_info    0x00000000000002b3      0x1e9 build/obj/vectors.o
  .debug_info    0x000000000000049c       0x93 build/obj/chcore.o
@@ -2311,19 +2311,19 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_info    0x000000000000eb23      0x1b6 build/obj/board.o
  .debug_info    0x000000000000ecd9      0x4a2 build/obj/chprintf.o
  .debug_info    0x000000000000f17b     0x1299 build/obj/microshell2.o
- .debug_info    0x0000000000010414     0x126e build/obj/microrl.o
- .debug_info    0x0000000000011682      0xc56 build/obj/main.o
- .debug_info    0x00000000000122d8      0x136 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memcpy-stub.o)
- .debug_info    0x000000000001240e      0x136 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memmove.o)
- .debug_info    0x0000000000012544      0x11c /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memset.o)
- .debug_info    0x0000000000012660      0x11b /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strchr.o)
- .debug_info    0x000000000001277b       0xf0 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcmp.o)
- .debug_info    0x000000000001286b       0xb9 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strlen.o)
- .debug_info    0x0000000000012924      0x507 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strstr.o)
- .debug_info    0x0000000000012e2b      0x12e /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memchr-stub.o)
- .debug_info    0x0000000000012f59      0x118 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memcmp.o)
+ .debug_info    0x0000000000010414     0x12a0 build/obj/microrl.o
+ .debug_info    0x00000000000116b4      0xc56 build/obj/main.o
+ .debug_info    0x000000000001230a      0x136 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memcpy-stub.o)
+ .debug_info    0x0000000000012440      0x136 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memmove.o)
+ .debug_info    0x0000000000012576      0x11c /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memset.o)
+ .debug_info    0x0000000000012692      0x11b /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strchr.o)
+ .debug_info    0x00000000000127ad       0xf0 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcmp.o)
+ .debug_info    0x000000000001289d       0xb9 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strlen.o)
+ .debug_info    0x0000000000012956      0x507 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strstr.o)
+ .debug_info    0x0000000000012e5d      0x12e /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memchr-stub.o)
+ .debug_info    0x0000000000012f8b      0x118 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memcmp.o)
 
-.debug_abbrev   0x0000000000000000     0x4843
+.debug_abbrev   0x0000000000000000     0x4835
  .debug_abbrev  0x0000000000000000       0xdc build/obj/crt0.o
  .debug_abbrev  0x00000000000000dc       0xb1 build/obj/vectors.o
  .debug_abbrev  0x000000000000018d       0x44 build/obj/chcore.o
@@ -2352,17 +2352,17 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_abbrev  0x0000000000003605       0xe5 build/obj/board.o
  .debug_abbrev  0x00000000000036ea      0x186 build/obj/chprintf.o
  .debug_abbrev  0x0000000000003870      0x2dc build/obj/microshell2.o
- .debug_abbrev  0x0000000000003b4c      0x41e build/obj/microrl.o
- .debug_abbrev  0x0000000000003f6a      0x23a build/obj/main.o
- .debug_abbrev  0x00000000000041a4       0xab /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memcpy-stub.o)
- .debug_abbrev  0x000000000000424f       0xab /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memmove.o)
- .debug_abbrev  0x00000000000042fa       0x9f /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memset.o)
- .debug_abbrev  0x0000000000004399       0x83 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strchr.o)
- .debug_abbrev  0x000000000000441c       0x8c /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcmp.o)
- .debug_abbrev  0x00000000000044a8       0x70 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strlen.o)
- .debug_abbrev  0x0000000000004518      0x1f2 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strstr.o)
- .debug_abbrev  0x000000000000470a       0xba /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memchr-stub.o)
- .debug_abbrev  0x00000000000047c4       0x7f /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memcmp.o)
+ .debug_abbrev  0x0000000000003b4c      0x410 build/obj/microrl.o
+ .debug_abbrev  0x0000000000003f5c      0x23a build/obj/main.o
+ .debug_abbrev  0x0000000000004196       0xab /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memcpy-stub.o)
+ .debug_abbrev  0x0000000000004241       0xab /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memmove.o)
+ .debug_abbrev  0x00000000000042ec       0x9f /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memset.o)
+ .debug_abbrev  0x000000000000438b       0x83 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strchr.o)
+ .debug_abbrev  0x000000000000440e       0x8c /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcmp.o)
+ .debug_abbrev  0x000000000000449a       0x70 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strlen.o)
+ .debug_abbrev  0x000000000000450a      0x1f2 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strstr.o)
+ .debug_abbrev  0x00000000000046fc       0xba /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memchr-stub.o)
+ .debug_abbrev  0x00000000000047b6       0x7f /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memcmp.o)
 
 .debug_aranges  0x0000000000000000      0xac0
  .debug_aranges
@@ -2477,7 +2477,7 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_ranges  0x00000000000011d0       0x20 build/obj/main.o
  .debug_ranges  0x00000000000011f0       0x90 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strstr.o)
 
-.debug_line     0x0000000000000000     0x60c7
+.debug_line     0x0000000000000000     0x60ce
  .debug_line    0x0000000000000000      0x153 build/obj/crt0.o
  .debug_line    0x0000000000000153       0xdd build/obj/vectors.o
  .debug_line    0x0000000000000230       0x53 build/obj/chcore.o
@@ -2506,17 +2506,17 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_line    0x00000000000042da      0x181 build/obj/board.o
  .debug_line    0x000000000000445b      0x2de build/obj/chprintf.o
  .debug_line    0x0000000000004739      0x3a7 build/obj/microshell2.o
- .debug_line    0x0000000000004ae0      0x4a9 build/obj/microrl.o
- .debug_line    0x0000000000004f89      0x319 build/obj/main.o
- .debug_line    0x00000000000052a2      0x1ab /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memcpy-stub.o)
- .debug_line    0x000000000000544d      0x1ae /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memmove.o)
- .debug_line    0x00000000000055fb      0x176 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memset.o)
- .debug_line    0x0000000000005771      0x150 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strchr.o)
- .debug_line    0x00000000000058c1       0xd2 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcmp.o)
- .debug_line    0x0000000000005993      0x120 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strlen.o)
- .debug_line    0x0000000000005ab3      0x341 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strstr.o)
- .debug_line    0x0000000000005df4      0x179 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memchr-stub.o)
- .debug_line    0x0000000000005f6d      0x15a /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memcmp.o)
+ .debug_line    0x0000000000004ae0      0x4b0 build/obj/microrl.o
+ .debug_line    0x0000000000004f90      0x319 build/obj/main.o
+ .debug_line    0x00000000000052a9      0x1ab /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memcpy-stub.o)
+ .debug_line    0x0000000000005454      0x1ae /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memmove.o)
+ .debug_line    0x0000000000005602      0x176 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memset.o)
+ .debug_line    0x0000000000005778      0x150 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strchr.o)
+ .debug_line    0x00000000000058c8       0xd2 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strcmp.o)
+ .debug_line    0x000000000000599a      0x120 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strlen.o)
+ .debug_line    0x0000000000005aba      0x341 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-strstr.o)
+ .debug_line    0x0000000000005dfb      0x179 /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memchr-stub.o)
+ .debug_line    0x0000000000005f74      0x15a /Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb/v7m/libc.a(lib_a-memcmp.o)
 
 .debug_str      0x0000000000000000     0x2a92
  .debug_str     0x0000000000000000      0x201 build/obj/crt0.o

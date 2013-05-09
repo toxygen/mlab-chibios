@@ -41,6 +41,8 @@ const PALConfig pal_default_config =
   {VAL_GPIOCODR, VAL_GPIOCCRL, VAL_GPIOCCRH},
   {VAL_GPIODODR, VAL_GPIODCRL, VAL_GPIODCRH},
   {VAL_GPIOEODR, VAL_GPIOECRL, VAL_GPIOECRH},
+  { 0, 0, 0 },
+  { 0, 0, 0 }
 };
 #endif
 

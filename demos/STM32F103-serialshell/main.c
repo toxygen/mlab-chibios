@@ -4,6 +4,8 @@
 #include <hal.h>
 #include "microshell2.h"
 
+#include <chprintf.h>
+
 /*===========================================================================*/
 /* Generic code.                                                             */
 /*===========================================================================*/
@@ -41,7 +43,7 @@ int main(void) {
 	sdStart(&SD2, NULL);
 	
 	chThdCreateStatic(waThread1, sizeof(waThread1), NORMALPRIO, Thread1, NULL);
-
+	
 	while (TRUE) {
 		if (!shelltp)
 		{

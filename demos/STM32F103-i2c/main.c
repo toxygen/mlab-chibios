@@ -45,7 +45,7 @@ int tried = 0;
 /*===========================================================================*/
 
 #define SHELL_WA_SIZE   THD_WA_SIZE(2048)
-#define TEST_WA_SIZE    THD_WA_SIZE(256)
+#define TEST_WA_SIZE    THD_WA_SIZE(2560)
 
 static void cmd_mem(BaseChannel *chp, int argc, char *argv[])
 {

@@ -320,6 +320,7 @@ void microrl_init (microrl_t * this, void (*print) (const char *))
 	this->prompt_str = prompt_default;
 	this->print = print;
 #ifdef _ENABLE_INIT_PROMPT
+	this->print(ENDL);
 	print_prompt (this);
 #endif
 }
