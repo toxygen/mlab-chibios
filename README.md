@@ -25,3 +25,6 @@ Mac: "tty.usbserial-A4009ctC" is created by virtual com driver and has most prob
 
 Linux: the device is named differently, i.e. /dev/ttyS0.
 
+## License
+
+Everything in this repository is GNU GPL v3 licensed.
