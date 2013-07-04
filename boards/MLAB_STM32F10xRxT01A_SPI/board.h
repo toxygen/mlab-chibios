@@ -53,14 +53,15 @@
  * IO pins assignments.
  */
 
-//#define GPIOA_SPI1NSS           4
-//#define GPIOB_SPI2NSS           12
-
 #define GPIOB_LED1              7 	/* PB7 */
 #define GPIOB_LED2              8	/* PB8 */
 
 #define GPIOB_SD_PROTECT	4	/* PB4 */
 #define GPIOB_SD_DETECT		5	/* PB5 */
+
+#define GPIOB_SPI2NSS           12
+#define GPIOC_MMCCP		7
+#define GPIOC_MMCWP		6
 
 /*
  * I/O ports initial setup, this configuration is established soon after reset
@@ -102,15 +103,13 @@
 /*
  * Port B setup.
  * Everything input with pull-up except:
- * PB4 - Digital input (SD card).
- * PB5 - Digital input (SD card).
- * PB7 - Push Pull output (LED).
- * PB8 - Push Pull output (LED).
- * PB10 - Push Pull output (I2C2 SCL)
- * PB11 - Push Pull output (I2C2 SDA)
+ * PB13 - Alternate output  (MMC SPI2 SCK).
+ * PB14 - Normal input      (MMC SPI2 MISO).
+ * PB15 - Alternate output  (MMC SPI2 MOSI).
  */
+
 #define VAL_GPIOBCRL            0x38448888      /*  PB7...PB0 */
-#define VAL_GPIOBCRH            0x8888AA83      /* PB15...PB8 */
+#define VAL_GPIOBCRH            0xB4B8AA83      /* PB15...PB8 */
 #define VAL_GPIOBODR            0xFFFFFFFF
 
 /*
@@ -122,7 +121,7 @@
  * PC11	- (SD DAT3)
  * PC12	- (SD CLK)
  */
-#define VAL_GPIOCCRL            0x88888888      /*  PC7...PC0 */
+#define VAL_GPIOCCRL            0x44888888      /*  PC7...PC0 */
 #define VAL_GPIOCCRH            0x888BBBBB      /* PC15...PC8 */
 #define VAL_GPIOCODR            0xFFFFFFFF
 
@@ -148,14 +147,12 @@
 /*
  * USB bus activation macro, required by the USB driver.
  */
-#define usb_lld_connect_bus(usbp) 
-/*define usb_lld_connect_bus(usbp) palClearPad(GPIOC, GPIOC_USB_DISC) */
+#define usb_lld_connect_bus(usbp) palClearPad(GPIOC, GPIOC_USB_DISC)
 
 /*
  * USB bus de-activation macro, required by the USB driver.
  */
-#define usb_lld_disconnect_bus(usbp) 
-/*define usb_lld_disconnect_bus(usbp) palSetPad(GPIOC, GPIOC_USB_DISC) */
+#define usb_lld_disconnect_bus(usbp) palSetPad(GPIOC, GPIOC_USB_DISC)
 
 #if !defined(_FROM_ASM_)
 #ifdef __cplusplus
