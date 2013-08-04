@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccx85bzQ.s 			page 1
+ARM GAS  /tmp/ccDSe7T4.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccx85bzQ.s 			page 1
   52              		.cfi_endproc
   53              	.LFE8:
   54              		.size	__late_init, .-__late_init
-ARM GAS  /tmp/ccx85bzQ.s 			page 2
+ARM GAS  /tmp/ccDSe7T4.s 			page 2
 
 
   55 0002 00BFAFF3 		.section	.text._default_exit,"ax",%progbits
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccx85bzQ.s 			page 1
  103 0008 0223     		movs	r3, #2
  104              	@ 282 "../../os/ports/GCC/ARMCMx/crt0.c" 1
  105 000a 83F31488 		msr     CONTROL, r3
-ARM GAS  /tmp/ccx85bzQ.s 			page 3
+ARM GAS  /tmp/ccDSe7T4.s 			page 3
 
 
  106              	@ 0 "" 2
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccx85bzQ.s 			page 1
  160              		.loc 1 254 0
  161 0052 5449     		ldr	r1, .L68+16
  162 0054 041D     		adds	r4, r0, #4
-ARM GAS  /tmp/ccx85bzQ.s 			page 4
+ARM GAS  /tmp/ccDSe7T4.s 			page 4
 
 
  163 0056 0A1B     		subs	r2, r1, r4
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccx85bzQ.s 			page 1
  217 00a4 0D60     		str	r5, [r1, #0]
  218              	.LVL7:
  219 00a6 C2F38002 		ubfx	r2, r2, #2, #1
-ARM GAS  /tmp/ccx85bzQ.s 			page 5
+ARM GAS  /tmp/ccDSe7T4.s 			page 5
 
 
  220              		.loc 1 305 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccx85bzQ.s 			page 1
  274 00ee 2346     		mov	r3, r4
  275 00f0 2160     		str	r1, [r4, #0]
  276 00f2 05D0     		beq	.L15
-ARM GAS  /tmp/ccx85bzQ.s 			page 6
+ARM GAS  /tmp/ccDSe7T4.s 			page 6
 
 
  277              	.L19:
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccx85bzQ.s 			page 1
  331 013a 0234     		adds	r4, r4, #2
  332 013c A868     		ldr	r0, [r5, #8]
  333 013e 2E1D     		adds	r6, r5, #4
-ARM GAS  /tmp/ccx85bzQ.s 			page 7
+ARM GAS  /tmp/ccDSe7T4.s 			page 7
 
 
  334 0140 8047     		blx	r0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccx85bzQ.s 			page 1
  388              	.LVL19:
  389 018a 0835     		adds	r5, r5, #8
  390              		.loc 1 336 0
-ARM GAS  /tmp/ccx85bzQ.s 			page 8
+ARM GAS  /tmp/ccDSe7T4.s 			page 8
 
 
  391 018c BC42     		cmp	r4, r7
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccx85bzQ.s 			page 1
  445 0037 03       		.uleb128 0x3
  446 0038 01       		.byte	0x1
  447 0039 06       		.byte	0x6
-ARM GAS  /tmp/ccx85bzQ.s 			page 9
+ARM GAS  /tmp/ccDSe7T4.s 			page 9
 
 
  448 003a 10020000 		.4byte	.LASF1
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccx85bzQ.s 			page 1
  502 00a0 A4000000 		.4byte	0xa4
  503 00a4 06       		.uleb128 0x6
  504 00a5 01       		.byte	0x1
-ARM GAS  /tmp/ccx85bzQ.s 			page 10
+ARM GAS  /tmp/ccDSe7T4.s 			page 10
 
 
  505 00a6 04       		.uleb128 0x4
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccx85bzQ.s 			page 1
  559 0109 00       		.sleb128 0
  560 010a 01       		.byte	0x1
  561 010b F9010000 		.4byte	0x1f9
-ARM GAS  /tmp/ccx85bzQ.s 			page 11
+ARM GAS  /tmp/ccDSe7T4.s 			page 11
 
 
  562 010f 09       		.uleb128 0x9
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccx85bzQ.s 			page 1
  616 0187 00       		.byte	0
  617 0188 0B       		.uleb128 0xb
  618 0189 58000000 		.4byte	.Ldebug_ranges0+0x58
-ARM GAS  /tmp/ccx85bzQ.s 			page 12
+ARM GAS  /tmp/ccDSe7T4.s 			page 12
 
 
  619 018d A8010000 		.4byte	0x1a8
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccx85bzQ.s 			page 1
  673 020d 45020000 		.4byte	.LASF19
  674 0211 01       		.byte	0x1
  675 0212 85       		.byte	0x85
-ARM GAS  /tmp/ccx85bzQ.s 			page 13
+ARM GAS  /tmp/ccDSe7T4.s 			page 13
 
 
  676 0213 65000000 		.4byte	0x65
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccx85bzQ.s 			page 1
  730 0279 01       		.byte	0x1
  731 027a B7       		.byte	0xb7
  732 027b 93000000 		.4byte	0x93
-ARM GAS  /tmp/ccx85bzQ.s 			page 14
+ARM GAS  /tmp/ccDSe7T4.s 			page 14
 
 
  733 027f 01       		.byte	0x1
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccx85bzQ.s 			page 1
  787 0015 02       		.uleb128 0x2
  788 0016 24       		.uleb128 0x24
  789 0017 00       		.byte	0
-ARM GAS  /tmp/ccx85bzQ.s 			page 15
+ARM GAS  /tmp/ccDSe7T4.s 			page 15
 
 
  790 0018 0B       		.uleb128 0xb
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccx85bzQ.s 			page 1
  844 004e 0E       		.uleb128 0xe
  845 004f 3A       		.uleb128 0x3a
  846 0050 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccx85bzQ.s 			page 16
+ARM GAS  /tmp/ccDSe7T4.s 			page 16
 
 
  847 0051 3B       		.uleb128 0x3b
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccx85bzQ.s 			page 1
  901 0089 0A       		.uleb128 0xa
  902 008a 34       		.uleb128 0x34
  903 008b 00       		.byte	0
-ARM GAS  /tmp/ccx85bzQ.s 			page 17
+ARM GAS  /tmp/ccDSe7T4.s 			page 17
 
 
  904 008c 03       		.uleb128 0x3
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccx85bzQ.s 			page 1
  958 00c4 3F       		.uleb128 0x3f
  959 00c5 0C       		.uleb128 0xc
  960 00c6 3C       		.uleb128 0x3c
-ARM GAS  /tmp/ccx85bzQ.s 			page 18
+ARM GAS  /tmp/ccDSe7T4.s 			page 18
 
 
  961 00c7 0C       		.uleb128 0xc
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccx85bzQ.s 			page 1
  1015 0034 00000000 		.4byte	0
  1016 0038 52000000 		.4byte	.LBB6
  1017 003c 60000000 		.4byte	.LBE6
-ARM GAS  /tmp/ccx85bzQ.s 			page 19
+ARM GAS  /tmp/ccDSe7T4.s 			page 19
 
 
  1018 0040 88000000 		.4byte	.LBB8
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccx85bzQ.s 			page 1
  1065              	.LASF30:
  1066 0012 5F5F6669 		.ascii	"__fini_array_end\000"
  1066      6E695F61 
-ARM GAS  /tmp/ccx85bzQ.s 			page 20
+ARM GAS  /tmp/ccDSe7T4.s 			page 20
 
 
  1066      72726179 
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccx85bzQ.s 			page 1
  1086      5F656E64 
  1086      00
  1087              	.LASF8:
-ARM GAS  /tmp/ccx85bzQ.s 			page 21
+ARM GAS  /tmp/ccDSe7T4.s 			page 21
 
 
  1088 00d0 6C6F6E67 		.ascii	"long unsigned int\000"
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccx85bzQ.s 			page 1
  1109      7400
  1110              	.LASF12:
  1111 0193 63686172 		.ascii	"char\000"
-ARM GAS  /tmp/ccx85bzQ.s 			page 22
+ARM GAS  /tmp/ccDSe7T4.s 			page 22
 
 
  1111      00
@@ -1317,22 +1317,22 @@ ARM GAS  /tmp/ccx85bzQ.s 			page 1
  1134      5F656E64 
  1134      5F5F00
  1135              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.7.4 20130613 (release) [ARM/embedded-4_7-br
-ARM GAS  /tmp/ccx85bzQ.s 			page 23
+ARM GAS  /tmp/ccDSe7T4.s 			page 23
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 crt0.c
-     /tmp/ccx85bzQ.s:19     .text.__early_init:00000000 $t
-     /tmp/ccx85bzQ.s:25     .text.__early_init:00000000 __early_init
-     /tmp/ccx85bzQ.s:38     .text.__late_init:00000000 $t
-     /tmp/ccx85bzQ.s:44     .text.__late_init:00000000 __late_init
-     /tmp/ccx85bzQ.s:56     .text._default_exit:00000000 $t
-     /tmp/ccx85bzQ.s:62     .text._default_exit:00000000 _default_exit
-     /tmp/ccx85bzQ.s:75     .text.ResetHandler:00000000 $t
-     /tmp/ccx85bzQ.s:81     .text.ResetHandler:00000000 ResetHandler
-     /tmp/ccx85bzQ.s:402    .text.ResetHandler:00000194 $d
+     /tmp/ccDSe7T4.s:19     .text.__early_init:00000000 $t
+     /tmp/ccDSe7T4.s:25     .text.__early_init:00000000 __early_init
+     /tmp/ccDSe7T4.s:38     .text.__late_init:00000000 $t
+     /tmp/ccDSe7T4.s:44     .text.__late_init:00000000 __late_init
+     /tmp/ccDSe7T4.s:56     .text._default_exit:00000000 $t
+     /tmp/ccDSe7T4.s:62     .text._default_exit:00000000 _default_exit
+     /tmp/ccDSe7T4.s:75     .text.ResetHandler:00000000 $t
+     /tmp/ccDSe7T4.s:81     .text.ResetHandler:00000000 ResetHandler
+     /tmp/ccDSe7T4.s:402    .text.ResetHandler:00000194 $d
                      .debug_frame:00000010 $d
-     /tmp/ccx85bzQ.s:419    .text.ResetHandler:000001cc $t
+     /tmp/ccDSe7T4.s:419    .text.ResetHandler:000001cc $t
 
 UNDEFINED SYMBOLS
 main

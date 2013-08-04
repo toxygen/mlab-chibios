@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccd3I1K1.s 			page 1
+ARM GAS  /tmp/ccoupLTd.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
   55              		.size	_heap_init, .-_heap_init
   56              		.section	.text.chHeapInit,"ax",%progbits
   57              		.align	2
-ARM GAS  /tmp/ccd3I1K1.s 			page 2
+ARM GAS  /tmp/ccoupLTd.s 			page 2
 
 
   58              		.p2align 4,,15
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  112 0024 85E84800 		stmia	r5, {r3, r6}
  113              		.loc 1 114 0
  114 0028 BDE87040 		pop	{r4, r5, r6, lr}
-ARM GAS  /tmp/ccd3I1K1.s 			page 3
+ARM GAS  /tmp/ccoupLTd.s 			page 3
 
 
  115              		.loc 1 110 0
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  167 0018 FFF7FEFF 		bl	chMtxLock
  168              	.LVL13:
  169              		.loc 1 142 0
-ARM GAS  /tmp/ccd3I1K1.s 			page 4
+ARM GAS  /tmp/ccoupLTd.s 			page 4
 
 
  170 001c 00E0     		b	.L13
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  224 005a 2160     		str	r1, [r4, #0]
  225 005c F5E7     		b	.L15
  226              	.L25:
-ARM GAS  /tmp/ccd3I1K1.s 			page 5
+ARM GAS  /tmp/ccoupLTd.s 			page 5
 
 
  227              		.loc 1 167 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  279              		.cfi_def_cfa_offset 24
  280              		.cfi_offset 3, -24
  281              		.cfi_offset 4, -20
-ARM GAS  /tmp/ccd3I1K1.s 			page 6
+ARM GAS  /tmp/ccoupLTd.s 			page 6
 
 
  282              		.cfi_offset 5, -16
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  336              		.loc 1 229 0
  337 003c EEE7     		b	.L38
  338              	.LVL35:
-ARM GAS  /tmp/ccd3I1K1.s 			page 7
+ARM GAS  /tmp/ccoupLTd.s 			page 7
 
 
  339              	.L34:
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  393              		.loc 1 223 0
  394 0096 4318     		adds	r3, r0, r1
  395 0098 0833     		adds	r3, r3, #8
-ARM GAS  /tmp/ccd3I1K1.s 			page 8
+ARM GAS  /tmp/ccoupLTd.s 			page 8
 
 
  396              		.loc 1 224 0
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  450 0014 A368     		ldr	r3, [r4, #8]
  451 0016 6BB1     		cbz	r3, .L54
  452 0018 0022     		movs	r2, #0
-ARM GAS  /tmp/ccd3I1K1.s 			page 9
+ARM GAS  /tmp/ccoupLTd.s 			page 9
 
 
  453 001a 1446     		mov	r4, r2
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  501      282900
  502 001f 00       		.space	1
  503              	.LC2:
-ARM GAS  /tmp/ccd3I1K1.s 			page 10
+ARM GAS  /tmp/ccoupLTd.s 			page 10
 
 
  504 0020 63684865 		.ascii	"chHeapFree(), #1\000"
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  550 003d 07       		.byte	0x7
  551 003e 11010000 		.4byte	.LASF0
  552 0042 04       		.uleb128 0x4
-ARM GAS  /tmp/ccd3I1K1.s 			page 11
+ARM GAS  /tmp/ccoupLTd.s 			page 11
 
 
  553 0043 01       		.byte	0x1
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  607 00ac 2F       		.byte	0x2f
  608 00ad 49000000 		.4byte	0x49
  609 00b1 03       		.uleb128 0x3
-ARM GAS  /tmp/ccd3I1K1.s 			page 12
+ARM GAS  /tmp/ccoupLTd.s 			page 12
 
 
  610 00b2 E6000000 		.4byte	.LASF15
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  664 0124 23       		.byte	0x23
  665 0125 04       		.uleb128 0x4
  666 0126 06       		.uleb128 0x6
-ARM GAS  /tmp/ccd3I1K1.s 			page 13
+ARM GAS  /tmp/ccoupLTd.s 			page 13
 
 
  667 0127 7E000000 		.4byte	.LASF24
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  721 0187 20       		.uleb128 0x20
  722 0188 06       		.uleb128 0x6
  723 0189 AB020000 		.4byte	.LASF31
-ARM GAS  /tmp/ccd3I1K1.s 			page 14
+ARM GAS  /tmp/ccoupLTd.s 			page 14
 
 
  724 018d 06       		.byte	0x6
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  778 01ea 06       		.uleb128 0x6
  779 01eb C6020000 		.4byte	.LASF37
  780 01ef 06       		.byte	0x6
-ARM GAS  /tmp/ccd3I1K1.s 			page 15
+ARM GAS  /tmp/ccoupLTd.s 			page 15
 
 
  781 01f0 C3       		.byte	0xc3
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  835 024a F3000000 		.4byte	0xf3
  836 024e 03       		.uleb128 0x3
  837 024f EB010000 		.4byte	.LASF41
-ARM GAS  /tmp/ccd3I1K1.s 			page 16
+ARM GAS  /tmp/ccoupLTd.s 			page 16
 
 
  838 0253 05       		.byte	0x5
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  892 02b9 23       		.byte	0x23
  893 02ba 04       		.uleb128 0x4
  894 02bb 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccd3I1K1.s 			page 17
+ARM GAS  /tmp/ccoupLTd.s 			page 17
 
 
  895 02bc 723600   		.ascii	"r6\000"
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  949 031e 20       		.uleb128 0x20
  950 031f 00       		.byte	0
  951 0320 0C       		.uleb128 0xc
-ARM GAS  /tmp/ccd3I1K1.s 			page 18
+ARM GAS  /tmp/ccoupLTd.s 			page 18
 
 
  952 0321 30010000 		.4byte	.LASF46
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  1006 0386 09       		.uleb128 0x9
  1007 0387 04       		.byte	0x4
  1008 0388 4F030000 		.4byte	0x34f
-ARM GAS  /tmp/ccd3I1K1.s 			page 19
+ARM GAS  /tmp/ccoupLTd.s 			page 19
 
 
  1009 038c 03       		.uleb128 0x3
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  1063 03f8 10       		.uleb128 0x10
  1064 03f9 00       		.byte	0
  1065 03fa 10       		.uleb128 0x10
-ARM GAS  /tmp/ccd3I1K1.s 			page 20
+ARM GAS  /tmp/ccoupLTd.s 			page 20
 
 
  1066 03fb 04       		.byte	0x4
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  1120 0460 40       		.byte	0x40
  1121 0461 30000000 		.4byte	0x30
  1122 0465 02       		.byte	0x2
-ARM GAS  /tmp/ccd3I1K1.s 			page 21
+ARM GAS  /tmp/ccoupLTd.s 			page 21
 
 
  1123 0466 23       		.byte	0x23
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  1177 04cf 00       		.sleb128 0
  1178 04d0 01       		.byte	0x1
  1179 04d1 EA040000 		.4byte	0x4ea
-ARM GAS  /tmp/ccd3I1K1.s 			page 22
+ARM GAS  /tmp/ccoupLTd.s 			page 22
 
 
  1180 04d5 16       		.uleb128 0x16
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  1234 054c 50       		.byte	0x50
  1235 054d 05       		.byte	0x5
  1236 054e 03       		.byte	0x3
-ARM GAS  /tmp/ccd3I1K1.s 			page 23
+ARM GAS  /tmp/ccoupLTd.s 			page 23
 
 
  1237 054f 00000000 		.4byte	.LC0
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  1291 05c4 3A040000 		.4byte	0x43a
  1292 05c8 68010000 		.4byte	.LLST9
  1293 05cc 1C       		.uleb128 0x1c
-ARM GAS  /tmp/ccd3I1K1.s 			page 24
+ARM GAS  /tmp/ccoupLTd.s 			page 24
 
 
  1294 05cd 1C000000 		.4byte	.LVL13
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  1348 063e 03020000 		.4byte	.LLST13
  1349 0642 21       		.uleb128 0x21
  1350 0643 5C000000 		.4byte	.LASF69
-ARM GAS  /tmp/ccd3I1K1.s 			page 25
+ARM GAS  /tmp/ccoupLTd.s 			page 25
 
 
  1351 0647 01       		.byte	0x1
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  1405 06b9 5C000000 		.4byte	.LASF69
  1406 06bd 01       		.byte	0x1
  1407 06be FA       		.byte	0xfa
-ARM GAS  /tmp/ccd3I1K1.s 			page 26
+ARM GAS  /tmp/ccoupLTd.s 			page 26
 
 
  1408 06bf 40040000 		.4byte	0x440
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  1462 0736 33030000 		.4byte	.LASF75
  1463 073a 08       		.byte	0x8
  1464 073b 38       		.byte	0x38
-ARM GAS  /tmp/ccd3I1K1.s 			page 27
+ARM GAS  /tmp/ccoupLTd.s 			page 27
 
 
  1465 073c 01       		.byte	0x1
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  1519 000c 06       		.uleb128 0x6
  1520 000d 11       		.uleb128 0x11
  1521 000e 01       		.uleb128 0x1
-ARM GAS  /tmp/ccd3I1K1.s 			page 28
+ARM GAS  /tmp/ccoupLTd.s 			page 28
 
 
  1522 000f 52       		.uleb128 0x52
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  1576 0045 00       		.byte	0
  1577 0046 00       		.byte	0
  1578 0047 06       		.uleb128 0x6
-ARM GAS  /tmp/ccd3I1K1.s 			page 29
+ARM GAS  /tmp/ccoupLTd.s 			page 29
 
 
  1579 0048 0D       		.uleb128 0xd
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  1633 007e 0B       		.uleb128 0xb
  1634 007f 0B       		.uleb128 0xb
  1635 0080 00       		.byte	0
-ARM GAS  /tmp/ccd3I1K1.s 			page 30
+ARM GAS  /tmp/ccoupLTd.s 			page 30
 
 
  1636 0081 00       		.byte	0
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  1690 00b7 00       		.byte	0
  1691 00b8 00       		.byte	0
  1692 00b9 10       		.uleb128 0x10
-ARM GAS  /tmp/ccd3I1K1.s 			page 31
+ARM GAS  /tmp/ccoupLTd.s 			page 31
 
 
  1693 00ba 17       		.uleb128 0x17
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  1747 00f0 26       		.uleb128 0x26
  1748 00f1 00       		.byte	0
  1749 00f2 49       		.uleb128 0x49
-ARM GAS  /tmp/ccd3I1K1.s 			page 32
+ARM GAS  /tmp/ccoupLTd.s 			page 32
 
 
  1750 00f3 13       		.uleb128 0x13
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  1804 0130 0E       		.uleb128 0xe
  1805 0131 3A       		.uleb128 0x3a
  1806 0132 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccd3I1K1.s 			page 33
+ARM GAS  /tmp/ccoupLTd.s 			page 33
 
 
  1807 0133 3B       		.uleb128 0x3b
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  1861 016a 0B       		.uleb128 0xb
  1862 016b 49       		.uleb128 0x49
  1863 016c 13       		.uleb128 0x13
-ARM GAS  /tmp/ccd3I1K1.s 			page 34
+ARM GAS  /tmp/ccoupLTd.s 			page 34
 
 
  1864 016d 02       		.uleb128 0x2
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  1918 01a6 06       		.uleb128 0x6
  1919 01a7 00       		.byte	0
  1920 01a8 00       		.byte	0
-ARM GAS  /tmp/ccd3I1K1.s 			page 35
+ARM GAS  /tmp/ccoupLTd.s 			page 35
 
 
  1921 01a9 1F       		.uleb128 0x1f
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  1975 01e8 03       		.uleb128 0x3
  1976 01e9 0E       		.uleb128 0xe
  1977 01ea 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccd3I1K1.s 			page 36
+ARM GAS  /tmp/ccoupLTd.s 			page 36
 
 
  1978 01eb 0B       		.uleb128 0xb
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  2032 000a 7D       		.byte	0x7d
  2033 000b 00       		.sleb128 0
  2034 000c 02000000 		.4byte	.LCFI0
-ARM GAS  /tmp/ccd3I1K1.s 			page 37
+ARM GAS  /tmp/ccoupLTd.s 			page 37
 
 
  2035 0010 34000000 		.4byte	.LFE8
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  2089 009d 7D       		.byte	0x7d
  2090 009e 18       		.sleb128 24
  2091 009f 00000000 		.4byte	0
-ARM GAS  /tmp/ccd3I1K1.s 			page 38
+ARM GAS  /tmp/ccoupLTd.s 			page 38
 
 
  2092 00a3 00000000 		.4byte	0
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  2146 012f 0100     		.2byte	0x1
  2147 0131 53       		.byte	0x53
  2148 0132 53000000 		.4byte	.LVL20-1
-ARM GAS  /tmp/ccd3I1K1.s 			page 39
+ARM GAS  /tmp/ccoupLTd.s 			page 39
 
 
  2149 0136 54000000 		.4byte	.LVL20
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  2203 01c4 0100     		.2byte	0x1
  2204 01c6 57       		.byte	0x57
  2205 01c7 00000000 		.4byte	0
-ARM GAS  /tmp/ccd3I1K1.s 			page 40
+ARM GAS  /tmp/ccoupLTd.s 			page 40
 
 
  2206 01cb 00000000 		.4byte	0
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  2260 0256 00000000 		.4byte	.LVL41
  2261 025a 10000000 		.4byte	.LVL42
  2262 025e 0100     		.2byte	0x1
-ARM GAS  /tmp/ccd3I1K1.s 			page 41
+ARM GAS  /tmp/ccoupLTd.s 			page 41
 
 
  2263 0260 50       		.byte	0x50
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  2317 02dc 0200     		.2byte	0x2
  2318 02de 30       		.byte	0x30
  2319 02df 9F       		.byte	0x9f
-ARM GAS  /tmp/ccd3I1K1.s 			page 42
+ARM GAS  /tmp/ccoupLTd.s 			page 42
 
 
  2320 02e0 00000000 		.4byte	0
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  2374              	.Ldebug_line0:
  2375 0000 70020000 		.section	.debug_str,"MS",%progbits,1
  2375      02006301 
-ARM GAS  /tmp/ccd3I1K1.s 			page 43
+ARM GAS  /tmp/ccoupLTd.s 			page 43
 
 
  2375      00000201 
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  2403      696F00
  2404              	.LASF11:
  2405 0085 6C6F6E67 		.ascii	"long long int\000"
-ARM GAS  /tmp/ccd3I1K1.s 			page 44
+ARM GAS  /tmp/ccoupLTd.s 			page 44
 
 
  2405      206C6F6E 
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  2433 011e 6C6F6E67 		.ascii	"long unsigned int\000"
  2433      20756E73 
  2433      69676E65 
-ARM GAS  /tmp/ccd3I1K1.s 			page 45
+ARM GAS  /tmp/ccoupLTd.s 			page 45
 
 
  2433      6420696E 
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  2459              	.LASF27:
  2460 01e3 705F6F6C 		.ascii	"p_older\000"
  2460      64657200 
-ARM GAS  /tmp/ccd3I1K1.s 			page 46
+ARM GAS  /tmp/ccoupLTd.s 			page 46
 
 
  2461              	.LASF41:
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  2489 029d 65776D61 		.ascii	"ewmask\000"
  2489      736B00
  2490              	.LASF22:
-ARM GAS  /tmp/ccd3I1K1.s 			page 47
+ARM GAS  /tmp/ccoupLTd.s 			page 47
 
 
  2491 02a4 705F6E65 		.ascii	"p_next\000"
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  2521 0328 705F6D73 		.ascii	"p_msgqueue\000"
  2521      67717565 
  2521      756500
-ARM GAS  /tmp/ccd3I1K1.s 			page 48
+ARM GAS  /tmp/ccoupLTd.s 			page 48
 
 
  2522              	.LASF75:
@@ -2859,32 +2859,32 @@ ARM GAS  /tmp/ccd3I1K1.s 			page 1
  2543      72795F68 
  2543      65617000 
  2544              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.7.4 20130613 (release) [ARM/embedded-4_7-br
-ARM GAS  /tmp/ccd3I1K1.s 			page 49
+ARM GAS  /tmp/ccoupLTd.s 			page 49
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chheap.c
-     /tmp/ccd3I1K1.s:19     .text._heap_init:00000000 $t
-     /tmp/ccd3I1K1.s:25     .text._heap_init:00000000 _heap_init
-     /tmp/ccd3I1K1.s:507    .bss.default_heap:00000000 .LANCHOR0
-     /tmp/ccd3I1K1.s:57     .text.chHeapInit:00000000 $t
-     /tmp/ccd3I1K1.s:63     .text.chHeapInit:00000000 chHeapInit
-     /tmp/ccd3I1K1.s:121    .text.chHeapInit:00000030 $d
-     /tmp/ccd3I1K1.s:126    .text.chHeapAlloc:00000000 $t
-     /tmp/ccd3I1K1.s:132    .text.chHeapAlloc:00000000 chHeapAlloc
-     /tmp/ccd3I1K1.s:259    .text.chHeapAlloc:00000080 $d
-     /tmp/ccd3I1K1.s:264    .text.chHeapFree:00000000 $t
-     /tmp/ccd3I1K1.s:270    .text.chHeapFree:00000000 chHeapFree
-     /tmp/ccd3I1K1.s:410    .text.chHeapFree:000000a8 $d
-     /tmp/ccd3I1K1.s:416    .text.chHeapStatus:00000000 $t
-     /tmp/ccd3I1K1.s:422    .text.chHeapStatus:00000000 chHeapStatus
-     /tmp/ccd3I1K1.s:491    .text.chHeapStatus:0000003c $d
-     /tmp/ccd3I1K1.s:496    .rodata.str1.4:00000000 $d
-     /tmp/ccd3I1K1.s:506    .bss.default_heap:00000000 $d
-     /tmp/ccd3I1K1.s:510    .bss.default_heap:00000000 default_heap
+     /tmp/ccoupLTd.s:19     .text._heap_init:00000000 $t
+     /tmp/ccoupLTd.s:25     .text._heap_init:00000000 _heap_init
+     /tmp/ccoupLTd.s:507    .bss.default_heap:00000000 .LANCHOR0
+     /tmp/ccoupLTd.s:57     .text.chHeapInit:00000000 $t
+     /tmp/ccoupLTd.s:63     .text.chHeapInit:00000000 chHeapInit
+     /tmp/ccoupLTd.s:121    .text.chHeapInit:00000030 $d
+     /tmp/ccoupLTd.s:126    .text.chHeapAlloc:00000000 $t
+     /tmp/ccoupLTd.s:132    .text.chHeapAlloc:00000000 chHeapAlloc
+     /tmp/ccoupLTd.s:259    .text.chHeapAlloc:00000080 $d
+     /tmp/ccoupLTd.s:264    .text.chHeapFree:00000000 $t
+     /tmp/ccoupLTd.s:270    .text.chHeapFree:00000000 chHeapFree
+     /tmp/ccoupLTd.s:410    .text.chHeapFree:000000a8 $d
+     /tmp/ccoupLTd.s:416    .text.chHeapStatus:00000000 $t
+     /tmp/ccoupLTd.s:422    .text.chHeapStatus:00000000 chHeapStatus
+     /tmp/ccoupLTd.s:491    .text.chHeapStatus:0000003c $d
+     /tmp/ccoupLTd.s:496    .rodata.str1.4:00000000 $d
+     /tmp/ccoupLTd.s:506    .bss.default_heap:00000000 $d
+     /tmp/ccoupLTd.s:510    .bss.default_heap:00000000 default_heap
                      .debug_frame:00000010 $d
-     /tmp/ccd3I1K1.s:125    .text.chHeapInit:00000034 $t
-     /tmp/ccd3I1K1.s:263    .text.chHeapAlloc:00000084 $t
+     /tmp/ccoupLTd.s:125    .text.chHeapInit:00000034 $t
+     /tmp/ccoupLTd.s:263    .text.chHeapAlloc:00000084 $t
 
 UNDEFINED SYMBOLS
 chCoreAlloc

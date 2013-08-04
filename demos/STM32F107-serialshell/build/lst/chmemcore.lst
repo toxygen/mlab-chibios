@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccns8R6L.s 			page 1
+ARM GAS  /tmp/ccgCex92.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccns8R6L.s 			page 1
   55 0028 07000000 		.word	__heap_base__+7
   56              		.cfi_endproc
   57              	.LFE7:
-ARM GAS  /tmp/ccns8R6L.s 			page 2
+ARM GAS  /tmp/ccgCex92.s 			page 2
 
 
   58              		.size	_core_init, .-_core_init
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccns8R6L.s 			page 1
  112              		.cfi_endproc
  113              	.LFE9:
  114              		.size	chCoreAllocI, .-chCoreAllocI
-ARM GAS  /tmp/ccns8R6L.s 			page 3
+ARM GAS  /tmp/ccgCex92.s 			page 3
 
 
  115              		.section	.text.chCoreAlloc,"ax",%progbits
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccns8R6L.s 			page 1
  169              		.loc 1 98 0
  170 0020 2046     		mov	r0, r4
  171 0022 10BD     		pop	{r4, pc}
-ARM GAS  /tmp/ccns8R6L.s 			page 4
+ARM GAS  /tmp/ccgCex92.s 			page 4
 
 
  172              		.cfi_endproc
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccns8R6L.s 			page 1
  223 0000 30020000 		.4byte	0x230
  224 0004 0200     		.2byte	0x2
  225 0006 00000000 		.4byte	.Ldebug_abbrev0
-ARM GAS  /tmp/ccns8R6L.s 			page 5
+ARM GAS  /tmp/ccgCex92.s 			page 5
 
 
  226 000a 04       		.byte	0x4
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccns8R6L.s 			page 1
  280 007c 04       		.byte	0x4
  281 007d 07       		.byte	0x7
  282 007e 59000000 		.4byte	.LASF9
-ARM GAS  /tmp/ccns8R6L.s 			page 6
+ARM GAS  /tmp/ccgCex92.s 			page 6
 
 
  283 0082 04       		.uleb128 0x4
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccns8R6L.s 			page 1
  337 00e5 0B       		.uleb128 0xb
  338 00e6 01       		.byte	0x1
  339 00e7 47000000 		.4byte	.LASF16
-ARM GAS  /tmp/ccns8R6L.s 			page 7
+ARM GAS  /tmp/ccgCex92.s 			page 7
 
 
  340 00eb 01       		.byte	0x1
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccns8R6L.s 			page 1
  394 0171 01       		.byte	0x1
  395 0172 5E       		.byte	0x5e
  396 0173 70000000 		.4byte	0x70
-ARM GAS  /tmp/ccns8R6L.s 			page 8
+ARM GAS  /tmp/ccgCex92.s 			page 8
 
 
  397 0177 E5000000 		.4byte	.LLST6
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccns8R6L.s 			page 1
  451 01ef 01       		.byte	0x1
  452 01f0 3B       		.byte	0x3b
  453 01f1 A0000000 		.4byte	0xa0
-ARM GAS  /tmp/ccns8R6L.s 			page 9
+ARM GAS  /tmp/ccgCex92.s 			page 9
 
 
  454 01f5 05       		.byte	0x5
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccns8R6L.s 			page 1
  508 000d 11       		.uleb128 0x11
  509 000e 01       		.uleb128 0x1
  510 000f 52       		.uleb128 0x52
-ARM GAS  /tmp/ccns8R6L.s 			page 10
+ARM GAS  /tmp/ccgCex92.s 			page 10
 
 
  511 0010 01       		.uleb128 0x1
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccns8R6L.s 			page 1
  565 0046 00       		.byte	0
  566 0047 00       		.byte	0
  567 0048 07       		.uleb128 0x7
-ARM GAS  /tmp/ccns8R6L.s 			page 11
+ARM GAS  /tmp/ccgCex92.s 			page 11
 
 
  568 0049 2E       		.uleb128 0x2e
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccns8R6L.s 			page 1
  622 0080 00       		.byte	0
  623 0081 0B       		.uleb128 0xb
  624 0082 2E       		.uleb128 0x2e
-ARM GAS  /tmp/ccns8R6L.s 			page 12
+ARM GAS  /tmp/ccgCex92.s 			page 12
 
 
  625 0083 01       		.byte	0x1
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccns8R6L.s 			page 1
  679 00ba 00       		.byte	0
  680 00bb 0E       		.uleb128 0xe
  681 00bc 898201   		.uleb128 0x4109
-ARM GAS  /tmp/ccns8R6L.s 			page 13
+ARM GAS  /tmp/ccgCex92.s 			page 13
 
 
  682 00bf 00       		.byte	0
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccns8R6L.s 			page 1
  736 00fa 3A       		.uleb128 0x3a
  737 00fb 0B       		.uleb128 0xb
  738 00fc 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccns8R6L.s 			page 14
+ARM GAS  /tmp/ccgCex92.s 			page 14
 
 
  739 00fd 0B       		.uleb128 0xb
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccns8R6L.s 			page 1
  793 000a 7D       		.byte	0x7d
  794 000b 00       		.sleb128 0
  795 000c 02000000 		.4byte	.LCFI0
-ARM GAS  /tmp/ccns8R6L.s 			page 15
+ARM GAS  /tmp/ccgCex92.s 			page 15
 
 
  796 0010 30000000 		.4byte	.LFE9
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccns8R6L.s 			page 1
  850 0097 00000000 		.4byte	0
  851              	.LLST4:
  852 009b 00000000 		.4byte	.LVL6
-ARM GAS  /tmp/ccns8R6L.s 			page 16
+ARM GAS  /tmp/ccgCex92.s 			page 16
 
 
  853 009f 0D000000 		.4byte	.LVL9-1
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccns8R6L.s 			page 1
  907 0024 24000000 		.4byte	.LFE8-.LFB8
  908 0028 00000000 		.4byte	.LFB10
  909 002c 18000000 		.4byte	.LFE10-.LFB10
-ARM GAS  /tmp/ccns8R6L.s 			page 17
+ARM GAS  /tmp/ccgCex92.s 			page 17
 
 
  910 0030 00000000 		.4byte	0
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccns8R6L.s 			page 1
  946 0047 6368436F 		.ascii	"chCoreAllocI\000"
  946      7265416C 
  946      6C6F6349 
-ARM GAS  /tmp/ccns8R6L.s 			page 18
+ARM GAS  /tmp/ccgCex92.s 			page 18
 
 
  946      00
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccns8R6L.s 			page 1
  967      7369676E 
  967      65642069 
  968              	.LASF3:
-ARM GAS  /tmp/ccns8R6L.s 			page 19
+ARM GAS  /tmp/ccgCex92.s 			page 19
 
 
  969 011a 75696E74 		.ascii	"uint8_t\000"
@@ -1136,29 +1136,29 @@ ARM GAS  /tmp/ccns8R6L.s 			page 1
  992      65642063 
  992      68617200 
  993              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.7.4 20130613 (release) [ARM/embedded-4_7-br
-ARM GAS  /tmp/ccns8R6L.s 			page 20
+ARM GAS  /tmp/ccgCex92.s 			page 20
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chmemcore.c
-     /tmp/ccns8R6L.s:19     .text._core_init:00000000 $t
-     /tmp/ccns8R6L.s:25     .text._core_init:00000000 _core_init
-     /tmp/ccns8R6L.s:211    .bss.nextmem:00000000 .LANCHOR0
-     /tmp/ccns8R6L.s:204    .bss.endmem:00000000 .LANCHOR1
-     /tmp/ccns8R6L.s:55     .text._core_init:00000028 $d
-     /tmp/ccns8R6L.s:60     .text.chCoreAllocI:00000000 $t
-     /tmp/ccns8R6L.s:66     .text.chCoreAllocI:00000000 chCoreAllocI
-     /tmp/ccns8R6L.s:110    .text.chCoreAllocI:00000028 $d
-     /tmp/ccns8R6L.s:116    .text.chCoreAlloc:00000000 $t
-     /tmp/ccns8R6L.s:122    .text.chCoreAlloc:00000000 chCoreAlloc
-     /tmp/ccns8R6L.s:176    .text.chCoreStatus:00000000 $t
-     /tmp/ccns8R6L.s:182    .text.chCoreStatus:00000000 chCoreStatus
-     /tmp/ccns8R6L.s:203    .bss.endmem:00000000 $d
-     /tmp/ccns8R6L.s:207    .bss.endmem:00000000 endmem
-     /tmp/ccns8R6L.s:210    .bss.nextmem:00000000 $d
-     /tmp/ccns8R6L.s:214    .bss.nextmem:00000000 nextmem
+     /tmp/ccgCex92.s:19     .text._core_init:00000000 $t
+     /tmp/ccgCex92.s:25     .text._core_init:00000000 _core_init
+     /tmp/ccgCex92.s:211    .bss.nextmem:00000000 .LANCHOR0
+     /tmp/ccgCex92.s:204    .bss.endmem:00000000 .LANCHOR1
+     /tmp/ccgCex92.s:55     .text._core_init:00000028 $d
+     /tmp/ccgCex92.s:60     .text.chCoreAllocI:00000000 $t
+     /tmp/ccgCex92.s:66     .text.chCoreAllocI:00000000 chCoreAllocI
+     /tmp/ccgCex92.s:110    .text.chCoreAllocI:00000028 $d
+     /tmp/ccgCex92.s:116    .text.chCoreAlloc:00000000 $t
+     /tmp/ccgCex92.s:122    .text.chCoreAlloc:00000000 chCoreAlloc
+     /tmp/ccgCex92.s:176    .text.chCoreStatus:00000000 $t
+     /tmp/ccgCex92.s:182    .text.chCoreStatus:00000000 chCoreStatus
+     /tmp/ccgCex92.s:203    .bss.endmem:00000000 $d
+     /tmp/ccgCex92.s:207    .bss.endmem:00000000 endmem
+     /tmp/ccgCex92.s:210    .bss.nextmem:00000000 $d
+     /tmp/ccgCex92.s:214    .bss.nextmem:00000000 nextmem
                      .debug_frame:00000010 $d
-     /tmp/ccns8R6L.s:59     .text._core_init:0000002c $t
+     /tmp/ccgCex92.s:59     .text._core_init:0000002c $t
 
 UNDEFINED SYMBOLS
 __heap_end__

@@ -42,7 +42,7 @@
  * Board frequencies.
  * External crystal @ 8 MHz
  */
-#define STM32_HSECLK            8000000
+#define STM32_HSECLK            25000000
 
 /*
  * MCU type, supported types are defined in ./os/hal/platforms/hal_lld.h.

@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccEQO5vb.s 			page 1
+ARM GAS  /tmp/cckY0jyD.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
   55              	.LVL2:
   56              	.L3:
   57              		.loc 1 66 0 is_stmt 1
-ARM GAS  /tmp/ccEQO5vb.s 			page 2
+ARM GAS  /tmp/cckY0jyD.s 			page 2
 
 
   58 0014 E81D     		adds	r0, r5, #7
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  111 0016 0BB1     		cbz	r3, .L13
  112              		.loc 1 88 0
  113 0018 6068     		ldr	r0, [r4, #4]
-ARM GAS  /tmp/ccEQO5vb.s 			page 3
+ARM GAS  /tmp/cckY0jyD.s 			page 3
 
 
  114              	.LVL7:
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  168 000a FFF7FEFF 		bl	dbg_check_lock
  169              	.LVL14:
  170              		.loc 1 105 0
-ARM GAS  /tmp/ccEQO5vb.s 			page 4
+ARM GAS  /tmp/cckY0jyD.s 			page 4
 
 
  171 000e 2046     		mov	r0, r4
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  223 000a 15B1     		cbz	r5, .L22
  224              		.loc 1 126 0 is_stmt 0 discriminator 2
  225 000c 0CB1     		cbz	r4, .L22
-ARM GAS  /tmp/ccEQO5vb.s 			page 5
+ARM GAS  /tmp/cckY0jyD.s 			page 5
 
 
  226              		.loc 1 126 0 discriminator 3
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  278              	@ 0 "" 2
  279              	.LVL26:
  280              		.thumb
-ARM GAS  /tmp/ccEQO5vb.s 			page 6
+ARM GAS  /tmp/cckY0jyD.s 			page 6
 
 
  281              	.LBE5:
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  323              	.Ldebug_info0:
  324 0000 9B030000 		.4byte	0x39b
  325 0004 0200     		.2byte	0x2
-ARM GAS  /tmp/ccEQO5vb.s 			page 7
+ARM GAS  /tmp/cckY0jyD.s 			page 7
 
 
  326 0006 00000000 		.4byte	.Ldebug_abbrev0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  380 0078 08       		.byte	0x8
  381 0079 05       		.byte	0x5
  382 007a 67010000 		.4byte	.LASF9
-ARM GAS  /tmp/ccEQO5vb.s 			page 8
+ARM GAS  /tmp/cckY0jyD.s 			page 8
 
 
  383 007e 04       		.uleb128 0x4
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  437 00e4 23       		.byte	0x23
  438 00e5 00       		.uleb128 0
  439 00e6 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccEQO5vb.s 			page 9
+ARM GAS  /tmp/cckY0jyD.s 			page 9
 
 
  440 00e7 27000000 		.4byte	.LASF15
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  494 015b 0F       		.uleb128 0xf
  495 015c 14000000 		.4byte	.LVL2
  496 0160 66030000 		.4byte	0x366
-ARM GAS  /tmp/ccEQO5vb.s 			page 10
+ARM GAS  /tmp/cckY0jyD.s 			page 10
 
 
  497 0164 10       		.uleb128 0x10
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  551 01d5 01       		.byte	0x1
  552 01d6 85000000 		.4byte	0x85
  553 01da 00000000 		.4byte	.LFB9
-ARM GAS  /tmp/ccEQO5vb.s 			page 11
+ARM GAS  /tmp/cckY0jyD.s 			page 11
 
 
  554 01de 24000000 		.4byte	.LFE9
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  608 0264 00       		.byte	0
  609 0265 0C       		.uleb128 0xc
  610 0266 01       		.byte	0x1
-ARM GAS  /tmp/ccEQO5vb.s 			page 12
+ARM GAS  /tmp/cckY0jyD.s 			page 12
 
 
  611 0267 86000000 		.4byte	.LASF25
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  665 02e6 01       		.byte	0x1
  666 02e7 91       		.byte	0x91
  667 02e8 6F010000 		.4byte	0x16f
-ARM GAS  /tmp/ccEQO5vb.s 			page 13
+ARM GAS  /tmp/cckY0jyD.s 			page 13
 
 
  668 02ec 19020000 		.4byte	.LLST17
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  722 0367 01       		.byte	0x1
  723 0368 7A010000 		.4byte	.LASF34
  724 036c 06       		.byte	0x6
-ARM GAS  /tmp/ccEQO5vb.s 			page 14
+ARM GAS  /tmp/cckY0jyD.s 			page 14
 
 
  725 036d F0       		.byte	0xf0
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  779 0014 00       		.byte	0
  780 0015 02       		.uleb128 0x2
  781 0016 24       		.uleb128 0x24
-ARM GAS  /tmp/ccEQO5vb.s 			page 15
+ARM GAS  /tmp/cckY0jyD.s 			page 15
 
 
  782 0017 00       		.byte	0
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  836 004d 49       		.uleb128 0x49
  837 004e 13       		.uleb128 0x13
  838 004f 01       		.uleb128 0x1
-ARM GAS  /tmp/ccEQO5vb.s 			page 16
+ARM GAS  /tmp/cckY0jyD.s 			page 16
 
 
  839 0050 13       		.uleb128 0x13
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  893 0086 2E       		.uleb128 0x2e
  894 0087 01       		.byte	0x1
  895 0088 3F       		.uleb128 0x3f
-ARM GAS  /tmp/ccEQO5vb.s 			page 17
+ARM GAS  /tmp/cckY0jyD.s 			page 17
 
 
  896 0089 0C       		.uleb128 0xc
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  950 00c2 11       		.uleb128 0x11
  951 00c3 01       		.uleb128 0x1
  952 00c4 31       		.uleb128 0x31
-ARM GAS  /tmp/ccEQO5vb.s 			page 18
+ARM GAS  /tmp/cckY0jyD.s 			page 18
 
 
  953 00c5 13       		.uleb128 0x13
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  1007 00ff 13       		.uleb128 0x13
  1008 0100 898201   		.uleb128 0x4109
  1009 0103 00       		.byte	0
-ARM GAS  /tmp/ccEQO5vb.s 			page 19
+ARM GAS  /tmp/cckY0jyD.s 			page 19
 
 
  1010 0104 11       		.uleb128 0x11
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  1064 013b 06       		.uleb128 0x6
  1065 013c 00       		.byte	0
  1066 013d 00       		.byte	0
-ARM GAS  /tmp/ccEQO5vb.s 			page 20
+ARM GAS  /tmp/cckY0jyD.s 			page 20
 
 
  1067 013e 17       		.uleb128 0x17
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  1121 0176 3C       		.uleb128 0x3c
  1122 0177 0C       		.uleb128 0xc
  1123 0178 00       		.byte	0
-ARM GAS  /tmp/ccEQO5vb.s 			page 21
+ARM GAS  /tmp/cckY0jyD.s 			page 21
 
 
  1124 0179 00       		.byte	0
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  1178 007f 00000000 		.4byte	0
  1179 0083 00000000 		.4byte	0
  1180              	.LLST4:
-ARM GAS  /tmp/ccEQO5vb.s 			page 22
+ARM GAS  /tmp/cckY0jyD.s 			page 22
 
 
  1181 0087 00000000 		.4byte	.LFB8
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  1235 0113 0D000000 		.4byte	.LVL14-1
  1236 0117 0100     		.2byte	0x1
  1237 0119 50       		.byte	0x50
-ARM GAS  /tmp/ccEQO5vb.s 			page 23
+ARM GAS  /tmp/cckY0jyD.s 			page 23
 
 
  1238 011a 0D000000 		.4byte	.LVL14-1
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  1292 01a7 0100     		.2byte	0x1
  1293 01a9 50       		.byte	0x50
  1294 01aa 09000000 		.4byte	.LVL22-1
-ARM GAS  /tmp/ccEQO5vb.s 			page 24
+ARM GAS  /tmp/cckY0jyD.s 			page 24
 
 
  1295 01ae 24000000 		.4byte	.LFE10
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  1349 023f 0100     		.2byte	0x1
  1350 0241 51       		.byte	0x51
  1351 0242 0F000000 		.4byte	.LVL27-1
-ARM GAS  /tmp/ccEQO5vb.s 			page 25
+ARM GAS  /tmp/cckY0jyD.s 			page 25
 
 
  1352 0246 24000000 		.4byte	.LFE11
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  1406 0034 24000000 		.4byte	.LFE10
  1407 0038 00000000 		.4byte	.LFB11
  1408 003c 24000000 		.4byte	.LFE11
-ARM GAS  /tmp/ccEQO5vb.s 			page 26
+ARM GAS  /tmp/cckY0jyD.s 			page 26
 
 
  1409 0040 00000000 		.4byte	0
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  1433 007d 70726F76 		.ascii	"provider\000"
  1433      69646572 
  1433      00
-ARM GAS  /tmp/ccEQO5vb.s 			page 27
+ARM GAS  /tmp/cckY0jyD.s 			page 27
 
 
  1434              	.LASF25:
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  1456 0156 70685F6E 		.ascii	"ph_next\000"
  1456      65787400 
  1457              	.LASF11:
-ARM GAS  /tmp/ccEQO5vb.s 			page 28
+ARM GAS  /tmp/cckY0jyD.s 			page 28
 
 
  1458 015e 73697A65 		.ascii	"sizetype\000"
@@ -1678,35 +1678,35 @@ ARM GAS  /tmp/ccEQO5vb.s 			page 1
  1483      65787400 
  1484              	.LASF24:
  1485 0214 6368506F 		.ascii	"chPoolInit\000"
-ARM GAS  /tmp/ccEQO5vb.s 			page 29
+ARM GAS  /tmp/cckY0jyD.s 			page 29
 
 
  1485      6F6C496E 
  1485      697400
  1486              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.7.4 20130613 (release) [ARM/embedded-4_7-br
-ARM GAS  /tmp/ccEQO5vb.s 			page 30
+ARM GAS  /tmp/cckY0jyD.s 			page 30
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chmempools.c
-     /tmp/ccEQO5vb.s:19     .text.chPoolInit:00000000 $t
-     /tmp/ccEQO5vb.s:25     .text.chPoolInit:00000000 chPoolInit
-     /tmp/ccEQO5vb.s:69     .text.chPoolInit:00000024 $d
-     /tmp/ccEQO5vb.s:74     .text.chPoolAllocI:00000000 $t
-     /tmp/ccEQO5vb.s:80     .text.chPoolAllocI:00000000 chPoolAllocI
-     /tmp/ccEQO5vb.s:130    .text.chPoolAllocI:00000028 $d
-     /tmp/ccEQO5vb.s:135    .text.chPoolAlloc:00000000 $t
-     /tmp/ccEQO5vb.s:141    .text.chPoolAlloc:00000000 chPoolAlloc
-     /tmp/ccEQO5vb.s:195    .text.chPoolFreeI:00000000 $t
-     /tmp/ccEQO5vb.s:201    .text.chPoolFreeI:00000000 chPoolFreeI
-     /tmp/ccEQO5vb.s:244    .text.chPoolFreeI:00000020 $d
-     /tmp/ccEQO5vb.s:249    .text.chPoolFree:00000000 $t
-     /tmp/ccEQO5vb.s:255    .text.chPoolFree:00000000 chPoolFree
-     /tmp/ccEQO5vb.s:306    .rodata.str1.4:00000000 $d
+     /tmp/cckY0jyD.s:19     .text.chPoolInit:00000000 $t
+     /tmp/cckY0jyD.s:25     .text.chPoolInit:00000000 chPoolInit
+     /tmp/cckY0jyD.s:69     .text.chPoolInit:00000024 $d
+     /tmp/cckY0jyD.s:74     .text.chPoolAllocI:00000000 $t
+     /tmp/cckY0jyD.s:80     .text.chPoolAllocI:00000000 chPoolAllocI
+     /tmp/cckY0jyD.s:130    .text.chPoolAllocI:00000028 $d
+     /tmp/cckY0jyD.s:135    .text.chPoolAlloc:00000000 $t
+     /tmp/cckY0jyD.s:141    .text.chPoolAlloc:00000000 chPoolAlloc
+     /tmp/cckY0jyD.s:195    .text.chPoolFreeI:00000000 $t
+     /tmp/cckY0jyD.s:201    .text.chPoolFreeI:00000000 chPoolFreeI
+     /tmp/cckY0jyD.s:244    .text.chPoolFreeI:00000020 $d
+     /tmp/cckY0jyD.s:249    .text.chPoolFree:00000000 $t
+     /tmp/cckY0jyD.s:255    .text.chPoolFree:00000000 chPoolFree
+     /tmp/cckY0jyD.s:306    .rodata.str1.4:00000000 $d
                      .debug_frame:00000010 $d
-     /tmp/ccEQO5vb.s:73     .text.chPoolInit:00000028 $t
-     /tmp/ccEQO5vb.s:134    .text.chPoolAllocI:0000002c $t
-     /tmp/ccEQO5vb.s:248    .text.chPoolFreeI:00000024 $t
+     /tmp/cckY0jyD.s:73     .text.chPoolInit:00000028 $t
+     /tmp/cckY0jyD.s:134    .text.chPoolAllocI:0000002c $t
+     /tmp/cckY0jyD.s:248    .text.chPoolFreeI:00000024 $t
 
 UNDEFINED SYMBOLS
 chDbgPanic
