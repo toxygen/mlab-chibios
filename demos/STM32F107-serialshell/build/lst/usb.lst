@@ -1,0 +1,288 @@
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccTriatE.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 2
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.file	"usb.c"
+  15              		.text
+  16              	.Ltext0:
+  17              		.cfi_sections	.debug_frame
+  18              	.Letext0:
+  19              		.file 1 "/Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../
+  20              		.file 2 "../../os/ports/common/ARMCMx/CMSIS/include/core_cm3.h"
+  21              		.section	.debug_info,"",%progbits
+  22              	.Ldebug_info0:
+  23 0000 8C000000 		.4byte	0x8c
+  24 0004 0200     		.2byte	0x2
+  25 0006 00000000 		.4byte	.Ldebug_abbrev0
+  26 000a 04       		.byte	0x4
+  27 000b 01       		.uleb128 0x1
+  28 000c 2E000000 		.4byte	.LASF11
+  29 0010 01       		.byte	0x1
+  30 0011 63000000 		.4byte	.LASF12
+  31 0015 AF000000 		.4byte	.LASF13
+  32 0019 00000000 		.4byte	.Ldebug_line0
+  33 001d 02       		.uleb128 0x2
+  34 001e 01       		.byte	0x1
+  35 001f 06       		.byte	0x6
+  36 0020 A3000000 		.4byte	.LASF0
+  37 0024 02       		.uleb128 0x2
+  38 0025 01       		.byte	0x1
+  39 0026 08       		.byte	0x8
+  40 0027 7A000000 		.4byte	.LASF1
+  41 002b 02       		.uleb128 0x2
+  42 002c 02       		.byte	0x2
+  43 002d 05       		.byte	0x5
+  44 002e DD000000 		.4byte	.LASF2
+  45 0032 02       		.uleb128 0x2
+  46 0033 02       		.byte	0x2
+  47 0034 07       		.byte	0x7
+  48 0035 0E000000 		.4byte	.LASF3
+  49 0039 03       		.uleb128 0x3
+  50 003a 04       		.byte	0x4
+  51 003b 05       		.byte	0x5
+  52 003c 696E7400 		.ascii	"int\000"
+  53 0040 02       		.uleb128 0x2
+  54 0041 04       		.byte	0x4
+  55 0042 07       		.byte	0x7
+  56 0043 21000000 		.4byte	.LASF4
+  57 0047 02       		.uleb128 0x2
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccTriatE.s 			page 2
+
+
+  58 0048 08       		.byte	0x8
+  59 0049 05       		.byte	0x5
+  60 004a 00000000 		.4byte	.LASF5
+  61 004e 02       		.uleb128 0x2
+  62 004f 08       		.byte	0x8
+  63 0050 07       		.byte	0x7
+  64 0051 4C000000 		.4byte	.LASF6
+  65 0055 02       		.uleb128 0x2
+  66 0056 04       		.byte	0x4
+  67 0057 05       		.byte	0x5
+  68 0058 8D000000 		.4byte	.LASF7
+  69 005c 02       		.uleb128 0x2
+  70 005d 04       		.byte	0x4
+  71 005e 07       		.byte	0x7
+  72 005f EF000000 		.4byte	.LASF8
+  73 0063 02       		.uleb128 0x2
+  74 0064 04       		.byte	0x4
+  75 0065 07       		.byte	0x7
+  76 0066 3A000000 		.4byte	.LASF9
+  77 006a 02       		.uleb128 0x2
+  78 006b 01       		.byte	0x1
+  79 006c 08       		.byte	0x8
+  80 006d 88000000 		.4byte	.LASF10
+  81 0071 04       		.uleb128 0x4
+  82 0072 E7000000 		.4byte	.LASF14
+  83 0076 01       		.byte	0x1
+  84 0077 4F       		.byte	0x4f
+  85 0078 55000000 		.4byte	0x55
+  86 007c 05       		.uleb128 0x5
+  87 007d 71000000 		.4byte	0x71
+  88 0081 06       		.uleb128 0x6
+  89 0082 96000000 		.4byte	.LASF15
+  90 0086 02       		.byte	0x2
+  91 0087 9404     		.2byte	0x494
+  92 0089 7C000000 		.4byte	0x7c
+  93 008d 01       		.byte	0x1
+  94 008e 01       		.byte	0x1
+  95 008f 00       		.byte	0
+  96              		.section	.debug_abbrev,"",%progbits
+  97              	.Ldebug_abbrev0:
+  98 0000 01       		.uleb128 0x1
+  99 0001 11       		.uleb128 0x11
+ 100 0002 01       		.byte	0x1
+ 101 0003 25       		.uleb128 0x25
+ 102 0004 0E       		.uleb128 0xe
+ 103 0005 13       		.uleb128 0x13
+ 104 0006 0B       		.uleb128 0xb
+ 105 0007 03       		.uleb128 0x3
+ 106 0008 0E       		.uleb128 0xe
+ 107 0009 1B       		.uleb128 0x1b
+ 108 000a 0E       		.uleb128 0xe
+ 109 000b 10       		.uleb128 0x10
+ 110 000c 06       		.uleb128 0x6
+ 111 000d 00       		.byte	0
+ 112 000e 00       		.byte	0
+ 113 000f 02       		.uleb128 0x2
+ 114 0010 24       		.uleb128 0x24
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccTriatE.s 			page 3
+
+
+ 115 0011 00       		.byte	0
+ 116 0012 0B       		.uleb128 0xb
+ 117 0013 0B       		.uleb128 0xb
+ 118 0014 3E       		.uleb128 0x3e
+ 119 0015 0B       		.uleb128 0xb
+ 120 0016 03       		.uleb128 0x3
+ 121 0017 0E       		.uleb128 0xe
+ 122 0018 00       		.byte	0
+ 123 0019 00       		.byte	0
+ 124 001a 03       		.uleb128 0x3
+ 125 001b 24       		.uleb128 0x24
+ 126 001c 00       		.byte	0
+ 127 001d 0B       		.uleb128 0xb
+ 128 001e 0B       		.uleb128 0xb
+ 129 001f 3E       		.uleb128 0x3e
+ 130 0020 0B       		.uleb128 0xb
+ 131 0021 03       		.uleb128 0x3
+ 132 0022 08       		.uleb128 0x8
+ 133 0023 00       		.byte	0
+ 134 0024 00       		.byte	0
+ 135 0025 04       		.uleb128 0x4
+ 136 0026 16       		.uleb128 0x16
+ 137 0027 00       		.byte	0
+ 138 0028 03       		.uleb128 0x3
+ 139 0029 0E       		.uleb128 0xe
+ 140 002a 3A       		.uleb128 0x3a
+ 141 002b 0B       		.uleb128 0xb
+ 142 002c 3B       		.uleb128 0x3b
+ 143 002d 0B       		.uleb128 0xb
+ 144 002e 49       		.uleb128 0x49
+ 145 002f 13       		.uleb128 0x13
+ 146 0030 00       		.byte	0
+ 147 0031 00       		.byte	0
+ 148 0032 05       		.uleb128 0x5
+ 149 0033 35       		.uleb128 0x35
+ 150 0034 00       		.byte	0
+ 151 0035 49       		.uleb128 0x49
+ 152 0036 13       		.uleb128 0x13
+ 153 0037 00       		.byte	0
+ 154 0038 00       		.byte	0
+ 155 0039 06       		.uleb128 0x6
+ 156 003a 34       		.uleb128 0x34
+ 157 003b 00       		.byte	0
+ 158 003c 03       		.uleb128 0x3
+ 159 003d 0E       		.uleb128 0xe
+ 160 003e 3A       		.uleb128 0x3a
+ 161 003f 0B       		.uleb128 0xb
+ 162 0040 3B       		.uleb128 0x3b
+ 163 0041 05       		.uleb128 0x5
+ 164 0042 49       		.uleb128 0x49
+ 165 0043 13       		.uleb128 0x13
+ 166 0044 3F       		.uleb128 0x3f
+ 167 0045 0C       		.uleb128 0xc
+ 168 0046 3C       		.uleb128 0x3c
+ 169 0047 0C       		.uleb128 0xc
+ 170 0048 00       		.byte	0
+ 171 0049 00       		.byte	0
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccTriatE.s 			page 4
+
+
+ 172 004a 00       		.byte	0
+ 173              		.section	.debug_aranges,"",%progbits
+ 174 0000 14000000 		.4byte	0x14
+ 175 0004 0200     		.2byte	0x2
+ 176 0006 00000000 		.4byte	.Ldebug_info0
+ 177 000a 04       		.byte	0x4
+ 178 000b 00       		.byte	0
+ 179 000c 0000     		.2byte	0
+ 180 000e 0000     		.2byte	0
+ 181 0010 00000000 		.4byte	0
+ 182 0014 00000000 		.4byte	0
+ 183              		.section	.debug_line,"",%progbits
+ 184              	.Ldebug_line0:
+ 185 0000 D1000000 		.section	.debug_str,"MS",%progbits,1
+ 185      0200CB00 
+ 185      00000201 
+ 185      FB0E0D00 
+ 185      01010101 
+ 186              	.LASF5:
+ 187 0000 6C6F6E67 		.ascii	"long long int\000"
+ 187      206C6F6E 
+ 187      6720696E 
+ 187      7400
+ 188              	.LASF3:
+ 189 000e 73686F72 		.ascii	"short unsigned int\000"
+ 189      7420756E 
+ 189      7369676E 
+ 189      65642069 
+ 189      6E7400
+ 190              	.LASF4:
+ 191 0021 756E7369 		.ascii	"unsigned int\000"
+ 191      676E6564 
+ 191      20696E74 
+ 191      00
+ 192              	.LASF11:
+ 193 002e 474E5520 		.ascii	"GNU C 4.7.2\000"
+ 193      4320342E 
+ 193      372E3200 
+ 194              	.LASF9:
+ 195 003a 6C6F6E67 		.ascii	"long unsigned int\000"
+ 195      20756E73 
+ 195      69676E65 
+ 195      6420696E 
+ 195      7400
+ 196              	.LASF6:
+ 197 004c 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 197      206C6F6E 
+ 197      6720756E 
+ 197      7369676E 
+ 197      65642069 
+ 198              	.LASF12:
+ 199 0063 2E2E2F2E 		.ascii	"../../os/hal/src/usb.c\000"
+ 199      2E2F6F73 
+ 199      2F68616C 
+ 199      2F737263 
+ 199      2F757362 
+ 200              	.LASF1:
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccTriatE.s 			page 5
+
+
+ 201 007a 756E7369 		.ascii	"unsigned char\000"
+ 201      676E6564 
+ 201      20636861 
+ 201      7200
+ 202              	.LASF10:
+ 203 0088 63686172 		.ascii	"char\000"
+ 203      00
+ 204              	.LASF7:
+ 205 008d 6C6F6E67 		.ascii	"long int\000"
+ 205      20696E74 
+ 205      00
+ 206              	.LASF15:
+ 207 0096 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 207      52784275 
+ 207      66666572 
+ 207      00
+ 208              	.LASF0:
+ 209 00a3 7369676E 		.ascii	"signed char\000"
+ 209      65642063 
+ 209      68617200 
+ 210              	.LASF13:
+ 211 00af 2F746D70 		.ascii	"/tmp/mlab-chibios/demos/STM32F107-serialshell\000"
+ 211      2F6D6C61 
+ 211      622D6368 
+ 211      6962696F 
+ 211      732F6465 
+ 212              	.LASF2:
+ 213 00dd 73686F72 		.ascii	"short int\000"
+ 213      7420696E 
+ 213      7400
+ 214              	.LASF14:
+ 215 00e7 696E7433 		.ascii	"int32_t\000"
+ 215      325F7400 
+ 216              	.LASF8:
+ 217 00ef 73697A65 		.ascii	"sizetype\000"
+ 217      74797065 
+ 217      00
+ 218              		.ident	"GCC: (GNU) 4.7.2"
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccTriatE.s 			page 6
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 usb.c
+
+NO UNDEFINED SYMBOLS

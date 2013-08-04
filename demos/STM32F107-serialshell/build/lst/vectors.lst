@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccSFnFAO.s 			page 1
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
   55              		.weak	SVCallVector
   56              		.thumb_set SVCallVector,_unhandled_exception
   57              		.weak	DebugMonitorVector
-ARM GAS  /tmp/ccSFnFAO.s 			page 2
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s 			page 2
 
 
   58              		.thumb_set DebugMonitorVector,_unhandled_exception
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  112              		.thumb_set Vector9C,_unhandled_exception
  113              		.weak	VectorA0
  114              		.thumb_set VectorA0,_unhandled_exception
-ARM GAS  /tmp/ccSFnFAO.s 			page 3
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s 			page 3
 
 
  115              		.weak	VectorA4
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  169              		.weak	Vector110
  170              		.thumb_set Vector110,_unhandled_exception
  171              		.weak	Vector114
-ARM GAS  /tmp/ccSFnFAO.s 			page 4
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s 			page 4
 
 
  172              		.thumb_set Vector114,_unhandled_exception
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  223 0038 00000000 		.word	PendSVVector
  224 003c 00000000 		.word	SysTickVector
  225 0040 00000000 		.word	Vector40
-ARM GAS  /tmp/ccSFnFAO.s 			page 5
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s 			page 5
 
 
  226 0044 00000000 		.word	Vector44
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  280 011c 00000000 		.word	Vector11C
  281 0120 00000000 		.word	Vector120
  282 0124 00000000 		.word	Vector124
-ARM GAS  /tmp/ccSFnFAO.s 			page 6
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s 			page 6
 
 
  283 0128 00000000 		.word	Vector128
@@ -313,7 +313,7 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  292 014c 00000000 		.word	Vector14C
  293              		.text
  294              	.Letext0:
- 295              		.file 2 "/usr/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/include/stdint.h"
+ 295              		.file 2 "/Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../
  296              		.section	.debug_info,"",%progbits
  297              	.Ldebug_info0:
  298 0000 E5010000 		.4byte	0x1e5
@@ -321,10 +321,10 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  300 0006 00000000 		.4byte	.Ldebug_abbrev0
  301 000a 04       		.byte	0x4
  302 000b 01       		.uleb128 0x1
- 303 000c A4000000 		.4byte	.LASF33
+ 303 000c 98010000 		.4byte	.LASF33
  304 0010 01       		.byte	0x1
- 305 0011 ED000000 		.4byte	.LASF34
- 306 0015 DA010000 		.4byte	.LASF35
+ 305 0011 D2000000 		.4byte	.LASF34
+ 306 0015 8C000000 		.4byte	.LASF35
  307 0019 00000000 		.4byte	.Ldebug_ranges0+0
  308 001d 00000000 		.4byte	0
  309 0021 00000000 		.4byte	0
@@ -336,55 +336,55 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  315 0030 03       		.uleb128 0x3
  316 0031 04       		.byte	0x4
  317 0032 07       		.byte	0x7
- 318 0033 8C000000 		.4byte	.LASF0
+ 318 0033 BA000000 		.4byte	.LASF0
  319 0037 03       		.uleb128 0x3
  320 0038 01       		.byte	0x1
  321 0039 06       		.byte	0x6
- 322 003a 33020000 		.4byte	.LASF1
+ 322 003a EA010000 		.4byte	.LASF1
  323 003e 03       		.uleb128 0x3
  324 003f 01       		.byte	0x1
  325 0040 08       		.byte	0x8
- 326 0041 41000000 		.4byte	.LASF2
+ 326 0041 50000000 		.4byte	.LASF2
  327 0045 03       		.uleb128 0x3
  328 0046 02       		.byte	0x2
  329 0047 05       		.byte	0x5
- 330 0048 D0010000 		.4byte	.LASF3
+ 330 0048 C1010000 		.4byte	.LASF3
  331 004c 03       		.uleb128 0x3
  332 004d 02       		.byte	0x2
  333 004e 07       		.byte	0x7
- 334 004f 61000000 		.4byte	.LASF4
+ 334 004f 70000000 		.4byte	.LASF4
  335 0053 03       		.uleb128 0x3
  336 0054 04       		.byte	0x4
  337 0055 05       		.byte	0x5
- 338 0056 2A020000 		.4byte	.LASF5
+ 338 0056 E1010000 		.4byte	.LASF5
  339 005a 04       		.uleb128 0x4
-ARM GAS  /tmp/ccSFnFAO.s 			page 7
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s 			page 7
 
 
- 340 005b 21020000 		.4byte	.LASF11
+ 340 005b D8010000 		.4byte	.LASF11
  341 005f 02       		.byte	0x2
  342 0060 50       		.byte	0x50
  343 0061 65000000 		.4byte	0x65
  344 0065 03       		.uleb128 0x3
  345 0066 04       		.byte	0x4
  346 0067 07       		.byte	0x7
- 347 0068 4F000000 		.4byte	.LASF6
+ 347 0068 5E000000 		.4byte	.LASF6
  348 006c 03       		.uleb128 0x3
  349 006d 08       		.byte	0x8
  350 006e 05       		.byte	0x5
- 351 006f 8F010000 		.4byte	.LASF7
+ 351 006f 74010000 		.4byte	.LASF7
  352 0073 03       		.uleb128 0x3
  353 0074 08       		.byte	0x8
  354 0075 07       		.byte	0x7
- 355 0076 1B010000 		.4byte	.LASF8
+ 355 0076 00010000 		.4byte	.LASF8
  356 007a 03       		.uleb128 0x3
  357 007b 04       		.byte	0x4
  358 007c 07       		.byte	0x7
- 359 007d 67010000 		.4byte	.LASF9
+ 359 007d 4C010000 		.4byte	.LASF9
  360 0081 03       		.uleb128 0x3
  361 0082 01       		.byte	0x1
  362 0083 08       		.byte	0x8
- 363 0084 9D010000 		.4byte	.LASF10
+ 363 0084 82010000 		.4byte	.LASF10
  364 0088 04       		.uleb128 0x4
  365 0089 09000000 		.4byte	.LASF12
  366 008d 01       		.byte	0x1
@@ -409,7 +409,7 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  385 00b0 23       		.byte	0x23
  386 00b1 00       		.uleb128 0
  387 00b2 08       		.uleb128 0x8
- 388 00b3 14020000 		.4byte	.LASF14
+ 388 00b3 CB010000 		.4byte	.LASF14
  389 00b7 01       		.byte	0x1
  390 00b8 4F       		.byte	0x4f
  391 00b9 88000000 		.4byte	0x88
@@ -417,8 +417,8 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  393 00be 23       		.byte	0x23
  394 00bf 04       		.uleb128 0x4
  395 00c0 08       		.uleb128 0x8
- 396 00c1 99000000 		.4byte	.LASF15
-ARM GAS  /tmp/ccSFnFAO.s 			page 8
+ 396 00c1 C7000000 		.4byte	.LASF15
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s 			page 8
 
 
  397 00c5 01       		.byte	0x1
@@ -428,7 +428,7 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  401 00cc 23       		.byte	0x23
  402 00cd 08       		.uleb128 0x8
  403 00ce 08       		.uleb128 0x8
- 404 00cf 7E010000 		.4byte	.LASF16
+ 404 00cf 63010000 		.4byte	.LASF16
  405 00d3 01       		.byte	0x1
  406 00d4 51       		.byte	0x51
  407 00d5 88000000 		.4byte	0x88
@@ -436,7 +436,7 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  409 00da 23       		.byte	0x23
  410 00db 0C       		.uleb128 0xc
  411 00dc 08       		.uleb128 0x8
- 412 00dd A2010000 		.4byte	.LASF17
+ 412 00dd 87010000 		.4byte	.LASF17
  413 00e1 01       		.byte	0x1
  414 00e2 52       		.byte	0x52
  415 00e3 88000000 		.4byte	0x88
@@ -444,7 +444,7 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  417 00e8 23       		.byte	0x23
  418 00e9 10       		.uleb128 0x10
  419 00ea 08       		.uleb128 0x8
- 420 00eb 32010000 		.4byte	.LASF18
+ 420 00eb 17010000 		.4byte	.LASF18
  421 00ef 01       		.byte	0x1
  422 00f0 53       		.byte	0x53
  423 00f1 88000000 		.4byte	0x88
@@ -452,7 +452,7 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  425 00f6 23       		.byte	0x23
  426 00f7 14       		.uleb128 0x14
  427 00f8 08       		.uleb128 0x8
- 428 00f9 4B010000 		.4byte	.LASF19
+ 428 00f9 30010000 		.4byte	.LASF19
  429 00fd 01       		.byte	0x1
  430 00fe 54       		.byte	0x54
  431 00ff 88000000 		.4byte	0x88
@@ -460,7 +460,7 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  433 0104 23       		.byte	0x23
  434 0105 18       		.uleb128 0x18
  435 0106 08       		.uleb128 0x8
- 436 0107 74000000 		.4byte	.LASF20
+ 436 0107 83000000 		.4byte	.LASF20
  437 010b 01       		.byte	0x1
  438 010c 55       		.byte	0x55
  439 010d 88000000 		.4byte	0x88
@@ -468,7 +468,7 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  441 0112 23       		.byte	0x23
  442 0113 1C       		.uleb128 0x1c
  443 0114 08       		.uleb128 0x8
- 444 0115 53020000 		.4byte	.LASF21
+ 444 0115 0A020000 		.4byte	.LASF21
  445 0119 01       		.byte	0x1
  446 011a 56       		.byte	0x56
  447 011b 88000000 		.4byte	0x88
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  451 0122 08       		.uleb128 0x8
  452 0123 00000000 		.4byte	.LASF22
  453 0127 01       		.byte	0x1
-ARM GAS  /tmp/ccSFnFAO.s 			page 9
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s 			page 9
 
 
  454 0128 57       		.byte	0x57
@@ -487,7 +487,7 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  457 012e 23       		.byte	0x23
  458 012f 24       		.uleb128 0x24
  459 0130 08       		.uleb128 0x8
- 460 0131 42010000 		.4byte	.LASF23
+ 460 0131 27010000 		.4byte	.LASF23
  461 0135 01       		.byte	0x1
  462 0136 58       		.byte	0x58
  463 0137 88000000 		.4byte	0x88
@@ -495,7 +495,7 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  465 013c 23       		.byte	0x23
  466 013d 28       		.uleb128 0x28
  467 013e 08       		.uleb128 0x8
- 468 013f 33000000 		.4byte	.LASF24
+ 468 013f 42000000 		.4byte	.LASF24
  469 0143 01       		.byte	0x1
  470 0144 59       		.byte	0x59
  471 0145 88000000 		.4byte	0x88
@@ -503,7 +503,7 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  473 014a 23       		.byte	0x23
  474 014b 2C       		.uleb128 0x2c
  475 014c 08       		.uleb128 0x8
- 476 014d 3F020000 		.4byte	.LASF25
+ 476 014d F6010000 		.4byte	.LASF25
  477 0151 01       		.byte	0x1
  478 0152 5A       		.byte	0x5a
  479 0153 88000000 		.4byte	0x88
@@ -519,7 +519,7 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  489 0166 23       		.byte	0x23
  490 0167 34       		.uleb128 0x34
  491 0168 08       		.uleb128 0x8
- 492 0169 70010000 		.4byte	.LASF27
+ 492 0169 55010000 		.4byte	.LASF27
  493 016d 01       		.byte	0x1
  494 016e 5C       		.byte	0x5c
  495 016f 88000000 		.4byte	0x88
@@ -527,7 +527,7 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  497 0174 23       		.byte	0x23
  498 0175 38       		.uleb128 0x38
  499 0176 08       		.uleb128 0x8
- 500 0177 7D000000 		.4byte	.LASF28
+ 500 0177 33000000 		.4byte	.LASF28
  501 017b 01       		.byte	0x1
  502 017c 5D       		.byte	0x5d
  503 017d 88000000 		.4byte	0x88
@@ -535,10 +535,10 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  505 0182 23       		.byte	0x23
  506 0183 3C       		.uleb128 0x3c
  507 0184 08       		.uleb128 0x8
- 508 0185 C8010000 		.4byte	.LASF29
+ 508 0185 B9010000 		.4byte	.LASF29
  509 0189 01       		.byte	0x1
  510 018a 5E       		.byte	0x5e
-ARM GAS  /tmp/ccSFnFAO.s 			page 10
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s 			page 10
 
 
  511 018b 99010000 		.4byte	0x199
@@ -557,13 +557,13 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  524 01a7 43       		.byte	0x43
  525 01a8 00       		.byte	0
  526 01a9 04       		.uleb128 0x4
- 527 01aa 5D010000 		.4byte	.LASF30
+ 527 01aa 42010000 		.4byte	.LASF30
  528 01ae 01       		.byte	0x1
  529 01af 5F       		.byte	0x5f
  530 01b0 9B000000 		.4byte	0x9b
  531 01b4 0B       		.uleb128 0xb
  532 01b5 01       		.byte	0x1
- 533 01b6 B3010000 		.4byte	.LASF36
+ 533 01b6 A4010000 		.4byte	.LASF36
  534 01ba 01       		.byte	0x1
  535 01bb F1       		.byte	0xf1
  536 01bc 01       		.byte	0x1
@@ -574,7 +574,7 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  541 01c7 00       		.sleb128 0
  542 01c8 01       		.byte	0x1
  543 01c9 0C       		.uleb128 0xc
- 544 01ca 5C020000 		.4byte	.LASF31
+ 544 01ca 13020000 		.4byte	.LASF31
  545 01ce 01       		.byte	0x1
  546 01cf 62       		.byte	0x62
  547 01d0 5A000000 		.4byte	0x5a
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  565 0003 25       		.uleb128 0x25
  566 0004 0E       		.uleb128 0xe
  567 0005 13       		.uleb128 0x13
-ARM GAS  /tmp/ccSFnFAO.s 			page 11
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s 			page 11
 
 
  568 0006 0B       		.uleb128 0xb
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  622 003c 0B       		.uleb128 0xb
  623 003d 49       		.uleb128 0x49
  624 003e 13       		.uleb128 0x13
-ARM GAS  /tmp/ccSFnFAO.s 			page 12
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s 			page 12
 
 
  625 003f 00       		.byte	0
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  679 0075 00       		.byte	0
  680 0076 0B       		.uleb128 0xb
  681 0077 2E       		.uleb128 0x2e
-ARM GAS  /tmp/ccSFnFAO.s 			page 13
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s 			page 13
 
 
  682 0078 00       		.byte	0
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  736 00af 00       		.byte	0
  737 00b0 00       		.byte	0
  738              		.section	.debug_aranges,"",%progbits
-ARM GAS  /tmp/ccSFnFAO.s 			page 14
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s 			page 14
 
 
  739 0000 1C000000 		.4byte	0x1c
@@ -800,8 +800,8 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  755 000c 00000000 		.4byte	0
  756              		.section	.debug_line,"",%progbits
  757              	.Ldebug_line0:
- 758 0000 B0000000 		.section	.debug_str,"MS",%progbits,1
- 758      02009A00 
+ 758 0000 D9000000 		.section	.debug_str,"MS",%progbits,1
+ 758      0200C300 
  758      00000201 
  758      FB0E0D00 
  758      01010101 
@@ -826,276 +826,267 @@ ARM GAS  /tmp/ccSFnFAO.s 			page 1
  768 0028 696E6974 		.ascii	"init_stack\000"
  768      5F737461 
  768      636B00
- 769              	.LASF24:
- 770 0033 73766361 		.ascii	"svcall_vector\000"
- 770      6C6C5F76 
- 770      6563746F 
- 770      7200
- 771              	.LASF2:
- 772 0041 756E7369 		.ascii	"unsigned char\000"
- 772      676E6564 
- 772      20636861 
+ 769              	.LASF28:
+ 770 0033 73797374 		.ascii	"systick_vector\000"
+ 770      69636B5F 
+ 770      76656374 
+ 770      6F7200
+ 771              	.LASF24:
+ 772 0042 73766361 		.ascii	"svcall_vector\000"
+ 772      6C6C5F76 
+ 772      6563746F 
  772      7200
- 773              	.LASF6:
- 774 004f 6C6F6E67 		.ascii	"long unsigned int\000"
-ARM GAS  /tmp/ccSFnFAO.s 			page 15
+ 773              	.LASF2:
+ 774 0050 756E7369 		.ascii	"unsigned char\000"
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s 			page 15
 
 
- 774      20756E73 
- 774      69676E65 
- 774      6420696E 
- 774      7400
- 775              	.LASF4:
- 776 0061 73686F72 		.ascii	"short unsigned int\000"
- 776      7420756E 
- 776      7369676E 
- 776      65642069 
- 776      6E7400
- 777              	.LASF20:
- 778 0074 76656374 		.ascii	"vector1c\000"
- 778      6F723163 
- 778      00
- 779              	.LASF28:
- 780 007d 73797374 		.ascii	"systick_vector\000"
- 780      69636B5F 
- 780      76656374 
- 780      6F7200
- 781              	.LASF0:
- 782 008c 756E7369 		.ascii	"unsigned int\000"
- 782      676E6564 
- 782      20696E74 
- 782      00
- 783              	.LASF15:
- 784 0099 6E6D695F 		.ascii	"nmi_vector\000"
- 784      76656374 
- 784      6F7200
- 785              	.LASF33:
- 786 00a4 474E5520 		.ascii	"GNU C 4.7.4 20130613 (release) [ARM/embedded-4_7-br"
- 786      4320342E 
- 786      372E3420 
- 786      32303133 
- 786      30363133 
- 787 00d7 616E6368 		.ascii	"anch revision 200083]\000"
- 787      20726576 
- 787      6973696F 
- 787      6E203230 
- 787      30303833 
- 788              	.LASF34:
- 789 00ed 2E2E2F2E 		.ascii	"../../os/ports/GCC/ARMCMx/STM32F1xx/vectors.c\000"
- 789      2E2F6F73 
- 789      2F706F72 
- 789      74732F47 
- 789      43432F41 
- 790              	.LASF8:
- 791 011b 6C6F6E67 		.ascii	"long long unsigned int\000"
- 791      206C6F6E 
- 791      6720756E 
- 791      7369676E 
- 791      65642069 
- 792              	.LASF18:
- 793 0132 62757366 		.ascii	"busfault_vector\000"
- 793      61756C74 
- 793      5F766563 
- 793      746F7200 
- 794              	.LASF23:
-ARM GAS  /tmp/ccSFnFAO.s 			page 16
+ 774      676E6564 
+ 774      20636861 
+ 774      7200
+ 775              	.LASF6:
+ 776 005e 6C6F6E67 		.ascii	"long unsigned int\000"
+ 776      20756E73 
+ 776      69676E65 
+ 776      6420696E 
+ 776      7400
+ 777              	.LASF4:
+ 778 0070 73686F72 		.ascii	"short unsigned int\000"
+ 778      7420756E 
+ 778      7369676E 
+ 778      65642069 
+ 778      6E7400
+ 779              	.LASF20:
+ 780 0083 76656374 		.ascii	"vector1c\000"
+ 780      6F723163 
+ 780      00
+ 781              	.LASF35:
+ 782 008c 2F746D70 		.ascii	"/tmp/mlab-chibios/demos/STM32F107-serialshell\000"
+ 782      2F6D6C61 
+ 782      622D6368 
+ 782      6962696F 
+ 782      732F6465 
+ 783              	.LASF0:
+ 784 00ba 756E7369 		.ascii	"unsigned int\000"
+ 784      676E6564 
+ 784      20696E74 
+ 784      00
+ 785              	.LASF15:
+ 786 00c7 6E6D695F 		.ascii	"nmi_vector\000"
+ 786      76656374 
+ 786      6F7200
+ 787              	.LASF34:
+ 788 00d2 2E2E2F2E 		.ascii	"../../os/ports/GCC/ARMCMx/STM32F1xx/vectors.c\000"
+ 788      2E2F6F73 
+ 788      2F706F72 
+ 788      74732F47 
+ 788      43432F41 
+ 789              	.LASF8:
+ 790 0100 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 790      206C6F6E 
+ 790      6720756E 
+ 790      7369676E 
+ 790      65642069 
+ 791              	.LASF18:
+ 792 0117 62757366 		.ascii	"busfault_vector\000"
+ 792      61756C74 
+ 792      5F766563 
+ 792      746F7200 
+ 793              	.LASF23:
+ 794 0127 76656374 		.ascii	"vector28\000"
+ 794      6F723238 
+ 794      00
+ 795              	.LASF19:
+ 796 0130 75736167 		.ascii	"usagefault_vector\000"
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s 			page 16
 
 
- 795 0142 76656374 		.ascii	"vector28\000"
- 795      6F723238 
- 795      00
- 796              	.LASF19:
- 797 014b 75736167 		.ascii	"usagefault_vector\000"
- 797      65666175 
- 797      6C745F76 
- 797      6563746F 
- 797      7200
- 798              	.LASF30:
- 799 015d 76656374 		.ascii	"vectors_t\000"
- 799      6F72735F 
- 799      7400
- 800              	.LASF9:
- 801 0167 73697A65 		.ascii	"sizetype\000"
- 801      74797065 
- 801      00
- 802              	.LASF27:
- 803 0170 70656E64 		.ascii	"pendsv_vector\000"
- 803      73765F76 
- 803      6563746F 
- 803      7200
- 804              	.LASF16:
- 805 017e 68617264 		.ascii	"hardfault_vector\000"
- 805      6661756C 
- 805      745F7665 
- 805      63746F72 
- 805      00
- 806              	.LASF7:
- 807 018f 6C6F6E67 		.ascii	"long long int\000"
- 807      206C6F6E 
- 807      6720696E 
- 807      7400
- 808              	.LASF10:
- 809 019d 63686172 		.ascii	"char\000"
- 809      00
- 810              	.LASF17:
- 811 01a2 6D656D6D 		.ascii	"memmanage_vector\000"
- 811      616E6167 
- 811      655F7665 
- 811      63746F72 
- 811      00
- 812              	.LASF36:
- 813 01b3 5F756E68 		.ascii	"_unhandled_exception\000"
- 813      616E646C 
- 813      65645F65 
- 813      78636570 
- 813      74696F6E 
- 814              	.LASF29:
- 815 01c8 76656374 		.ascii	"vectors\000"
- 815      6F727300 
- 816              	.LASF3:
- 817 01d0 73686F72 		.ascii	"short int\000"
- 817      7420696E 
- 817      7400
- 818              	.LASF35:
- 819 01da 2F686F6D 		.ascii	"/home/kaklik/git/mlab-chibios/demos/STM32F107-seria"
-ARM GAS  /tmp/ccSFnFAO.s 			page 17
+ 796      65666175 
+ 796      6C745F76 
+ 796      6563746F 
+ 796      7200
+ 797              	.LASF30:
+ 798 0142 76656374 		.ascii	"vectors_t\000"
+ 798      6F72735F 
+ 798      7400
+ 799              	.LASF9:
+ 800 014c 73697A65 		.ascii	"sizetype\000"
+ 800      74797065 
+ 800      00
+ 801              	.LASF27:
+ 802 0155 70656E64 		.ascii	"pendsv_vector\000"
+ 802      73765F76 
+ 802      6563746F 
+ 802      7200
+ 803              	.LASF16:
+ 804 0163 68617264 		.ascii	"hardfault_vector\000"
+ 804      6661756C 
+ 804      745F7665 
+ 804      63746F72 
+ 804      00
+ 805              	.LASF7:
+ 806 0174 6C6F6E67 		.ascii	"long long int\000"
+ 806      206C6F6E 
+ 806      6720696E 
+ 806      7400
+ 807              	.LASF10:
+ 808 0182 63686172 		.ascii	"char\000"
+ 808      00
+ 809              	.LASF17:
+ 810 0187 6D656D6D 		.ascii	"memmanage_vector\000"
+ 810      616E6167 
+ 810      655F7665 
+ 810      63746F72 
+ 810      00
+ 811              	.LASF33:
+ 812 0198 474E5520 		.ascii	"GNU C 4.7.2\000"
+ 812      4320342E 
+ 812      372E3200 
+ 813              	.LASF36:
+ 814 01a4 5F756E68 		.ascii	"_unhandled_exception\000"
+ 814      616E646C 
+ 814      65645F65 
+ 814      78636570 
+ 814      74696F6E 
+ 815              	.LASF29:
+ 816 01b9 76656374 		.ascii	"vectors\000"
+ 816      6F727300 
+ 817              	.LASF3:
+ 818 01c1 73686F72 		.ascii	"short int\000"
+ 818      7420696E 
+ 818      7400
+ 819              	.LASF14:
+ 820 01cb 72657365 		.ascii	"reset_vector\000"
+ 820      745F7665 
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s 			page 17
 
 
- 819      652F6B61 
- 819      6B6C696B 
- 819      2F676974 
- 819      2F6D6C61 
- 820 020d 6C736865 		.ascii	"lshell\000"
- 820      6C6C00
- 821              	.LASF14:
- 822 0214 72657365 		.ascii	"reset_vector\000"
- 822      745F7665 
- 822      63746F72 
+ 820      63746F72 
+ 820      00
+ 821              	.LASF11:
+ 822 01d8 75696E74 		.ascii	"uint32_t\000"
+ 822      33325F74 
  822      00
- 823              	.LASF11:
- 824 0221 75696E74 		.ascii	"uint32_t\000"
- 824      33325F74 
+ 823              	.LASF5:
+ 824 01e1 6C6F6E67 		.ascii	"long int\000"
+ 824      20696E74 
  824      00
- 825              	.LASF5:
- 826 022a 6C6F6E67 		.ascii	"long int\000"
- 826      20696E74 
- 826      00
- 827              	.LASF1:
- 828 0233 7369676E 		.ascii	"signed char\000"
- 828      65642063 
- 828      68617200 
- 829              	.LASF25:
- 830 023f 64656275 		.ascii	"debugmonitor_vector\000"
- 830      676D6F6E 
- 830      69746F72 
- 830      5F766563 
- 830      746F7200 
- 831              	.LASF21:
- 832 0253 76656374 		.ascii	"vector20\000"
- 832      6F723230 
- 832      00
- 833              	.LASF31:
- 834 025c 5F5F6D61 		.ascii	"__main_stack_end__\000"
- 834      696E5F73 
- 834      7461636B 
- 834      5F656E64 
- 834      5F5F00
- 835              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.7.4 20130613 (release) [ARM/embedded-4_7-br
-ARM GAS  /tmp/ccSFnFAO.s 			page 18
+ 825              	.LASF1:
+ 826 01ea 7369676E 		.ascii	"signed char\000"
+ 826      65642063 
+ 826      68617200 
+ 827              	.LASF25:
+ 828 01f6 64656275 		.ascii	"debugmonitor_vector\000"
+ 828      676D6F6E 
+ 828      69746F72 
+ 828      5F766563 
+ 828      746F7200 
+ 829              	.LASF21:
+ 830 020a 76656374 		.ascii	"vector20\000"
+ 830      6F723230 
+ 830      00
+ 831              	.LASF31:
+ 832 0213 5F5F6D61 		.ascii	"__main_stack_end__\000"
+ 832      696E5F73 
+ 832      7461636B 
+ 832      5F656E64 
+ 832      5F5F00
+ 833              		.ident	"GCC: (GNU) 4.7.2"
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s 			page 18
 
 
 DEFINED SYMBOLS
-                            *ABS*:00000000 vectors.c
-     /tmp/ccSFnFAO.s:19     .text._unhandled_exception:00000000 $t
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 _unhandled_exception
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 HardFaultVector
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 MemManageVector
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 BusFaultVector
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 UsageFaultVector
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector1C
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector20
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector24
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector28
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 SVCallVector
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 DebugMonitorVector
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector34
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 PendSVVector
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 SysTickVector
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector40
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector44
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector48
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector4C
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector50
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector54
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector58
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector5C
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector60
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector64
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector68
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector6C
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector70
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector74
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector78
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector7C
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector80
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector84
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector88
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector8C
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector90
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector94
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector98
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector9C
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 VectorA0
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 VectorA4
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 VectorA8
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 VectorAC
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 VectorB0
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 VectorB4
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 VectorB8
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 VectorBC
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 VectorC0
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 VectorC4
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 VectorC8
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 VectorCC
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 VectorD0
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 VectorD4
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 VectorD8
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 VectorDC
-ARM GAS  /tmp/ccSFnFAO.s 			page 19
+                            *ABS*:0000000000000000 vectors.c
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:19     .text._unhandled_exception:0000000000000000 $t
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 _unhandled_exception
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 HardFaultVector
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 MemManageVector
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 BusFaultVector
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 UsageFaultVector
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector1C
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector20
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector24
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector28
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 SVCallVector
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 DebugMonitorVector
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector34
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 PendSVVector
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 SysTickVector
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector40
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector44
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector48
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector4C
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector50
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector54
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector58
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector5C
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector60
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector64
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector68
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector6C
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector70
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector74
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector78
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector7C
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector80
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector84
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector88
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector8C
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector90
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector94
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector98
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector9C
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 VectorA0
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 VectorA4
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 VectorA8
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 VectorAC
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 VectorB0
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 VectorB4
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 VectorB8
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 VectorBC
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 VectorC0
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 VectorC4
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 VectorC8
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 VectorCC
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 VectorD0
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 VectorD4
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 VectorD8
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 VectorDC
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s 			page 19
 
 
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 VectorE0
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 VectorE4
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 VectorE8
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 VectorEC
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 VectorF0
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 VectorF4
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 VectorF8
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 VectorFC
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector100
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector104
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector108
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector10C
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector110
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector114
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector118
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector11C
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector120
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector124
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector128
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector12C
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector130
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector134
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector138
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector13C
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector140
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector144
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector148
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 Vector14C
-     /tmp/ccSFnFAO.s:25     .text._unhandled_exception:00000000 NMIVector
-     /tmp/ccSFnFAO.s:208    vectors:00000000 _vectors
-     /tmp/ccSFnFAO.s:205    vectors:00000000 $d
-                     .debug_frame:00000010 $d
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 VectorE0
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 VectorE4
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 VectorE8
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 VectorEC
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 VectorF0
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 VectorF4
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 VectorF8
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 VectorFC
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector100
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector104
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector108
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector10C
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector110
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector114
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector118
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector11C
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector120
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector124
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector128
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector12C
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector130
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector134
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector138
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector13C
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector140
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector144
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector148
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 Vector14C
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:25     .text._unhandled_exception:0000000000000000 NMIVector
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:208    vectors:0000000000000000 _vectors
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccYJNlxW.s:205    vectors:0000000000000000 $d
+                     .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS
 __main_stack_end__

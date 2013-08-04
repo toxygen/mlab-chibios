@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccgCex92.s 			page 1
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccgCex92.s 			page 1
   55 0028 07000000 		.word	__heap_base__+7
   56              		.cfi_endproc
   57              	.LFE7:
-ARM GAS  /tmp/ccgCex92.s 			page 2
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s 			page 2
 
 
   58              		.size	_core_init, .-_core_init
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccgCex92.s 			page 1
  112              		.cfi_endproc
  113              	.LFE9:
  114              		.size	chCoreAllocI, .-chCoreAllocI
-ARM GAS  /tmp/ccgCex92.s 			page 3
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s 			page 3
 
 
  115              		.section	.text.chCoreAlloc,"ax",%progbits
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccgCex92.s 			page 1
  169              		.loc 1 98 0
  170 0020 2046     		mov	r0, r4
  171 0022 10BD     		pop	{r4, pc}
-ARM GAS  /tmp/ccgCex92.s 			page 4
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s 			page 4
 
 
  172              		.cfi_endproc
@@ -206,9 +206,9 @@ ARM GAS  /tmp/ccgCex92.s 			page 1
  192 0008 C0F20002 		movt	r2, #:upper16:.LANCHOR1
  193 000c C0F20003 		movt	r3, #:upper16:.LANCHOR0
  194 0010 1068     		ldr	r0, [r2, #0]
- 195 0012 1968     		ldr	r1, [r3, #0]
+ 195 0012 1B68     		ldr	r3, [r3, #0]
  196              		.loc 1 135 0
- 197 0014 401A     		subs	r0, r0, r1
+ 197 0014 C01A     		subs	r0, r0, r3
  198 0016 7047     		bx	lr
  199              		.cfi_endproc
  200              	.LFE10:
@@ -230,23 +230,23 @@ ARM GAS  /tmp/ccgCex92.s 			page 1
  215 0000 00000000 		.space	4
  216              		.text
  217              	.Letext0:
- 218              		.file 2 "/usr/bin/../lib/gcc/arm-none-eabi/4.7.4/include/stddef.h"
- 219              		.file 3 "/usr/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/include/stdint.h"
+ 218              		.file 2 "/Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/include/stdd
+ 219              		.file 3 "/Users/toxygen/Applications/yagarto-4.7.2/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../
  220              		.file 4 "../../os/kernel/include/chdebug.h"
  221              		.section	.debug_info,"",%progbits
  222              	.Ldebug_info0:
  223 0000 30020000 		.4byte	0x230
  224 0004 0200     		.2byte	0x2
  225 0006 00000000 		.4byte	.Ldebug_abbrev0
-ARM GAS  /tmp/ccgCex92.s 			page 5
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s 			page 5
 
 
  226 000a 04       		.byte	0x4
  227 000b 01       		.uleb128 0x1
- 228 000c BA000000 		.4byte	.LASF24
+ 228 000c 3E010000 		.4byte	.LASF24
  229 0010 01       		.byte	0x1
- 230 0011 9D010000 		.4byte	.LASF25
- 231 0015 63010000 		.4byte	.LASF26
+ 230 0011 54010000 		.4byte	.LASF25
+ 231 0015 A2000000 		.4byte	.LASF26
  232 0019 18000000 		.4byte	.Ldebug_ranges0+0x18
  233 001d 00000000 		.4byte	0
  234 0021 00000000 		.4byte	0
@@ -263,13 +263,13 @@ ARM GAS  /tmp/ccgCex92.s 			page 1
  245 003b 04       		.uleb128 0x4
  246 003c 04       		.byte	0x4
  247 003d 07       		.byte	0x7
- 248 003e AD000000 		.4byte	.LASF0
+ 248 003e DB000000 		.4byte	.LASF0
  249 0042 04       		.uleb128 0x4
  250 0043 01       		.byte	0x1
  251 0044 06       		.byte	0x6
- 252 0045 D2010000 		.4byte	.LASF1
+ 252 0045 89010000 		.4byte	.LASF1
  253 0049 03       		.uleb128 0x3
- 254 004a 1A010000 		.4byte	.LASF3
+ 254 004a FF000000 		.4byte	.LASF3
  255 004e 03       		.byte	0x3
  256 004f 2A       		.byte	0x2a
  257 0050 54000000 		.4byte	0x54
@@ -280,7 +280,7 @@ ARM GAS  /tmp/ccgCex92.s 			page 1
  262 005b 04       		.uleb128 0x4
  263 005c 02       		.byte	0x2
  264 005d 05       		.byte	0x5
- 265 005e 59010000 		.4byte	.LASF5
+ 265 005e 4A010000 		.4byte	.LASF5
  266 0062 04       		.uleb128 0x4
  267 0063 02       		.byte	0x2
  268 0064 07       		.byte	0x7
@@ -288,7 +288,7 @@ ARM GAS  /tmp/ccgCex92.s 			page 1
  270 0069 04       		.uleb128 0x4
  271 006a 04       		.byte	0x4
  272 006b 05       		.byte	0x5
- 273 006c C9010000 		.4byte	.LASF7
+ 273 006c 80010000 		.4byte	.LASF7
  274 0070 03       		.uleb128 0x3
  275 0071 8B000000 		.4byte	.LASF8
  276 0075 03       		.byte	0x3
@@ -298,33 +298,33 @@ ARM GAS  /tmp/ccgCex92.s 			page 1
  280 007c 04       		.byte	0x4
  281 007d 07       		.byte	0x7
  282 007e 59000000 		.4byte	.LASF9
-ARM GAS  /tmp/ccgCex92.s 			page 6
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s 			page 6
 
 
  283 0082 04       		.uleb128 0x4
  284 0083 08       		.byte	0x8
  285 0084 05       		.byte	0x5
- 286 0085 39010000 		.4byte	.LASF10
+ 286 0085 1E010000 		.4byte	.LASF10
  287 0089 04       		.uleb128 0x4
  288 008a 08       		.byte	0x8
  289 008b 07       		.byte	0x7
- 290 008c 03010000 		.4byte	.LASF11
+ 290 008c E8000000 		.4byte	.LASF11
  291 0090 05       		.uleb128 0x5
  292 0091 04       		.byte	0x4
  293 0092 04       		.uleb128 0x4
  294 0093 04       		.byte	0x4
  295 0094 07       		.byte	0x7
- 296 0095 30010000 		.4byte	.LASF12
+ 296 0095 15010000 		.4byte	.LASF12
  297 0099 04       		.uleb128 0x4
  298 009a 01       		.byte	0x1
  299 009b 08       		.byte	0x8
- 300 009c 47010000 		.4byte	.LASF13
+ 300 009c 2C010000 		.4byte	.LASF13
  301 00a0 06       		.uleb128 0x6
  302 00a1 04       		.byte	0x4
  303 00a2 49000000 		.4byte	0x49
  304 00a6 07       		.uleb128 0x7
  305 00a7 01       		.byte	0x1
- 306 00a8 A2000000 		.4byte	.LASF27
+ 306 00a8 D0000000 		.4byte	.LASF27
  307 00ac 01       		.byte	0x1
  308 00ad 42       		.byte	0x42
  309 00ae 01       		.byte	0x1
@@ -336,14 +336,14 @@ ARM GAS  /tmp/ccgCex92.s 			page 1
  315 00ba 01       		.byte	0x1
  316 00bb DA000000 		.4byte	0xda
  317 00bf 08       		.uleb128 0x8
- 318 00c0 22010000 		.4byte	.LASF14
+ 318 00c0 07010000 		.4byte	.LASF14
  319 00c4 01       		.byte	0x1
  320 00c5 44       		.byte	0x44
  321 00c6 DA000000 		.4byte	0xda
  322 00ca 01       		.byte	0x1
  323 00cb 01       		.byte	0x1
  324 00cc 08       		.uleb128 0x8
- 325 00cd 4C010000 		.4byte	.LASF15
+ 325 00cd 31010000 		.4byte	.LASF15
  326 00d1 01       		.byte	0x1
  327 00d2 45       		.byte	0x45
  328 00d3 DA000000 		.4byte	0xda
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccgCex92.s 			page 1
  337 00e5 0B       		.uleb128 0xb
  338 00e6 01       		.byte	0x1
  339 00e7 47000000 		.4byte	.LASF16
-ARM GAS  /tmp/ccgCex92.s 			page 7
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s 			page 7
 
 
  340 00eb 01       		.byte	0x1
@@ -388,7 +388,7 @@ ARM GAS  /tmp/ccgCex92.s 			page 1
  364 0128 00       		.byte	0
  365 0129 0B       		.uleb128 0xb
  366 012a 01       		.byte	0x1
- 367 012b BD010000 		.4byte	.LASF17
+ 367 012b 74010000 		.4byte	.LASF17
  368 012f 01       		.byte	0x1
  369 0130 5B       		.byte	0x5b
  370 0131 01       		.byte	0x1
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccgCex92.s 			page 1
  394 0171 01       		.byte	0x1
  395 0172 5E       		.byte	0x5e
  396 0173 70000000 		.4byte	0x70
-ARM GAS  /tmp/ccgCex92.s 			page 8
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s 			page 8
 
 
  397 0177 E5000000 		.4byte	.LLST6
@@ -478,21 +478,21 @@ ARM GAS  /tmp/ccgCex92.s 			page 1
  451 01ef 01       		.byte	0x1
  452 01f0 3B       		.byte	0x3b
  453 01f1 A0000000 		.4byte	0xa0
-ARM GAS  /tmp/ccgCex92.s 			page 9
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s 			page 9
 
 
  454 01f5 05       		.byte	0x5
  455 01f6 03       		.byte	0x3
  456 01f7 00000000 		.4byte	endmem
  457 01fb 08       		.uleb128 0x8
- 458 01fc 22010000 		.4byte	.LASF14
+ 458 01fc 07010000 		.4byte	.LASF14
  459 0200 01       		.byte	0x1
  460 0201 44       		.byte	0x44
  461 0202 DA000000 		.4byte	0xda
  462 0206 01       		.byte	0x1
  463 0207 01       		.byte	0x1
  464 0208 08       		.uleb128 0x8
- 465 0209 4C010000 		.4byte	.LASF15
+ 465 0209 31010000 		.4byte	.LASF15
  466 020d 01       		.byte	0x1
  467 020e 45       		.byte	0x45
  468 020f DA000000 		.4byte	0xda
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccgCex92.s 			page 1
  508 000d 11       		.uleb128 0x11
  509 000e 01       		.uleb128 0x1
  510 000f 52       		.uleb128 0x52
-ARM GAS  /tmp/ccgCex92.s 			page 10
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s 			page 10
 
 
  511 0010 01       		.uleb128 0x1
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccgCex92.s 			page 1
  565 0046 00       		.byte	0
  566 0047 00       		.byte	0
  567 0048 07       		.uleb128 0x7
-ARM GAS  /tmp/ccgCex92.s 			page 11
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s 			page 11
 
 
  568 0049 2E       		.uleb128 0x2e
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccgCex92.s 			page 1
  622 0080 00       		.byte	0
  623 0081 0B       		.uleb128 0xb
  624 0082 2E       		.uleb128 0x2e
-ARM GAS  /tmp/ccgCex92.s 			page 12
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s 			page 12
 
 
  625 0083 01       		.byte	0x1
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccgCex92.s 			page 1
  679 00ba 00       		.byte	0
  680 00bb 0E       		.uleb128 0xe
  681 00bc 898201   		.uleb128 0x4109
-ARM GAS  /tmp/ccgCex92.s 			page 13
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s 			page 13
 
 
  682 00bf 00       		.byte	0
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccgCex92.s 			page 1
  736 00fa 3A       		.uleb128 0x3a
  737 00fb 0B       		.uleb128 0xb
  738 00fc 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccgCex92.s 			page 14
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s 			page 14
 
 
  739 00fd 0B       		.uleb128 0xb
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccgCex92.s 			page 1
  793 000a 7D       		.byte	0x7d
  794 000b 00       		.sleb128 0
  795 000c 02000000 		.4byte	.LCFI0
-ARM GAS  /tmp/ccgCex92.s 			page 15
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s 			page 15
 
 
  796 0010 30000000 		.4byte	.LFE9
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccgCex92.s 			page 1
  850 0097 00000000 		.4byte	0
  851              	.LLST4:
  852 009b 00000000 		.4byte	.LVL6
-ARM GAS  /tmp/ccgCex92.s 			page 16
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s 			page 16
 
 
  853 009f 0D000000 		.4byte	.LVL9-1
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccgCex92.s 			page 1
  907 0024 24000000 		.4byte	.LFE8-.LFB8
  908 0028 00000000 		.4byte	.LFB10
  909 002c 18000000 		.4byte	.LFE10-.LFB10
-ARM GAS  /tmp/ccgCex92.s 			page 17
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s 			page 17
 
 
  910 0030 00000000 		.4byte	0
@@ -983,8 +983,8 @@ ARM GAS  /tmp/ccgCex92.s 			page 1
  929 003c 00000000 		.4byte	0
  930              		.section	.debug_line,"",%progbits
  931              	.Ldebug_line0:
- 932 0000 4A010000 		.section	.debug_str,"MS",%progbits,1
- 932      0200ED00 
+ 932 0000 98010000 		.section	.debug_str,"MS",%progbits,1
+ 932      02003B01 
  932      00000201 
  932      FB0E0D00 
  932      01010101 
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccgCex92.s 			page 1
  946 0047 6368436F 		.ascii	"chCoreAllocI\000"
  946      7265416C 
  946      6C6F6349 
-ARM GAS  /tmp/ccgCex92.s 			page 18
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s 			page 18
 
 
  946      00
@@ -1051,114 +1051,105 @@ ARM GAS  /tmp/ccgCex92.s 			page 1
  958      676E6564 
  958      20636861 
  958      7200
- 959              	.LASF27:
- 960 00a2 5F636F72 		.ascii	"_core_init\000"
- 960      655F696E 
- 960      697400
- 961              	.LASF0:
- 962 00ad 756E7369 		.ascii	"unsigned int\000"
- 962      676E6564 
- 962      20696E74 
- 962      00
- 963              	.LASF24:
- 964 00ba 474E5520 		.ascii	"GNU C 4.7.4 20130613 (release) [ARM/embedded-4_7-br"
- 964      4320342E 
- 964      372E3420 
- 964      32303133 
- 964      30363133 
- 965 00ed 616E6368 		.ascii	"anch revision 200083]\000"
- 965      20726576 
- 965      6973696F 
- 965      6E203230 
- 965      30303833 
- 966              	.LASF11:
- 967 0103 6C6F6E67 		.ascii	"long long unsigned int\000"
- 967      206C6F6E 
- 967      6720756E 
- 967      7369676E 
- 967      65642069 
- 968              	.LASF3:
-ARM GAS  /tmp/ccgCex92.s 			page 19
+ 959              	.LASF26:
+ 960 00a2 2F746D70 		.ascii	"/tmp/mlab-chibios/demos/STM32F107-serialshell\000"
+ 960      2F6D6C61 
+ 960      622D6368 
+ 960      6962696F 
+ 960      732F6465 
+ 961              	.LASF27:
+ 962 00d0 5F636F72 		.ascii	"_core_init\000"
+ 962      655F696E 
+ 962      697400
+ 963              	.LASF0:
+ 964 00db 756E7369 		.ascii	"unsigned int\000"
+ 964      676E6564 
+ 964      20696E74 
+ 964      00
+ 965              	.LASF11:
+ 966 00e8 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 966      206C6F6E 
+ 966      6720756E 
+ 966      7369676E 
+ 966      65642069 
+ 967              	.LASF3:
+ 968 00ff 75696E74 		.ascii	"uint8_t\000"
+ 968      385F7400 
+ 969              	.LASF14:
+ 970 0107 5F5F6865 		.ascii	"__heap_base__\000"
+ 970      61705F62 
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s 			page 19
 
 
- 969 011a 75696E74 		.ascii	"uint8_t\000"
- 969      385F7400 
- 970              	.LASF14:
- 971 0122 5F5F6865 		.ascii	"__heap_base__\000"
- 971      61705F62 
- 971      6173655F 
- 971      5F00
- 972              	.LASF12:
- 973 0130 73697A65 		.ascii	"sizetype\000"
- 973      74797065 
- 973      00
- 974              	.LASF10:
- 975 0139 6C6F6E67 		.ascii	"long long int\000"
- 975      206C6F6E 
- 975      6720696E 
- 975      7400
- 976              	.LASF13:
- 977 0147 63686172 		.ascii	"char\000"
- 977      00
- 978              	.LASF15:
- 979 014c 5F5F6865 		.ascii	"__heap_end__\000"
- 979      61705F65 
- 979      6E645F5F 
- 979      00
- 980              	.LASF5:
- 981 0159 73686F72 		.ascii	"short int\000"
- 981      7420696E 
- 981      7400
- 982              	.LASF26:
- 983 0163 2F686F6D 		.ascii	"/home/kaklik/git/mlab-chibios/demos/STM32F107-seria"
- 983      652F6B61 
- 983      6B6C696B 
- 983      2F676974 
- 983      2F6D6C61 
- 984 0196 6C736865 		.ascii	"lshell\000"
- 984      6C6C00
- 985              	.LASF25:
- 986 019d 2E2E2F2E 		.ascii	"../../os/kernel/src/chmemcore.c\000"
- 986      2E2F6F73 
- 986      2F6B6572 
- 986      6E656C2F 
- 986      7372632F 
- 987              	.LASF17:
- 988 01bd 6368436F 		.ascii	"chCoreAlloc\000"
- 988      7265416C 
- 988      6C6F6300 
- 989              	.LASF7:
- 990 01c9 6C6F6E67 		.ascii	"long int\000"
- 990      20696E74 
- 990      00
- 991              	.LASF1:
- 992 01d2 7369676E 		.ascii	"signed char\000"
- 992      65642063 
- 992      68617200 
- 993              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.7.4 20130613 (release) [ARM/embedded-4_7-br
-ARM GAS  /tmp/ccgCex92.s 			page 20
+ 970      6173655F 
+ 970      5F00
+ 971              	.LASF12:
+ 972 0115 73697A65 		.ascii	"sizetype\000"
+ 972      74797065 
+ 972      00
+ 973              	.LASF10:
+ 974 011e 6C6F6E67 		.ascii	"long long int\000"
+ 974      206C6F6E 
+ 974      6720696E 
+ 974      7400
+ 975              	.LASF13:
+ 976 012c 63686172 		.ascii	"char\000"
+ 976      00
+ 977              	.LASF15:
+ 978 0131 5F5F6865 		.ascii	"__heap_end__\000"
+ 978      61705F65 
+ 978      6E645F5F 
+ 978      00
+ 979              	.LASF24:
+ 980 013e 474E5520 		.ascii	"GNU C 4.7.2\000"
+ 980      4320342E 
+ 980      372E3200 
+ 981              	.LASF5:
+ 982 014a 73686F72 		.ascii	"short int\000"
+ 982      7420696E 
+ 982      7400
+ 983              	.LASF25:
+ 984 0154 2E2E2F2E 		.ascii	"../../os/kernel/src/chmemcore.c\000"
+ 984      2E2F6F73 
+ 984      2F6B6572 
+ 984      6E656C2F 
+ 984      7372632F 
+ 985              	.LASF17:
+ 986 0174 6368436F 		.ascii	"chCoreAlloc\000"
+ 986      7265416C 
+ 986      6C6F6300 
+ 987              	.LASF7:
+ 988 0180 6C6F6E67 		.ascii	"long int\000"
+ 988      20696E74 
+ 988      00
+ 989              	.LASF1:
+ 990 0189 7369676E 		.ascii	"signed char\000"
+ 990      65642063 
+ 990      68617200 
+ 991              		.ident	"GCC: (GNU) 4.7.2"
+ARM GAS  /var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s 			page 20
 
 
 DEFINED SYMBOLS
-                            *ABS*:00000000 chmemcore.c
-     /tmp/ccgCex92.s:19     .text._core_init:00000000 $t
-     /tmp/ccgCex92.s:25     .text._core_init:00000000 _core_init
-     /tmp/ccgCex92.s:211    .bss.nextmem:00000000 .LANCHOR0
-     /tmp/ccgCex92.s:204    .bss.endmem:00000000 .LANCHOR1
-     /tmp/ccgCex92.s:55     .text._core_init:00000028 $d
-     /tmp/ccgCex92.s:60     .text.chCoreAllocI:00000000 $t
-     /tmp/ccgCex92.s:66     .text.chCoreAllocI:00000000 chCoreAllocI
-     /tmp/ccgCex92.s:110    .text.chCoreAllocI:00000028 $d
-     /tmp/ccgCex92.s:116    .text.chCoreAlloc:00000000 $t
-     /tmp/ccgCex92.s:122    .text.chCoreAlloc:00000000 chCoreAlloc
-     /tmp/ccgCex92.s:176    .text.chCoreStatus:00000000 $t
-     /tmp/ccgCex92.s:182    .text.chCoreStatus:00000000 chCoreStatus
-     /tmp/ccgCex92.s:203    .bss.endmem:00000000 $d
-     /tmp/ccgCex92.s:207    .bss.endmem:00000000 endmem
-     /tmp/ccgCex92.s:210    .bss.nextmem:00000000 $d
-     /tmp/ccgCex92.s:214    .bss.nextmem:00000000 nextmem
-                     .debug_frame:00000010 $d
-     /tmp/ccgCex92.s:59     .text._core_init:0000002c $t
+                            *ABS*:0000000000000000 chmemcore.c
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s:19     .text._core_init:0000000000000000 $t
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s:25     .text._core_init:0000000000000000 _core_init
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s:211    .bss.nextmem:0000000000000000 .LANCHOR0
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s:204    .bss.endmem:0000000000000000 .LANCHOR1
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s:55     .text._core_init:0000000000000028 $d
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s:60     .text.chCoreAllocI:0000000000000000 $t
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s:66     .text.chCoreAllocI:0000000000000000 chCoreAllocI
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s:110    .text.chCoreAllocI:0000000000000028 $d
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s:116    .text.chCoreAlloc:0000000000000000 $t
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s:122    .text.chCoreAlloc:0000000000000000 chCoreAlloc
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s:176    .text.chCoreStatus:0000000000000000 $t
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s:182    .text.chCoreStatus:0000000000000000 chCoreStatus
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s:203    .bss.endmem:0000000000000000 $d
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s:207    .bss.endmem:0000000000000000 endmem
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s:210    .bss.nextmem:0000000000000000 $d
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s:214    .bss.nextmem:0000000000000000 nextmem
+                     .debug_frame:0000000000000010 $d
+/var/folders/dt/0wfd0knj7gs46m8vwfzktm600000gn/T//ccQTr88p.s:59     .text._core_init:000000000000002c $t
 
 UNDEFINED SYMBOLS
 __heap_end__
