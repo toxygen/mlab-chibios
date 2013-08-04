@@ -53,6 +53,9 @@
  * IO pins assignments.
  */
 
+//#define GPIOA_SPI1NSS           4
+//#define GPIOB_SPI2NSS           12
+
 #define GPIOB_LED1              7 	/* PB7 */
 #define GPIOB_LED2              8	/* PB8 */
 
