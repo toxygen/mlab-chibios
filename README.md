@@ -12,6 +12,7 @@ This repository provides ChibiOS together with the board configurations for the 
 ###[STM32F10xRxT](http://www.ust.cz/shop/product_info.php?cPath=22_36&products_id=84)
 #### Supported MCUs
 STM32F103
+
 STM32F107
 
 ## Howto
