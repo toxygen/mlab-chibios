@@ -31,11 +31,15 @@ static msg_t Thread1(void *arg) {
   (void)arg;
   chRegSetThreadName("blinker");
   while (TRUE) {
-    palClearPad(GPIOC, GPIOB_LED_STATUS1);
-    chThdSleepMilliseconds(500);
-    palSetPad(GPIOC, GPIOB_LED_STATUS1);
-    chThdSleepMilliseconds(500);
-  }
+    palSetPad(GPIOB, GPIOB_LED_STATUS1);
+    chThdSleepMilliseconds(100);
+    palClearPad(GPIOB, GPIOB_LED_STATUS1);
+    chThdSleepMilliseconds(100);
+    palSetPad(GPIOB, GPIOB_LED_STATUS1);
+    chThdSleepMilliseconds(100);
+    palClearPad(GPIOB, GPIOB_LED_STATUS1);
+    chThdSleepMilliseconds(700);  
+}
 }
 
 /*
