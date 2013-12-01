@@ -22,7 +22,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "microspi.h"
 #include "dspin.h"
-#include "stm32f10x_spi.h"
+
 
 
 /** @addtogroup Examples
@@ -34,8 +34,6 @@
 /* Private macro -------------------------------------------------------------*/
 
 /* Private variables ---------------------------------------------------------*/
-GPIO_InitTypeDef GPIO_InitStructure;
-SPI_InitTypeDef SPI_InitStructure;
 
 /* Private function prototypes -----------------------------------------------*/
 /* Private functions ---------------------------------------------------------*/
@@ -421,7 +419,7 @@ uint16_t dSPIN_Get_Status(void)
   */
 uint8_t dSPIN_Busy_HW(void)
 {
-	if(!(GPIO_ReadInputDataBit(dSPIN_BUSY_Port, dSPIN_BUSY_Pin))) return 0x01;
+	if(!(palReadPad(dSPIN_BUSY_Port, dSPIN_BUSY_Pin))) return 0x01;
 	else return 0x00;
 }
 
@@ -443,7 +441,7 @@ uint8_t dSPIN_Busy_SW(void)
   */
 uint8_t dSPIN_Flag(void)
 {
-	if(!(GPIO_ReadInputDataBit(dSPIN_FLAG_Port, dSPIN_FLAG_Pin))) return 0x01;
+	if(!(palReadPad(dSPIN_FLAG_Port, dSPIN_FLAG_Pin))) return 0x01;
 	else return 0x00;
 }
 

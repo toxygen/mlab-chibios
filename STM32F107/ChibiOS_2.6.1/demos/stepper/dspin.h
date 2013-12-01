@@ -23,7 +23,7 @@
 #define __DSPIN_H
 
 /* Includes ------------------------------------------------------------------*/
-#include "stm32f10x.h"
+#include "ch.h"
 
 /* Exported constants --------------------------------------------------------*/
 
@@ -82,28 +82,28 @@
 #ifdef STM32_VL_Discovery
 	#define dSPIN_SPI			SPI1
 	
-	#define dSPIN_SCK_Pin		GPIO_Pin_5
+	#define dSPIN_SCK_Pin		5
 	#define dSPIN_SCK_Port		GPIOA
 	
-	#define dSPIN_MOSI_Pin		GPIO_Pin_7
+	#define dSPIN_MOSI_Pin		7
 	#define dSPIN_MOSI_Port		GPIOA
 	
-	#define dSPIN_MISO_Pin		GPIO_Pin_6
+	#define dSPIN_MISO_Pin		6
 	#define dSPIN_MISO_Port		GPIOA
 	
-	#define dSPIN_nSS_Pin		GPIO_Pin_4
+	#define dSPIN_nSS_Pin		4
 	#define dSPIN_nSS_Port		GPIOA
 	
-	#define dSPIN_BUSY_Pin		GPIO_Pin_4
+	#define dSPIN_BUSY_Pin		4
 	#define dSPIN_BUSY_Port		GPIOC
 	
-	#define dSPIN_FLAG_Pin		GPIO_Pin_5
+	#define dSPIN_FLAG_Pin		5
 	#define dSPIN_FLAG_Port		GPIOC
 	
-	#define dSPIN_PWM1_Pin		GPIO_Pin_1
+	#define dSPIN_PWM1_Pin		1
 	#define dSPIN_PWM1_Port		GPIOA
 	
-	#define dSPIN_PWM2_Pin		GPIO_Pin_0
+	#define dSPIN_PWM2_Pin		0
 	#define dSPIN_PWM2_Port		GPIOB
 	
 	/* List all the peripherals, which CLKs have to be enabled! */

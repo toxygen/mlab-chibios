@@ -173,6 +173,7 @@ int main(void) {
 	chSysInit();
 	
 	initSPI();
+	palSetPadMode(GPIOC, 4, PAL_MODE_INPUT);     /* MISO.*/
 	initUsb();
 	/*
 	 * Shell manager initialization.
@@ -183,7 +184,7 @@ int main(void) {
 	 * Creates the blinker thread.
 	 */
 	chThdCreateStatic(waThread1, sizeof(waThread1), NORMALPRIO, Thread1, NULL);
-	
+	dSPIN_Run(REV, Speed_Steps_to_Par(50));
 	/*
 	 * Normal main() thread activity, in this demo it does nothing except
 	 * sleeping in a loop and check the button state.
