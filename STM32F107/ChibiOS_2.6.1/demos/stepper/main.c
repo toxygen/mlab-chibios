@@ -25,6 +25,10 @@
 #include "chprintf.h"
 
 #include "microusb.h"
+#include "microspi.h"
+#include "dspin.h"
+
+
 
 /*===========================================================================*/
 /* Command line related.                                                     */
@@ -168,6 +172,7 @@ int main(void) {
 	halInit();
 	chSysInit();
 	
+	initSPI();
 	initUsb();
 	/*
 	 * Shell manager initialization.

@@ -20,6 +20,7 @@
 
 
 /* Includes ------------------------------------------------------------------*/
+#include "microspi.h"
 #include "dspin.h"
 #include "stm32f10x_spi.h"
 
@@ -46,65 +47,6 @@ SPI_InitTypeDef SPI_InitStructure;
   */
 void dSPIN_Peripherals_Init(void)
 {
-  /* Used peripherals clock enable -------------------------------------------*/
-  RCC_APB1PeriphClockCmd(dSPIN_PERIPHERAL_CLKs_APB1, ENABLE);
-  RCC_APB2PeriphClockCmd(dSPIN_PERIPHERAL_CLKs_APB2, ENABLE);
-
-  /* Configure pins used by dSPIN --------------------------------------------*/
-
-  #ifdef STEVAL_PCC009V2 /* Only if PCC009V2 evalboard is used ---------------*/
-      /* Configure on-board power LED ----------------------------------------*/
-      GPIO_InitStructure.GPIO_Pin = POWER_LED_Pin;
-      GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
-      GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
-      GPIO_Init(POWER_LED_Port, &GPIO_InitStructure);
-      GPIO_SetBits(POWER_LED_Port, POWER_LED_Pin);
-  #endif    
-
-  /* Configure SPI pin: SCK --------------------------------------------------*/
-  GPIO_InitStructure.GPIO_Pin = dSPIN_SCK_Pin;
-  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
-  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
-  GPIO_Init(dSPIN_SCK_Port, &GPIO_InitStructure);
-
-  /* Configure SPI pin: MOSI -------------------------------------------------*/
-  GPIO_InitStructure.GPIO_Pin = dSPIN_MOSI_Pin;
-  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
-  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
-  GPIO_Init(dSPIN_MOSI_Port, &GPIO_InitStructure);
-
-  /* Configure SPI pin: nSS --------------------------------------------------*/
-  GPIO_InitStructure.GPIO_Pin = dSPIN_nSS_Pin;
-  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
-  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
-  GPIO_Init(dSPIN_nSS_Port, &GPIO_InitStructure);
-
-  /* Configure dSPIN - Busy pin ----------------------------------------------*/
-  GPIO_InitStructure.GPIO_Pin = dSPIN_BUSY_Pin;
-  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
-  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;
-  GPIO_Init(dSPIN_BUSY_Port, &GPIO_InitStructure);	  
-  				
-  /* Configure dSPIN - Flag pin ----------------------------------------------*/
-  GPIO_InitStructure.GPIO_Pin = dSPIN_FLAG_Pin;
-  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
-  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;
-  GPIO_Init(dSPIN_FLAG_Port, &GPIO_InitStructure);	  
-  				
-  /* SPI configuration ------------------------------------------------------*/
-  SPI_InitStructure.SPI_Direction = SPI_Direction_2Lines_FullDuplex;
-  SPI_InitStructure.SPI_Mode = SPI_Mode_Master;
-  SPI_InitStructure.SPI_DataSize = SPI_DataSize_8b;
-  SPI_InitStructure.SPI_CPOL = SPI_CPOL_High;
-  SPI_InitStructure.SPI_CPHA = SPI_CPHA_2Edge;
-  SPI_InitStructure.SPI_NSS = SPI_NSS_Soft;
-  SPI_InitStructure.SPI_BaudRatePrescaler = SPI_BaudRatePrescaler_16;
-  SPI_InitStructure.SPI_FirstBit = SPI_FirstBit_MSB;
-  SPI_InitStructure.SPI_CRCPolynomial = 7;
-  SPI_Init(dSPIN_SPI, &SPI_InitStructure);
-  
-  /* Enable SPI */
-  SPI_Cmd(dSPIN_SPI, ENABLE);
 }
 
 /**
@@ -512,15 +454,7 @@ uint8_t dSPIN_Flag(void)
   */
 uint8_t dSPIN_Write_Byte(uint8_t byte)
 {
-	/* nSS signal activation - low */
-	GPIO_ResetBits(dSPIN_nSS_Port, dSPIN_nSS_Pin);
-	/* SPI byte send */
-    SPI_I2S_SendData(dSPIN_SPI, byte);
-	/* Wait for SPIx Busy flag */
-	while (SPI_I2S_GetFlagStatus(dSPIN_SPI, SPI_I2S_FLAG_BSY) != RESET);
-	/* nSS signal deactivation - high */
-	GPIO_SetBits(dSPIN_nSS_Port, dSPIN_nSS_Pin);
-	return (uint8_t)(SPI_I2S_ReceiveData(dSPIN_SPI));
+	return writeByteSPI(byte);
 }
 
 /******************* (C) COPYRIGHT 2011 STMicroelectronics *****END OF FILE****/
