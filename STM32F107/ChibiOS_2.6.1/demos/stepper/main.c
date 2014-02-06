@@ -28,6 +28,7 @@
 #include "microspi.h"
 #include "dspin.h"
 
+static Mutex SPImtx; /* Mutex declaration */
 
 
 /*===========================================================================*/
@@ -156,6 +157,45 @@ static msg_t Thread1(void *arg) {
 	}
 	return 0;
 }
+
+static WORKING_AREA(waStepper1, 128);
+static msg_t Stepper1(void *arg) {
+	
+	(void)arg;
+	chRegSetThreadName("Thread to control stepper motor #1");
+	
+	int a = 0;
+	while (TRUE) {
+		chMtxLock(&SPImtx);
+		selectStepper(1);
+		a = a + 300;
+		dSPIN_Go_To(a);
+		chThdSleepMilliseconds(500);
+		chMtxUnlock();
+	}
+	return 0;
+}
+
+static WORKING_AREA(waStepper2, 128);
+static msg_t Stepper2(void *arg) {
+	
+	(void)arg;
+	chRegSetThreadName("Thread to control stepper motor #1");
+	
+	int a = 0;
+	while (TRUE) {
+		chMtxLock(&SPImtx);
+		selectStepper(2);
+		a = a + 300;
+		dSPIN_Go_To(a);
+		chThdSleepMilliseconds(500);
+		chMtxUnlock();
+	}
+	return 0;
+}
+
+
+
 /*
  * Application entry point.
  */
@@ -180,11 +220,30 @@ int main(void) {
 	 */
 	shellInit();
 	
+	chMtxInit(&SPImtx); /* Mutex initialization before use */
+	
 	/*
 	 * Creates the blinker thread.
 	 */
 	chThdCreateStatic(waThread1, sizeof(waThread1), NORMALPRIO, Thread1, NULL);
-	dSPIN_Run(REV, Speed_Steps_to_Par(50));
+
+	chThdCreateStatic(waStepper1, sizeof(waStepper1), NORMALPRIO, Stepper1, NULL);
+	chThdCreateStatic(waStepper2, sizeof(waStepper2), NORMALPRIO, Stepper2, NULL);
+	
+//	selectStepper(1);
+//	dSPIN_Run(REV, Speed_Steps_to_Par(20));
+//	selectStepper(2);
+//	dSPIN_Run(FWD, Speed_Steps_to_Par(20));
+
+
+	
+//	selectStepper(1);
+//	dSPIN_Go_To(180);
+//	selectStepper(2);
+//	dSPIN_Go_To(180);
+
+	
+	
 	/*
 	 * Normal main() thread activity, in this demo it does nothing except
 	 * sleeping in a loop and check the button state.

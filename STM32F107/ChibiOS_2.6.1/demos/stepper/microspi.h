@@ -14,8 +14,12 @@
 
 #define GPIOA_SPI1NSS 4
 
+#define STEPPER1_CS 4
+#define STEPPER2_CS 5
 
 int initSPI(void);
 uint8_t writeByteSPI(uint8_t txbyte);
+
+void selectStepper(int num);
 
 #endif
